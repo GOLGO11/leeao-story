@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "input_count": 213,
+  "row_count": 29,
+  "selected_source_id_count": 28,
+  "duplicate_ids": 0,
+  "duplicate_text_hashes": 0,
+  "duplicate_title_rows": [],
+  "empty_story_text_rows": [],
+  "min_char_count": 42,
+  "max_char_count": 1227
+}

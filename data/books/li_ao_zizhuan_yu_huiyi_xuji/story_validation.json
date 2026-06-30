@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "李敖自传与回忆续集",
+  "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+  "round": "story_round1",
+  "count": 30,
+  "totalChars": 9807,
+  "minChars": 115,
+  "maxChars": 1161,
+  "duplicateTextIds": []
+}

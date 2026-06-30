@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "input_count": 227,
+  "row_count": 213,
+  "merged_rows": 14,
+  "retitled_rows": 3,
+  "duplicate_ids": 0,
+  "duplicate_text_hashes": 0,
+  "empty_story_text_rows": [],
+  "missing_source_ids_rows": [],
+  "min_char_count": 37,
+  "max_char_count": 6259
+}

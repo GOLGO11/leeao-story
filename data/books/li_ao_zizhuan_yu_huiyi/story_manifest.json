@@ -1,0 +1,22 @@
+{
+  "book": "李敖自传与回忆",
+  "slug": "li_ao_zizhuan_yu_huiyi",
+  "round": "story_round1",
+  "status": "story_selected",
+  "generated_on": "2026-06-30",
+  "input_round": "proofread_round1",
+  "input_count": 213,
+  "output_count": 29,
+  "selected_source_id_count": 28,
+  "by_source_file": {
+    "001.李敖自传.txt": 16,
+    "002.从上海到海上.txt": 2,
+    "003.我最难忘的一位老师.txt": 5,
+    "005.“北土非吾愿，东林怀我师”.txt": 1,
+    "007.我最难忘的一个警察.txt": 1,
+    "013.我最难忘的一段洗脑.txt": 4
+  },
+  "duplicate_ids": 0,
+  "duplicate_text_hashes": 0,
+  "note": "Narrow story selection. Keeps Li Ao-told anecdotal stories with a usable point; excludes general background, resumes, letters, argument-only blocks, and loose chronology unless a self-contained story is sliced out."
+}
