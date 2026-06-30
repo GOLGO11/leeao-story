@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "李敖风流自传",
+  "slug": "li_ao_fengliu_zizhuan",
+  "round": "story_round1",
+  "count": 17,
+  "totalChars": 2413,
+  "minChars": 57,
+  "maxChars": 342,
+  "duplicateTextIds": []
+}

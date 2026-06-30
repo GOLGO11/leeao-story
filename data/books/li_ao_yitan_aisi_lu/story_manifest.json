@@ -1,0 +1,13 @@
+{
+  "book": "李敖议坛哀思录",
+  "slug": "li_ao_yitan_aisi_lu",
+  "round": "story_round1",
+  "sourceRoot": "《大李敖全集6.0》分章节\\001.自传回忆类\\006.李敖议坛哀思录",
+  "outputs": [
+    "story_round1.csv",
+    "story_round1.txt",
+    "story_manifest.json",
+    "story_validation.json"
+  ],
+  "criteria": "本书以议坛发言和问政材料为主，只收李敖在论证中讲出来的小故事、笑话、寓言、历史轶事；删去李敖自己的参选问政事件、政治主张、质询攻防、人物评语、档案材料和重复讲法；正文保留原文。"
+}

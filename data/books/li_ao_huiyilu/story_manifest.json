@@ -1,0 +1,13 @@
+{
+  "book": "李敖回忆录",
+  "slug": "li_ao_huiyilu",
+  "round": "story_round1",
+  "sourceRoot": "《大李敖全集6.0》分章节\\001.自传回忆类\\004.李敖回忆录",
+  "outputs": [
+    "story_round1.csv",
+    "story_round1.txt",
+    "story_manifest.json",
+    "story_validation.json"
+  ],
+  "criteria": "只保留李敖文中讲出来的故事；故事焦点不是李敖本人的生平事件，且有具体人物、动作、转折或收束；李敖自身经历、出版经过、法律材料、背景说明、单纯论辩和目录式资料从严剔除；正文保留原文。"
+}

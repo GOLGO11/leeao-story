@@ -1,0 +1,13 @@
+{
+  "book": "李敖风流自传",
+  "slug": "li_ao_fengliu_zizhuan",
+  "round": "story_round1",
+  "sourceRoot": "《大李敖全集6.0》分章节\\001.自传回忆类\\007.李敖风流自传",
+  "outputs": [
+    "story_round1.csv",
+    "story_round1.txt",
+    "story_manifest.json",
+    "story_validation.json"
+  ],
+  "criteria": "首轮经校对后，只收李敖文中讲出来且可独立成篇的寓言、笑话、掌故、第三方轶事和少量寓言化动物故事；删去李敖自己的履历事件、恋爱/婚姻/官司/入狱/问政经历、人物评语、政治论证材料、事实案例、随笔观察和前书已收重复故事；正文保留原文。"
+}

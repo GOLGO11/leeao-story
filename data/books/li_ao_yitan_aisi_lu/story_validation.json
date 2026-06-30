@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "李敖议坛哀思录",
+  "slug": "li_ao_yitan_aisi_lu",
+  "round": "story_round1",
+  "count": 22,
+  "totalChars": 3021,
+  "minChars": 61,
+  "maxChars": 260,
+  "duplicateTextIds": []
+}

@@ -1,0 +1,13 @@
+{
+  "book": "李敖快意恩仇录",
+  "slug": "li_ao_kuaiyi_enchoulu",
+  "round": "story_round1",
+  "sourceRoot": "《大李敖全集6.0》分章节\\001.自传回忆类\\005.李敖快意恩仇录",
+  "outputs": [
+    "story_round1.csv",
+    "story_round1.txt",
+    "story_manifest.json",
+    "story_validation.json"
+  ],
+  "criteria": "只保留李敖文中讲出来的小故事；故事焦点不是李敖本人的恩仇事件，且有具体人物、动作、转折或收束；李敖自身经历、恋爱、官司、出版、出境、政治论战、人物简历和非李敖叙述口吻的家族回忆从严剔除；正文保留原文。"
+}

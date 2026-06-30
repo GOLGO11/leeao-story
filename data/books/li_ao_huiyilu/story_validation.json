@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "李敖回忆录",
+  "slug": "li_ao_huiyilu",
+  "round": "story_round1",
+  "count": 34,
+  "totalChars": 7003,
+  "minChars": 71,
+  "maxChars": 686,
+  "duplicateTextIds": []
+}

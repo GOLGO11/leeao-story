@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "李敖快意恩仇录",
+  "slug": "li_ao_kuaiyi_enchoulu",
+  "round": "story_round1",
+  "count": 25,
+  "totalChars": 4819,
+  "minChars": 59,
+  "maxChars": 447,
+  "duplicateTextIds": []
+}
