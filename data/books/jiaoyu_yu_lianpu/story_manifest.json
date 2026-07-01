@@ -1,0 +1,124 @@
+{
+  "book": "教育与脸谱",
+  "slug": "jiaoyu_yu_lianpu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\003.惊世杂文类\\001.教育与脸谱",
+  "sourceFiles": [
+    "《教育与脸谱》目录.txt",
+    "《教育与脸谱》序幕.txt",
+    "001.高等教育的一面怪现状.txt",
+    "002.师道与是非.txt",
+    "003.论“占着茅坑不拉屎””.txt",
+    "004.关于高等教育怪现状的讨论.txt",
+    "005.一封没寄出的信.txt",
+    "006.又一封没寄出的信.txt",
+    "007.李济：他的贡献和悲剧.txt",
+    "008.从李济的悲剧看中央研究院的几个黑暗面.txt",
+    "009.读《虚有其表的考试法》.txt",
+    "010.蒋廷黻和他走的路.txt",
+    "011.工作最多的老头子——胡佛.txt",
+    "012.於梨华和她的小说.txt"
+  ],
+  "selectionCount": 12,
+  "proofreadDropCount": 6,
+  "proofreadDrops": [
+    "李济课堂上当众发火",
+    "郭沫若拓片到手抢风头",
+    "胡佛把助听器叫杜鲁门勋章",
+    "凯丝问女人能否做总统",
+    "玛丽问胡佛钓什么鱼",
+    "蒋廷黻说上帝造日本中国"
+  ],
+  "count": 6,
+  "totalChars": 1344,
+  "aggregateCount": 415,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    }
+  ],
+  "excludedByStandard": [
+    "李敖自己的发难背景、读者来信、编辑室说明和私人书信往来",
+    "教育制度、考试制度、台大文学院和中研院史语所的材料性案例",
+    "长篇人物评传、学术史脉络、政策主张和资料目录",
+    "只有一句机锋或比喻而缺少人物行动转折的段落"
+  ],
+  "proofreadNotes": [
+    "保留徐道邻、李济演讲/追猫、胡佛救人、帕德雷夫斯基、胡佛打字谎报年龄六条。",
+    "删除偏资料封锁案例、一句机锋、通信问答和性格例子合集。"
+  ],
+  "generatedAt": "2026-07-01T12:50:10.122Z"
+}

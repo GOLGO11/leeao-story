@@ -1,0 +1,113 @@
+{
+  "book": "李敖文存二集",
+  "slug": "li_ao_wencun_erji",
+  "round": "story_round1",
+  "sourceRoot": "《大李敖全集6.0》分章节\\002.精品散文类\\005.李敖文存二集",
+  "sourceFiles": [
+    "《李敖文存二集》目录.txt",
+    "001.“缇萦救父”表示了什么？.txt",
+    "002.给杨贵妃的一封信.txt",
+    "003.“逸豫适足亡身”吗？.txt",
+    "004.中国小姐新论.txt",
+    "005.罗斯福路该改名罗斯祸路.txt",
+    "006.重要不重要与不重要重要.txt",
+    "007.张小兰冤在哪儿？.txt",
+    "008.“舒而脱脱兮！”.txt",
+    "009.过早的答案.txt",
+    "010.一封存证信的故事.txt",
+    "011.论没有“流血的自由”.txt",
+    "012.牛肉面老板的七封信.txt",
+    "013.刻薄的批评与正直的建议.txt",
+    "014.眼看黑暗到来，又目送黑暗归去.txt",
+    "015.办杂志的一些意愿.txt",
+    "016.没人能赶在台风前面.txt"
+  ],
+  "selectionCount": 23,
+  "proofreadDropCount": 3,
+  "proofreadDrops": [
+    "宋太祖弹弓打掉牙",
+    "巴黎菲菲脱衣舞吊胃口",
+    "吉普赛女郎梦中变美"
+  ],
+  "count": 20,
+  "totalChars": 3764,
+  "aggregateCount": 362,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    }
+  ],
+  "excludedByStandard": [
+    "李敖自己的生活事件、交游场景和写作姿态",
+    "纯论述、史料目录、文献校勘和观念归纳",
+    "案件、书信、广告和办刊过程中的李敖本人事件",
+    "附录中明确署名为他人的整篇文章，除非李敖正文直接转述",
+    "只有资料性陈述、术语分类或名单串列而无故事转折的段落"
+  ],
+  "proofreadTrimmed": [
+    "吉翂挝鼓乞代父命",
+    "高郢张绍组请代父死",
+    "刘后推出银盆皇子劳军",
+    "慕容霸摔牙改名慕容缺",
+    "贝尔电话被当玩具",
+    "斯大林大公审让被告自毁"
+  ],
+  "generatedAt": "2026-07-01T11:21:43.103Z"
+}

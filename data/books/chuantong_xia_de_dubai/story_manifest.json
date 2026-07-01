@@ -1,0 +1,85 @@
+{
+  "book": "传统下的独白",
+  "slug": "chuantong_xia_de_dubai",
+  "round": "story_round1",
+  "sourceRoot": "《大李敖全集6.0》分章节\\002.精品散文类\\001.传统下的独白",
+  "sourceFiles": [
+    "《传统下的独白》目录.txt",
+    "001.《传统下的独白》自序.txt",
+    "002.《传统下的独白》再版自序.txt",
+    "003.独身者的独白.txt",
+    "004.爱情的刽子手.txt",
+    "005.一封神气的情书.txt",
+    "006.假如我是女人.txt",
+    "007.张飞的眼睛.txt",
+    "008.中国小姐论.txt",
+    "009.由一丝不挂说起.txt",
+    "010.不讨老婆之“不亦快哉”（三十三则）.txt",
+    "011.妈妈的梦幻.txt",
+    "012.妈妈·弟弟·电影.txt",
+    "013.长袍心理学.txt",
+    "014.红玫瑰.txt",
+    "015.旧天子与新皇帝.txt",
+    "016.无为先生传.txt",
+    "017.充员官.txt",
+    "018.修改《医师法》与废止中医.txt",
+    "019.几条荒谬的法律.txt",
+    "020.老年人和棒子.txt",
+    "021.张天师可以歇歇了！.txt",
+    "022.十三年和十三月.txt"
+  ],
+  "selectionCount": 26,
+  "count": 26,
+  "totalChars": 8409,
+  "aggregateCount": 222,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    }
+  ],
+  "excludedByStandard": [
+    "自序、再版自序中的出版说明和自我辩解",
+    "《不讨老婆之“不亦快哉”》清单式警句",
+    "《红玫瑰》抒情私事",
+    "《十三年和十三月》自传性经历线索",
+    "《几条荒谬的法律》和《医师法》中的纯法理论证、条文和制度说明"
+  ],
+  "generatedAt": "2026-07-01T04:06:41.424Z"
+}

@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "李敖文存二集",
+  "slug": "li_ao_wencun_erji",
+  "round": "story_round1",
+  "count": 20,
+  "totalChars": 3764,
+  "minChars": 54,
+  "maxChars": 719,
+  "duplicateTextIds": []
+}

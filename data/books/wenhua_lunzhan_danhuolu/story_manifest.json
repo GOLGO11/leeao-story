@@ -1,0 +1,109 @@
+{
+  "book": "文化论战丹火录",
+  "slug": "wenhua_lunzhan_danhuolu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\003.惊世杂文类\\002.文化论战丹火录",
+  "sourceFiles": [
+    "《文化论战丹火录》目录.txt",
+    "001.《文化论战丹火录》开场白.txt",
+    "002.文化论战丹火录.txt"
+  ],
+  "selectionCount": 2,
+  "proofreadDropCount": 2,
+  "proofreadDrops": [
+    "科罗拉多教授先行备好木屋",
+    "韩复榘清监狱"
+  ],
+  "count": 0,
+  "totalChars": 0,
+  "aggregateCount": 415,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    }
+  ],
+  "excludedByStandard": [
+    "与《李敖全集》已收故事重复的孙悟空八卦炉开场",
+    "文化论战 chronology、诉讼经过、期刊摘录和骂战材料",
+    "李敖自己的遭遇和回嘴，如叶一凤约见、误认殷海光等",
+    "公开新闻事件、通信问答、学术论证和讽刺性长比喻"
+  ],
+  "proofreadNotes": [
+    "本书校对后不保留故事。两条提取轮条目均来自论战引文，不是李敖自己展开叙述的故事。",
+    "孙悟空八卦炉开场虽为李敖亲自借用的故事，但总表已在《李敖全集》收入同一故事，本书不重复收入。"
+  ],
+  "generatedAt": "2026-07-01T13:07:53.515Z"
+}

@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "世论新语",
+  "slug": "shilun_xinyu",
+  "round": "story_round1",
+  "count": 11,
+  "totalChars": 1303,
+  "minChars": 52,
+  "maxChars": 258,
+  "duplicateTextIds": []
+}

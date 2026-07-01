@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "李敖全集",
+  "slug": "li_ao_quanji",
+  "round": "story_round1",
+  "count": 13,
+  "totalChars": 3882,
+  "minChars": 85,
+  "maxChars": 1160,
+  "duplicateTextIds": []
+}

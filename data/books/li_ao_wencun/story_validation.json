@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "李敖文存",
+  "slug": "li_ao_wencun",
+  "round": "story_round1",
+  "count": 32,
+  "totalChars": 4837,
+  "minChars": 47,
+  "maxChars": 329,
+  "duplicateTextIds": []
+}

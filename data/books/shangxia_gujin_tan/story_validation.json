@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "上下古今谈",
+  "slug": "shangxia_gujin_tan",
+  "round": "story_round1",
+  "count": 20,
+  "totalChars": 5989,
+  "minChars": 59,
+  "maxChars": 698,
+  "duplicateTextIds": []
+}

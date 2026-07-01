@@ -1,0 +1,113 @@
+{
+  "book": "李敖文存",
+  "slug": "li_ao_wencun",
+  "round": "story_round1",
+  "sourceRoot": "《大李敖全集6.0》分章节\\002.精品散文类\\004.李敖文存",
+  "sourceFiles": [
+    "《李敖文存》目录.txt",
+    "001.看谁文章写得好？（代序）.txt",
+    "002.“李敖特写”破题.txt",
+    "003.大慈大悲李敖菩萨.txt",
+    "004.“我中华尚有人耶？”.txt",
+    "005.由不自由的自由到自由的不自由.txt",
+    "006.当年老子如何如何.txt",
+    "007.纠正于右任幻想出来的一段革命史.txt",
+    "008.床上功夫.txt",
+    "009.论和尚吃肉.txt",
+    "010.写在居浩然《义和团思想和文化沙文主义》的后面.txt",
+    "011.黄帝子孙的黄金观.txt",
+    "012.中华大赌特赌史.txt",
+    "013.且从青史看青楼.txt",
+    "014.古书新见.txt",
+    "015.这样笨，还要做强盗！.txt",
+    "016.《蒋廷黻选集》序.txt",
+    "017.《左舜生选集》序.txt",
+    "018.绝子如不见.txt",
+    "019.伤心之地的文学.txt",
+    "020.为他有那样的敌人而爱他.txt"
+  ],
+  "selectionCount": 34,
+  "proofreadDropCount": 2,
+  "proofreadDrops": [
+    "宋太宗问黄金为何难得",
+    "广岛投弹无数"
+  ],
+  "count": 32,
+  "totalChars": 4837,
+  "aggregateCount": 342,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    }
+  ],
+  "excludedByStandard": [
+    "李敖自己的生活事件、交游场景和写作姿态",
+    "纯论述、史料目录、文献校勘和观念归纳",
+    "义和团长篇论战中没有独立故事转折的引文",
+    "战争、外交、政治事件中只有资料性陈述而无故事形态的段落"
+  ],
+  "proofreadTrimmed": [
+    "李鸿章吃洋人爱犬",
+    "朱屋大佐与赵先生的胜利妄想",
+    "刘邦箕踞见郦食其",
+    "宋太祖卧榻之侧",
+    "周泽斋病关妻",
+    "不吃肉向阎王讨寿",
+    "史太林旅馆谎言露馅",
+    "武则天双陆梦问狄仁杰",
+    "齐雅秀讽三杨公侯"
+  ],
+  "generatedAt": "2026-07-01T11:06:53.266Z"
+}

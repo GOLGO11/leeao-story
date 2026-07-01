@@ -1,0 +1,69 @@
+{
+  "book": "李敖相关",
+  "slug": "li_ao_xiangguan",
+  "round": "story_round1",
+  "sourceRoot": "《大李敖全集6.0》分章节\\001.自传回忆类\\008.李敖相关",
+  "sourceFiles": [
+    "《李敖相关》目录.txt",
+    "001.李敖五十年表.txt",
+    "002.不要只摸李敖一条腿.txt",
+    "003.中华民国现代名人录——李敖.txt",
+    "004.中华民国作家作品目录——李敖.txt",
+    "005.蕃薯藤网站候选人小档案——李敖.txt",
+    "006.李敖著作查禁清单及官方理由.txt",
+    "007.《监察院公报》——李敖.txt",
+    "008.十一件萧孟能判决书.txt",
+    "009.两件许倬云判决书.txt",
+    "010.二十七件李敖直接相关判决书.txt",
+    "011.八件李敖间接相关判决书.txt",
+    "012.十四件李戡相关判决书.txt"
+  ],
+  "selectionCount": 0,
+  "count": 0,
+  "totalChars": 0,
+  "aggregateCount": 196,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    }
+  ],
+  "excludedByStandard": [
+    "年表中的李敖本人事件",
+    "作者简介、著作目录、网站候选人小档案等资料条目",
+    "著作查禁清单和官方理由",
+    "监察院公报与判决书中的诉讼事实、主张和裁判理由"
+  ],
+  "generatedAt": "2026-07-01T03:16:19.412Z"
+}

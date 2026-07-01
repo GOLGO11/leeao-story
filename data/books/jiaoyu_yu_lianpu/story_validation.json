@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "教育与脸谱",
+  "slug": "jiaoyu_yu_lianpu",
+  "round": "story_round1",
+  "count": 6,
+  "totalChars": 1344,
+  "minChars": 75,
+  "maxChars": 331,
+  "duplicateTextIds": []
+}

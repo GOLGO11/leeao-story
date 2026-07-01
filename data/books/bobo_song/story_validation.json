@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "波波颂",
+  "slug": "bobo_song",
+  "round": "story_round1",
+  "count": 34,
+  "totalChars": 5095,
+  "minChars": 56,
+  "maxChars": 389,
+  "duplicateTextIds": []
+}

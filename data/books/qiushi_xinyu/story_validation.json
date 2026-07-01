@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "求是新语",
+  "slug": "qiushi_xinyu",
+  "round": "story_round1",
+  "count": 12,
+  "totalChars": 1847,
+  "minChars": 36,
+  "maxChars": 452,
+  "duplicateTextIds": []
+}
