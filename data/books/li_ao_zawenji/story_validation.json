@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "李敖杂文集",
+  "slug": "li_ao_zawenji",
+  "round": "story_round1",
+  "count": 11,
+  "totalChars": 1286,
+  "minChars": 48,
+  "maxChars": 319,
+  "duplicateTextIds": []
+}

@@ -1,0 +1,188 @@
+{
+  "book": "为自由招魂",
+  "slug": "wei_ziyou_zhaohun",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\003.惊世杂文类\\009.为自由招魂",
+  "sourceFiles": [
+    "《为自由招魂》目录.txt",
+    "001.独裁中的民主.txt",
+    "002.文警论及附件.txt",
+    "003.张宗昌，我梦到了你！.txt",
+    "004.开玩笑的自由.txt",
+    "005.没有演说的自由.txt",
+    "006.流血的自由.txt",
+    "007.记一位没有“流血的自由”的先烈.txt",
+    "008.漫画的自由意义.txt",
+    "009.不拍马屁的自由.txt",
+    "010.梦做骆马的自由.txt",
+    "011.论唱反调.txt",
+    "012.“敢怒而又敢言”的自由.txt",
+    "013.月亮属于谁的？.txt",
+    "014.我们梦想“野蛮之自由”.txt",
+    "015.读警总秘密会议纪录.txt",
+    "016.秘雕案的案外意义.txt",
+    "017.还是第一声最像.txt",
+    "018.“春风吹又生”.txt",
+    "019.肚皮里的言论自由.txt",
+    "020.政治迫害音乐的讨论.txt",
+    "021.为什么涨价？.txt",
+    "022.《叶明勋密件》书后.txt"
+  ],
+  "selectionCount": 13,
+  "count": 13,
+  "totalChars": 1838,
+  "aggregateCount": 500,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    },
+    {
+      "book": "为中国思想趋向求答案",
+      "slug": "wei_zhongguo_sixiang_quxiang_qiu_daan",
+      "count": 15
+    },
+    {
+      "book": "上下古今谈",
+      "slug": "shangxia_gujin_tan",
+      "count": 20
+    },
+    {
+      "book": "世论新语",
+      "slug": "shilun_xinyu",
+      "count": 11
+    },
+    {
+      "book": "求是新语",
+      "slug": "qiushi_xinyu",
+      "count": 12
+    },
+    {
+      "book": "我是天安门",
+      "slug": "woshi_tiananmen",
+      "count": 7
+    },
+    {
+      "book": "你是景福门",
+      "slug": "ni_shi_jingfumen",
+      "count": 7
+    },
+    {
+      "book": "为自由招魂",
+      "slug": "wei_ziyou_zhaohun",
+      "count": 13
+    }
+  ],
+  "excludedByStandard": [
+    "《张宗昌，我梦到了你！》是李敖以第一人称写出的讽刺梦境，按“不收李敖自己的事件/场景”暂不收入。",
+    "《秘雕案的案外意义》《肚皮里的言论自由》《〈叶明勋密件〉书后》等章节多为言论案、禁书案、报业权争材料，虽有叙事点，但整体偏事件材料，本轮不按事件拆收。",
+    "禹之谟受刑长段、《大风雪》解禁报告、江文也生平履历、户籍法沿革、报禁史料等偏资料或案件链条，未形成独立短故事者不收。",
+    "孔夫子梦周公、负式版者、约翰逊主席语录等只是典故引用或论证例子，故事主体过薄者不收。"
+  ],
+  "proofreadDropCount": 5,
+  "proofreadDrops": [
+    {
+      "title": "胡适讲鲁迅背后挨鞭子",
+      "reason": "虽明说“讲了一个故事”，但主体是鲁迅受左翼文警压迫的文学政治材料，情节过薄；校对轮删除。"
+    },
+    {
+      "title": "谭嗣同请从嗣同始",
+      "reason": "属于戊戌殉难事件材料，李敖用来论“流血的自由”，但更像历史事件切片；校对轮删除。"
+    },
+    {
+      "title": "禹之谟临刑求流血",
+      "reason": "属于革命志士受难与处刑材料，和本书论证脉络绑定较重；校对轮删除。"
+    },
+    {
+      "title": "学生不知江文也是教授",
+      "reason": "偏江文也遭政治抹除的人物材料，故事性不足；校对轮删除。"
+    },
+    {
+      "title": "门德尔松救出巴哈受难曲",
+      "reason": "篇幅较长，偏音乐史人物材料，且与“李敖讲出来的小故事”边界较远；校对轮删除。"
+    }
+  ],
+  "extractionNotes": [
+    "《为自由招魂》共 22 篇正文，另有目录；本轮从 123 个宽松触发词候选中先收 18 条。",
+    "保留范围为李敖文中明确讲出的短故事、笑话、掌故和有完整人物行动/对话转折的历史轶事。",
+    "本书大量篇幅是言论自由、新闻自由、禁书与报禁的案情材料，本轮只收入能脱离案情独立检索的小故事；待校对轮继续收紧。"
+  ],
+  "proofreadNotes": [
+    "校对轮从 18 条收缩为 13 条，删除文学政治材料、殉难事件切片和音乐史人物材料。",
+    "保留《开玩笑的自由》中一组完整短故事，另保留秦舞阳、东林党怪事、苏东坡老兵、民呼民吁、克里蒙梭改报、笑府第一声等有明确转折的掌故或笑话。",
+    "收窄秦舞阳、民呼民吁、克里蒙梭、第一声等条目的故事正文边界，减少论述性导语和评语。"
+  ],
+  "generatedAt": "2026-07-02T04:32:00.732Z"
+}

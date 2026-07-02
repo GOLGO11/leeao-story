@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "李敖新刊",
+  "slug": "li_ao_xinkan",
+  "round": "story_round1",
+  "count": 14,
+  "totalChars": 3185,
+  "minChars": 67,
+  "maxChars": 592,
+  "duplicateTextIds": []
+}

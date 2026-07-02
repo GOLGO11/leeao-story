@@ -1,0 +1,193 @@
+{
+  "book": "你笨蛋，你笨蛋",
+  "slug": "ni_bendan_ni_bendan",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\003.惊世杂文类\\010.你笨蛋，你笨蛋",
+  "sourceFiles": [
+    "《你笨蛋，你笨蛋》目录.txt",
+    "001.送高信疆归大陆序.txt",
+    "002.准伤痕文学.txt",
+    "003.我写《上山上山爱》.txt",
+    "004.李敖的“淫威”.txt",
+    "005.分个第一给她.txt",
+    "006.《胡适语粹》新序.txt",
+    "007.《胡适选集》补序.txt",
+    "008.五十年是什么？.txt",
+    "009.给王金平院长的一封秘件.txt",
+    "010.从李文告小布什说起.txt",
+    "011.从眼神到背影.txt",
+    "012.《李敖议坛哀思录》小引.txt",
+    "013.李敖与民歌.txt",
+    "014.我写《虚拟的十七岁》.txt",
+    "015.从《马偕行医图》到黄达夫.txt",
+    "016.为杨筱筠新书写序.txt",
+    "017.吾从其丑.txt",
+    "018.石齐平《中国大趋势》序.txt",
+    "019.给华严的一封信.txt",
+    "020.《李敖大全集》大陆新版序.txt",
+    "021.有感于年复一年的《美国人权纪录》.txt",
+    "022.控告许倬云造谣诽谤.txt",
+    "023.中国可以来个《夏威夷关系法》吗？.txt",
+    "024.买错了书.txt",
+    "025.我头所在的地方，我心与它同在.txt",
+    "026.关于运动ABC.txt",
+    "027.谁说信共产主义不靠运气？.txt",
+    "028.为中央研究院弊案质问.txt",
+    "029.帝王蓝.txt",
+    "030.《李戡戡乱记》导读.txt",
+    "031.背影与后记.txt",
+    "032.我写《阳痿美国》.txt",
+    "033.潘毓刚《我也李敖一下》祖国版序.txt",
+    "034.顽童哲学家.txt",
+    "035.《大江大海骗了你》书衣词.txt",
+    "036.《第73烈士》志缘.txt",
+    "037.《英文汉诂》残稿.txt",
+    "038.联语对比举例.txt",
+    "039.他.txt",
+    "040.你笨蛋，你笨蛋.txt"
+  ],
+  "selectionCount": 8,
+  "count": 8,
+  "totalChars": 1593,
+  "aggregateCount": 508,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    },
+    {
+      "book": "为中国思想趋向求答案",
+      "slug": "wei_zhongguo_sixiang_quxiang_qiu_daan",
+      "count": 15
+    },
+    {
+      "book": "上下古今谈",
+      "slug": "shangxia_gujin_tan",
+      "count": 20
+    },
+    {
+      "book": "世论新语",
+      "slug": "shilun_xinyu",
+      "count": 11
+    },
+    {
+      "book": "求是新语",
+      "slug": "qiushi_xinyu",
+      "count": 12
+    },
+    {
+      "book": "我是天安门",
+      "slug": "woshi_tiananmen",
+      "count": 7
+    },
+    {
+      "book": "你是景福门",
+      "slug": "ni_shi_jingfumen",
+      "count": 7
+    },
+    {
+      "book": "为自由招魂",
+      "slug": "wei_ziyou_zhaohun",
+      "count": 13
+    },
+    {
+      "book": "你笨蛋，你笨蛋",
+      "slug": "ni_bendan_ni_bendan",
+      "count": 8
+    }
+  ],
+  "excludedByStandard": [
+    "001、004、015、030、034 中的李敖本人、家人、友人、出版往来、捐款和自述场景，虽有叙事性，但按当前标准不收李敖自己的事件。",
+    "003、036 中涉及李敖小说情节或虚构材料介绍，属于作品情节/作者自述，不作为独立故事收入。",
+    "021、022、031、033、040 等章节主要是人权报告、控告书、政治案件、人物评论、投票表和材料汇编，未形成可脱离论证独立检索的小故事。",
+    "007 中施特来特借一千还十万的札记只剩一句概述，且紧接李敖自己的酬答类比，故事主体过薄，暂不收入。",
+    "038 为联语、对子和语言例句；037 中若干 pun 和引文只有词义说明，没有完整人物行动和转折，暂不收入。"
+  ],
+  "proofreadDropCount": 0,
+  "proofreadDrops": [],
+  "extractionNotes": [
+    "《你笨蛋，你笨蛋》共 40 篇正文，另有目录；候选扫描约 385 段，本轮按收紧后的故事标准收入 8 条。",
+    "保留对象为李敖文中确实讲出的短故事、笑话、掌故和语言故事，要求有相对独立的人物、行动、对话或转折。",
+    "本书大量段落是政论、法律控诉、新闻人物材料或李敖自身经历，本轮主动排除，避免重新滑向事件合集。"
+  ],
+  "proofreadNotes": [
+    "校对轮复核现有 8 条，并按“独立小故事/笑话/掌故”标准回扫全书；未新增、未删除。",
+    "米达斯故事保留英文原故事段落，不连同前一段中文词义引介收入，以免把语言说明混入故事正文。",
+    "灰色马老战士虽是小说/电影故事概述，但原文明说“故事”，且有出发、归来、被打死的完整转折，校对轮保留。",
+    "职业赌徒买错《赛局理论与经济行为》篇幅短，但有误买动作和反差，校对轮保留为短掌故。",
+    "里根 yesman/no man 条目是完整语言笑话，虽短但有人物和转折；校对轮保留。"
+  ],
+  "generatedAt": "2026-07-02T04:55:03.278Z"
+}

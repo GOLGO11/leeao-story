@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "我是天安门",
+  "slug": "woshi_tiananmen",
+  "round": "story_round1",
+  "count": 7,
+  "totalChars": 1425,
+  "minChars": 125,
+  "maxChars": 324,
+  "duplicateTextIds": []
+}
