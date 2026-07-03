@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "book": "北京法源寺",
+  "slug": "beijing_fayuansi",
+  "round": "story_round1",
+  "count": 20,
+  "totalChars": 9091,
+  "minChars": 125,
+  "maxChars": 1167,
+  "duplicateTextIds": []
+}

@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "红色11",
+  "slug": "hongse_11",
+  "round": "story_round1",
+  "count": 18,
+  "totalChars": 2734,
+  "minChars": 49,
+  "maxChars": 303,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

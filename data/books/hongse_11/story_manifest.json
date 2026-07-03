@@ -1,0 +1,206 @@
+{
+  "book": "红色11",
+  "slug": "hongse_11",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\004.小说剧本类\\003.红色11",
+  "sourceFiles": [
+    "《红色11》目录.txt",
+    "001.剧中人.txt",
+    "002.第一幕——夏至.txt",
+    "003.第二幕——秋分.txt",
+    "004.第三幕——冬至.txt",
+    "005.第四幕——春分.txt",
+    "006.后记.txt"
+  ],
+  "selectionCount": 18,
+  "count": 18,
+  "totalChars": 2734,
+  "aggregateCount": 678,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    },
+    {
+      "book": "为中国思想趋向求答案",
+      "slug": "wei_zhongguo_sixiang_quxiang_qiu_daan",
+      "count": 15
+    },
+    {
+      "book": "上下古今谈",
+      "slug": "shangxia_gujin_tan",
+      "count": 20
+    },
+    {
+      "book": "世论新语",
+      "slug": "shilun_xinyu",
+      "count": 11
+    },
+    {
+      "book": "求是新语",
+      "slug": "qiushi_xinyu",
+      "count": 12
+    },
+    {
+      "book": "我是天安门",
+      "slug": "woshi_tiananmen",
+      "count": 7
+    },
+    {
+      "book": "你是景福门",
+      "slug": "ni_shi_jingfumen",
+      "count": 7
+    },
+    {
+      "book": "为自由招魂",
+      "slug": "wei_ziyou_zhaohun",
+      "count": 13
+    },
+    {
+      "book": "你笨蛋，你笨蛋",
+      "slug": "ni_bendan_ni_bendan",
+      "count": 8
+    },
+    {
+      "book": "我梦碎，所以我梦醒",
+      "slug": "wo_mengsui_suoyi_wo_mengxing",
+      "count": 10
+    },
+    {
+      "book": "李敖新刊",
+      "slug": "li_ao_xinkan",
+      "count": 14
+    },
+    {
+      "book": "千秋万岁乌鸦求是合集",
+      "slug": "qianqiu_wansui_wuya_qiushi_heji",
+      "count": 37
+    },
+    {
+      "book": "李敖杂文集",
+      "slug": "li_ao_zawenji",
+      "count": 11
+    },
+    {
+      "book": "千秋万岁编外集",
+      "slug": "qianqiu_wansui_bianwaiji",
+      "count": 27
+    },
+    {
+      "book": "北京法源寺",
+      "slug": "beijing_fayuansi",
+      "count": 20
+    },
+    {
+      "book": "上山·上山·爱",
+      "slug": "shangshan_shangshan_ai",
+      "count": 33
+    },
+    {
+      "book": "红色11",
+      "slug": "hongse_11",
+      "count": 18
+    }
+  ],
+  "criteria": "本书为剧本，只收剧中人物明确讲出的独立小故事、笑话、寓言、文学掌故与历史轶事；不收主线牢房情节、人物事件、案件材料链、纯议论或过短标签。",
+  "excludedByStandard": [
+    "史处长、华老师、余三共、欧卡曾等人的审讯、坐牢、受刑、牢房动作与争执属于剧本主线或人物事件，不作为故事条目。",
+    "邱宏臣、武汉大旅社命案、吴相煇、刘金财、毛泽东词案、黄进川、老吕、王印、王经典、马来西亚侨生、阮有成、赖溪河、吕安仁、林颂和等段落偏政治案例或法律事件材料，不收。",
+    "青龙、白虎、变色龙、蟑螂、梭罗、甘地、圣经谱系、文天祥、班扬、电影片名等解释性文字或引用标签，未讲成独立故事者不收。",
+    "丹尼·蓬与清教徒躲海盗等同题故事已见于汇总数据，本轮不重复收录。",
+    "周处除三害、岳飞不辩、耶稣不辩等只在论证链中一笔带过，暂不拆成故事条目。"
+  ],
+  "extractionNotes": [
+    "候选扫描覆盖剧中人、四幕与后记；后记未发现可独立复述的小故事。",
+    "保留鸠摩罗什、狄阿杰尼斯、塞翁失马、罗宾汉、伊索狼羊、李元吉、鸡不知道、米不知道等第一幕嵌入故事。",
+    "保留纪渻子养斗鸡、张汤审老鼠、死妻鸡蛋、房东黑狗、海涅、伊索狮象、母狗投胎、子濯孺子、羊叔子、毕加索等第三幕嵌入故事。",
+    "对长段落只截取故事本体，去掉接回人物辩论或剧本主线的评语尾巴。"
+  ],
+  "proofreadDropCount": 1,
+  "proofreadDrops": [
+    "老革命在昏黑日午里被整肃"
+  ],
+  "proofreadTrimCount": 1,
+  "proofreadTrims": [
+    "罗宾汉射出最后一箭"
+  ],
+  "proofreadBoundaryFixCount": 3,
+  "proofreadBoundaryFixes": [
+    "妻死后只煮一个鸡蛋",
+    "阎王罚人投胎做母狗",
+    "羊叔子送药给敌将"
+  ],
+  "generatedAt": "2026-07-03T12:42:28.773Z"
+}

@@ -1,0 +1,213 @@
+{
+  "book": "第73烈士",
+  "slug": "di_73_lieshi",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\004.小说剧本类\\006.第73烈士",
+  "sourceFiles": [
+    "《第73烈士》目录.txt",
+    "001.楔子——1911（黄花岗）.txt",
+    "002.第一部——1949（黄花岗38年后）.txt",
+    "003.第二部——1961（黄花岗50年后）.txt",
+    "004.第三部——1963（黄花岗52年后）.txt",
+    "005.第四部——1982（黄花岗71年后）.txt",
+    "006.第五部——2002（黄花岗91年后）.txt",
+    "007.第六部——2011（黄花岗百年后）.txt",
+    "008.附录——《第73烈士》志缘.txt"
+  ],
+  "selectionCount": 7,
+  "count": 7,
+  "totalChars": 1113,
+  "aggregateCount": 727,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    },
+    {
+      "book": "为中国思想趋向求答案",
+      "slug": "wei_zhongguo_sixiang_quxiang_qiu_daan",
+      "count": 15
+    },
+    {
+      "book": "上下古今谈",
+      "slug": "shangxia_gujin_tan",
+      "count": 20
+    },
+    {
+      "book": "世论新语",
+      "slug": "shilun_xinyu",
+      "count": 11
+    },
+    {
+      "book": "求是新语",
+      "slug": "qiushi_xinyu",
+      "count": 12
+    },
+    {
+      "book": "我是天安门",
+      "slug": "woshi_tiananmen",
+      "count": 7
+    },
+    {
+      "book": "你是景福门",
+      "slug": "ni_shi_jingfumen",
+      "count": 7
+    },
+    {
+      "book": "为自由招魂",
+      "slug": "wei_ziyou_zhaohun",
+      "count": 13
+    },
+    {
+      "book": "你笨蛋，你笨蛋",
+      "slug": "ni_bendan_ni_bendan",
+      "count": 8
+    },
+    {
+      "book": "我梦碎，所以我梦醒",
+      "slug": "wo_mengsui_suoyi_wo_mengxing",
+      "count": 10
+    },
+    {
+      "book": "李敖新刊",
+      "slug": "li_ao_xinkan",
+      "count": 14
+    },
+    {
+      "book": "千秋万岁乌鸦求是合集",
+      "slug": "qianqiu_wansui_wuya_qiushi_heji",
+      "count": 37
+    },
+    {
+      "book": "李敖杂文集",
+      "slug": "li_ao_zawenji",
+      "count": 11
+    },
+    {
+      "book": "千秋万岁编外集",
+      "slug": "qianqiu_wansui_bianwaiji",
+      "count": 27
+    },
+    {
+      "book": "北京法源寺",
+      "slug": "beijing_fayuansi",
+      "count": 20
+    },
+    {
+      "book": "上山·上山·爱",
+      "slug": "shangshan_shangshan_ai",
+      "count": 33
+    },
+    {
+      "book": "红色11",
+      "slug": "hongse_11",
+      "count": 18
+    },
+    {
+      "book": "虚拟的十七岁",
+      "slug": "xuni_de_shiqisui",
+      "count": 31
+    },
+    {
+      "book": "阳痿美国",
+      "slug": "yangwei_meiguo",
+      "count": 11
+    },
+    {
+      "book": "第73烈士",
+      "slug": "di_73_lieshi",
+      "count": 7
+    }
+  ],
+  "criteria": "本书为小说，只收文中讲出的独立小故事、笑话、文学掌故与历史轶事；不收小说主线、政治论证链、人物史料串联或已收同题故事。",
+  "excludedByStandard": [
+    "莫纪彭、林光烈、李师科、王宇等主线情节不拆条。",
+    "黄花岗人物史料与忠烈祠政治论证链不拆条。",
+    "已经在总表出现的军中乐园与老兵同题故事不重复。",
+    "只作短引或标签的文学、历史名目不收。"
+  ],
+  "extractionNotes": [
+    "候选扫描覆盖 8 个正文/附录文件，触发词集中在黄花岗史料、军中轶事、老兵材料与文学掌故。",
+    "保留温生才明杀、屠先生断指求退伍、张飞睁眼、盛世才仇杀、《化石森林》《悲惨世界》穷人故事、大嫂上花轿等独立故事。",
+    "对复现自《我最难忘的事和人》《李敖回忆录》《千秋万岁乌鸦求是合集》的同题故事，全部跳过。"
+  ],
+  "proofreadNotes": [
+    "删除林排长在军中乐园遇雏妓一条，避免把小说人物亲历事件收入故事集。",
+    "删除好男色军官嫌传令兵少一条，因其更像荤段和一句应答。",
+    "温生才条收窄到公审问答本体，去掉历史评价尾巴。"
+  ],
+  "aggregateDuplicateTextIds": [],
+  "generatedAt": "2026-07-03T14:06:51.031Z"
+}

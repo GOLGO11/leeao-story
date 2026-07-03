@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "上山·上山·爱",
+  "slug": "shangshan_shangshan_ai",
+  "round": "story_round1",
+  "count": 33,
+  "totalChars": 6096,
+  "minChars": 53,
+  "maxChars": 545,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

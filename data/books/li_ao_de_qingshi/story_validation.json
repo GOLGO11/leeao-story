@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "李敖的情诗",
+  "slug": "li_ao_de_qingshi",
+  "round": "story_round1",
+  "count": 1,
+  "totalChars": 128,
+  "minChars": 128,
+  "maxChars": 128,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

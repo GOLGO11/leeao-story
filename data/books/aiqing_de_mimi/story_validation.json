@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "爱情的秘密",
+  "slug": "aiqing_de_mimi",
+  "round": "story_round1",
+  "count": 6,
+  "totalChars": 6456,
+  "minChars": 150,
+  "maxChars": 2842,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

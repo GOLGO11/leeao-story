@@ -1,0 +1,265 @@
+{
+  "book": "李语录",
+  "slug": "li_yulu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\005.诗集语录类\\003.李语录",
+  "sourceFiles": [
+    "《李语录》目录.txt",
+    "001.《李语录》一.txt",
+    "002.《李语录》二.txt",
+    "003.《李语录》三.txt",
+    "004.《李语录》四.txt",
+    "005.《李语录》五.txt",
+    "006.《李语录》六.txt",
+    "007.《李语录》七.txt",
+    "008.《李语录》八.txt",
+    "009.《李语录》九.txt",
+    "010.《李语录》十.txt",
+    "011.《李语录》十一.txt",
+    "012.《李语录》十二.txt",
+    "013.《李语录》十三.txt",
+    "014.《李语录》十四.txt",
+    "015.《李语录》十五.txt",
+    "016.《李语录》十六.txt",
+    "017.《李语录》十七.txt",
+    "018.《李语录》十八.txt",
+    "019.《李语录》十九.txt",
+    "020.《李语录》二十.txt",
+    "021.《李语录》二一.txt",
+    "022.《李语录》二二.txt",
+    "023.《李语录》二三.txt",
+    "024.《李语录》二四.txt",
+    "025.《李语录》二五.txt",
+    "026.《李语录》二六.txt",
+    "027.《李语录》二七.txt",
+    "028.《李语录》二八.txt",
+    "029.《李语录》二九.txt",
+    "030.《李语录》三十.txt",
+    "031.《李语录》三一.txt",
+    "032.《李语录》三二.txt",
+    "033.《李语录》三三.txt",
+    "034.《李语录》三四.txt",
+    "035.《李语录》三五.txt",
+    "036.《李语录》三六.txt",
+    "037.《李语录》三七.txt",
+    "038.《李语录》三八.txt",
+    "039.《李语录》三九.txt",
+    "040.《李语录》四十.txt",
+    "041.片羽片语.txt",
+    "042.金兰随记.txt",
+    "043.国民同异.txt",
+    "044.夜归题记.txt",
+    "045.夜阑散记.txt",
+    "046.地下哲学家的札记.txt"
+  ],
+  "selectionCount": 4,
+  "count": 4,
+  "totalChars": 254,
+  "aggregateCount": 738,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    },
+    {
+      "book": "为中国思想趋向求答案",
+      "slug": "wei_zhongguo_sixiang_quxiang_qiu_daan",
+      "count": 15
+    },
+    {
+      "book": "上下古今谈",
+      "slug": "shangxia_gujin_tan",
+      "count": 20
+    },
+    {
+      "book": "世论新语",
+      "slug": "shilun_xinyu",
+      "count": 11
+    },
+    {
+      "book": "求是新语",
+      "slug": "qiushi_xinyu",
+      "count": 12
+    },
+    {
+      "book": "我是天安门",
+      "slug": "woshi_tiananmen",
+      "count": 7
+    },
+    {
+      "book": "你是景福门",
+      "slug": "ni_shi_jingfumen",
+      "count": 7
+    },
+    {
+      "book": "为自由招魂",
+      "slug": "wei_ziyou_zhaohun",
+      "count": 13
+    },
+    {
+      "book": "你笨蛋，你笨蛋",
+      "slug": "ni_bendan_ni_bendan",
+      "count": 8
+    },
+    {
+      "book": "我梦碎，所以我梦醒",
+      "slug": "wo_mengsui_suoyi_wo_mengxing",
+      "count": 10
+    },
+    {
+      "book": "李敖新刊",
+      "slug": "li_ao_xinkan",
+      "count": 14
+    },
+    {
+      "book": "千秋万岁乌鸦求是合集",
+      "slug": "qianqiu_wansui_wuya_qiushi_heji",
+      "count": 37
+    },
+    {
+      "book": "李敖杂文集",
+      "slug": "li_ao_zawenji",
+      "count": 11
+    },
+    {
+      "book": "千秋万岁编外集",
+      "slug": "qianqiu_wansui_bianwaiji",
+      "count": 27
+    },
+    {
+      "book": "北京法源寺",
+      "slug": "beijing_fayuansi",
+      "count": 20
+    },
+    {
+      "book": "上山·上山·爱",
+      "slug": "shangshan_shangshan_ai",
+      "count": 33
+    },
+    {
+      "book": "红色11",
+      "slug": "hongse_11",
+      "count": 18
+    },
+    {
+      "book": "虚拟的十七岁",
+      "slug": "xuni_de_shiqisui",
+      "count": 31
+    },
+    {
+      "book": "阳痿美国",
+      "slug": "yangwei_meiguo",
+      "count": 11
+    },
+    {
+      "book": "第73烈士",
+      "slug": "di_73_lieshi",
+      "count": 7
+    },
+    {
+      "book": "爱情的秘密",
+      "slug": "aiqing_de_mimi",
+      "count": 6
+    },
+    {
+      "book": "李敖的情诗",
+      "slug": "li_ao_de_qingshi",
+      "count": 1
+    },
+    {
+      "book": "李语录",
+      "slug": "li_yulu",
+      "count": 4
+    }
+  ],
+  "criteria": "本书为语录类，只收外部人物轶事/掌故；不收语录格言、类比短句、李敖自己的问答、现实政治判断、分类论证或重复故事。",
+  "excludedByStandard": [
+    "语录式格言、俗语标签和一句式比喻不拆条。",
+    "李敖自己的日常对话和现实处境映射不收。",
+    "已在总表出现的同题故事不重复。"
+  ],
+  "extractionNotes": [
+    "候选扫描覆盖 46 个正文文件，自动候选 15 条，多数为短判断或格言式比喻。",
+    "保留刘献廷、苏峻、肯尼迪、巴顿四条外部人物轶事。",
+    "排除老兵司机、澳洲女学生等李敖亲历/自我问答，以及狼来了、老鼠过街等未复述的成语标签。"
+  ],
+  "proofreadNotes": [
+    "校对轮维持 4 条。",
+    "苏峻条收窄到历史掌故本体，去掉现实类比尾巴。",
+    "肯尼迪与巴顿两条去掉札记日期，保留故事正文。"
+  ],
+  "aggregateDuplicateTextIds": [],
+  "generatedAt": "2026-07-03T15:07:02.526Z"
+}

@@ -1,0 +1,276 @@
+{
+  "book": "爱情的秘密",
+  "slug": "aiqing_de_mimi",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\005.诗集语录类\\001.爱情的秘密",
+  "sourceFiles": [
+    "《爱情的秘密》目录.txt",
+    "《爱情的秘密》前置词.txt",
+    "001.爱情的秘密.txt",
+    "002.沙丘忆.txt",
+    "003.除却一寒冬.txt",
+    "004.一首诗几件事.txt",
+    "005.评改余光中的一首译诗.txt",
+    "006.小孝子.txt",
+    "007.小大由之.txt",
+    "008.如影随形.txt",
+    "009.猪小姐.txt",
+    "010.三言绝句.txt",
+    "011.狭路相逢.txt",
+    "012.李诗四首.txt",
+    "013.题泰国漫画.txt",
+    "014.鼓里与鼓上.txt",
+    "015.情诗十四首.txt",
+    "016.老兵.txt",
+    "017.两首反中立的诗.txt",
+    "018.墓中人语.txt",
+    "019.情律.txt",
+    "020.菩萨写诗.txt",
+    "021.剪他三分头！.txt",
+    "022.“癣”与“屁”.txt",
+    "023.我爱大猩猩.txt",
+    "024.自赞五首.txt",
+    "025.洋和尚和录音带.txt",
+    "026.反咬高人吕洞宾.txt",
+    "027.他.txt",
+    "028.“于人曰浩然，沛乎塞苍冥”.txt",
+    "029.居然叫艺术家.txt",
+    "030.孔明歌.txt",
+    "031.打倒就是要打倒.txt",
+    "032.谁要吃香蕉？.txt",
+    "033.撒尿歌.txt",
+    "034.要建设，先破坏.txt",
+    "035.万古风骚一羽毛.txt",
+    "036.两亿年在你手里.txt",
+    "037.爱是纯快乐.txt",
+    "038.把她放在遥远.txt",
+    "039.爱的秘诀.txt",
+    "040.何妨看一线天.txt",
+    "041.一片欢喜心，对夜坐着笑.txt",
+    "042.不让她做大牌.txt",
+    "043.我为她雕出石像.txt",
+    "044.不复春归燕，却似如来佛.txt",
+    "045.只有干干干！.txt",
+    "046.赌的哲学.txt",
+    "047.可惜的是我已难醉.txt",
+    "048.脱脱脱脱脱.txt",
+    "049.“一个文法学家的葬礼”.txt",
+    "050.老虎歌.txt",
+    "051.《我们七个》.txt",
+    "052.七绝十七首.txt",
+    "053.也有诗兴.txt",
+    "054.还有诗兴.txt",
+    "055.袭唐诗七绝四首有序.txt",
+    "056.高楼书感.txt",
+    "057.旧词新改.txt",
+    "058.《千秋评论》满五年了！.txt",
+    "059.以山谷之道，还治其身.txt",
+    "060.关于《丽达与天鹅》.txt",
+    "061.向沧海凝神.txt",
+    "062.诗句的实验者.txt",
+    "063.猫狗诗和非猫狗诗.txt",
+    "064.弗罗斯特的《雪花纷飞》.txt"
+  ],
+  "selectionCount": 6,
+  "count": 6,
+  "totalChars": 6456,
+  "aggregateCount": 733,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    },
+    {
+      "book": "为中国思想趋向求答案",
+      "slug": "wei_zhongguo_sixiang_quxiang_qiu_daan",
+      "count": 15
+    },
+    {
+      "book": "上下古今谈",
+      "slug": "shangxia_gujin_tan",
+      "count": 20
+    },
+    {
+      "book": "世论新语",
+      "slug": "shilun_xinyu",
+      "count": 11
+    },
+    {
+      "book": "求是新语",
+      "slug": "qiushi_xinyu",
+      "count": 12
+    },
+    {
+      "book": "我是天安门",
+      "slug": "woshi_tiananmen",
+      "count": 7
+    },
+    {
+      "book": "你是景福门",
+      "slug": "ni_shi_jingfumen",
+      "count": 7
+    },
+    {
+      "book": "为自由招魂",
+      "slug": "wei_ziyou_zhaohun",
+      "count": 13
+    },
+    {
+      "book": "你笨蛋，你笨蛋",
+      "slug": "ni_bendan_ni_bendan",
+      "count": 8
+    },
+    {
+      "book": "我梦碎，所以我梦醒",
+      "slug": "wo_mengsui_suoyi_wo_mengxing",
+      "count": 10
+    },
+    {
+      "book": "李敖新刊",
+      "slug": "li_ao_xinkan",
+      "count": 14
+    },
+    {
+      "book": "千秋万岁乌鸦求是合集",
+      "slug": "qianqiu_wansui_wuya_qiushi_heji",
+      "count": 37
+    },
+    {
+      "book": "李敖杂文集",
+      "slug": "li_ao_zawenji",
+      "count": 11
+    },
+    {
+      "book": "千秋万岁编外集",
+      "slug": "qianqiu_wansui_bianwaiji",
+      "count": 27
+    },
+    {
+      "book": "北京法源寺",
+      "slug": "beijing_fayuansi",
+      "count": 20
+    },
+    {
+      "book": "上山·上山·爱",
+      "slug": "shangshan_shangshan_ai",
+      "count": 33
+    },
+    {
+      "book": "红色11",
+      "slug": "hongse_11",
+      "count": 18
+    },
+    {
+      "book": "虚拟的十七岁",
+      "slug": "xuni_de_shiqisui",
+      "count": 31
+    },
+    {
+      "book": "阳痿美国",
+      "slug": "yangwei_meiguo",
+      "count": 11
+    },
+    {
+      "book": "第73烈士",
+      "slug": "di_73_lieshi",
+      "count": 7
+    },
+    {
+      "book": "爱情的秘密",
+      "slug": "aiqing_de_mimi",
+      "count": 6
+    }
+  ],
+  "criteria": "本书为诗集语录类，只收明确讲出的短篇梗概、神话掌故、文学轶事和具有完整人物行动、转折、收束的叙事译诗；不收李敖自己的诗作本体、抒情诗、译诗过程、一句式笑话、漫画题意、纯诗论译论或政治事件材料。",
+  "excludedByStandard": [
+    "李敖自己的诗作本体、抒情诗、一般译诗、诗论译论和短题画诗不拆条。",
+    "李敖自己的狱中、写作、赌牌、出版经历不收。",
+    "一句式荤笑话、漫画题意和过短典故不另立故事。",
+    "现实政治事件材料、人物纪念文字和论证型例证不按事件拆收。",
+    "已在总表出现的同题故事不重复收。"
+  ],
+  "extractionNotes": [
+    "候选扫描覆盖 64 个正文文件，触发段落集中在短篇小说梗概、文学典故、神话掌故、译诗说明和李敖自述。",
+    "校对后保留《奇人述异》梗概、徐渭掌故、勃朗宁文法学家、华兹华斯《我们七个》、丽达神话和露易莎刻诗轶事。",
+    "对诗歌类文本采用较严边界：只有像《我们七个》这样具有完整人物、动作、转折和收束，并且被李敖拿来说明境界的叙事译诗入选；单纯情绪、格言、题画、讽刺句和李敖自己的诗作本体不入选。"
+  ],
+  "proofreadNotes": [
+    "校对轮从 10 条收缩为 6 条。",
+    "删除李敖自己的叙事诗《老白之死》，避免把诗作本体当故事。",
+    "删除家昌一句式荤笑话、洋和尚漫画题意和简狄一句短典，保留更完整的文学故事、神话故事和轶事。"
+  ],
+  "aggregateDuplicateTextIds": [],
+  "generatedAt": "2026-07-03T14:28:06.847Z"
+}

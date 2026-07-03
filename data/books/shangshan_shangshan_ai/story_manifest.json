@@ -1,0 +1,195 @@
+{
+  "book": "上山·上山·爱",
+  "slug": "shangshan_shangshan_ai",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\004.小说剧本类\\002.上山·上山·爱",
+  "sourceFiles": [
+    "《上山·上山·爱》目录.txt",
+    "001.楔子.txt",
+    "002.第一部——三十年前.txt",
+    "003.第二部——二十年前.txt",
+    "004.第三部——三十年后.txt",
+    "005.我写《上山·上山·爱》.txt"
+  ],
+  "selectionCount": 33,
+  "count": 33,
+  "totalChars": 6096,
+  "aggregateCount": 660,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    },
+    {
+      "book": "为中国思想趋向求答案",
+      "slug": "wei_zhongguo_sixiang_quxiang_qiu_daan",
+      "count": 15
+    },
+    {
+      "book": "上下古今谈",
+      "slug": "shangxia_gujin_tan",
+      "count": 20
+    },
+    {
+      "book": "世论新语",
+      "slug": "shilun_xinyu",
+      "count": 11
+    },
+    {
+      "book": "求是新语",
+      "slug": "qiushi_xinyu",
+      "count": 12
+    },
+    {
+      "book": "我是天安门",
+      "slug": "woshi_tiananmen",
+      "count": 7
+    },
+    {
+      "book": "你是景福门",
+      "slug": "ni_shi_jingfumen",
+      "count": 7
+    },
+    {
+      "book": "为自由招魂",
+      "slug": "wei_ziyou_zhaohun",
+      "count": 13
+    },
+    {
+      "book": "你笨蛋，你笨蛋",
+      "slug": "ni_bendan_ni_bendan",
+      "count": 8
+    },
+    {
+      "book": "我梦碎，所以我梦醒",
+      "slug": "wo_mengsui_suoyi_wo_mengxing",
+      "count": 10
+    },
+    {
+      "book": "李敖新刊",
+      "slug": "li_ao_xinkan",
+      "count": 14
+    },
+    {
+      "book": "千秋万岁乌鸦求是合集",
+      "slug": "qianqiu_wansui_wuya_qiushi_heji",
+      "count": 37
+    },
+    {
+      "book": "李敖杂文集",
+      "slug": "li_ao_zawenji",
+      "count": 11
+    },
+    {
+      "book": "千秋万岁编外集",
+      "slug": "qianqiu_wansui_bianwaiji",
+      "count": 27
+    },
+    {
+      "book": "北京法源寺",
+      "slug": "beijing_fayuansi",
+      "count": 20
+    },
+    {
+      "book": "上山·上山·爱",
+      "slug": "shangshan_shangshan_ai",
+      "count": 33
+    }
+  ],
+  "criteria": "本书为小说，本轮不拆主线人物事件，只收小说中由叙述者或人物明确讲出的嵌入故事、笑话、寓言、文学掌故与历史轶事；已在总表收入的同题故事不重复收。",
+  "excludedByStandard": [
+    "叶葇、作家大学生、小葇与叙述者的主线相识、交往、争执、病痛、坐牢、重逢等情节不作为故事条目。",
+    "李敖自己的山居、牢狱、朋友、政治处境、案情和白色恐怖案例链属于人物事件或材料说明，本轮不收。",
+    "玻璃鲶、鲶鱼上竹、太原五百完人、韩凭何氏、介之推、鲁仲连、庖丁解牛等只是类比或典故标签，正文未讲成独立小故事者不收。",
+    "强奸犯与屁股互推责任等过薄、过脏且只作插科打诨的段子，本轮暂不收。",
+    "白石先生不愿升天、猫和爱神、李夫人拒见汉武帝、延州妓女菩萨化身、锁骨菩萨墓、穷秀才打和尚、英国大学蛮人用叉子吃人肉、周世宗毁佛铸钱、虞愿说湘宫寺无功德、唐太宗哭别侯君集等已在总表收入，本轮不重复收。"
+  ],
+  "extractionNotes": [
+    "候选扫描覆盖楔子、三十年前、二十年前、三十年后与写作说明；写作说明只有创作解释和主线说明，未新增可独立复述的小故事。",
+    "第一部保留孔子见麒麟、闯红灯笑话、张籍《节妇吟》、泰绮思、鼓皮笑话、聊斋《小谢》、阎王托生、两程、妇产科、马克吐温、八国联军、驴哭驴笑、五官争位等嵌入故事。",
+    "第一部后段保留语法笑话、陶渊明斜眼派、法美老爸爸笑话、桑塔耶那、张翰、纪晓岚女狐、太上忘情、王阳明花树、县太爷狗屁、牙签木材、梁鼎芬、国父不死、冒辟疆董小宛、苏武妻等独立段子或掌故。",
+    "第三部保留密罗老运动员、王景文饮毒酒、哥白尼临死校书、王安石墓前扁舟、富兰克林避雷针等非主线嵌入故事。"
+  ],
+  "proofreadDropCount": 0,
+  "proofreadDrops": [],
+  "proofreadTrimCount": 21,
+  "proofreadTrims": [
+    "裁去孔子、闯红灯、两程、马克吐温、桑塔耶那、张翰、哥白尼等条目的对话引子或作者回钩。",
+    "裁去美男子市长、八国联军、驴哭驴笑、王景文、富兰克林等条目中接回小说主线的评语尾巴。",
+    "补齐张籍、泰绮思、五官争位、马克吐温等条目的原文引号终点。",
+    "收窄冒辟疆与董小宛、梁鼎芬夜里呻吟、密罗老运动员等条目到故事本体。"
+  ],
+  "generatedAt": "2026-07-03T12:24:09.179Z"
+}

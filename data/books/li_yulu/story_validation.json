@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "李语录",
+  "slug": "li_yulu",
+  "round": "story_round1",
+  "count": 4,
+  "totalChars": 254,
+  "minChars": 44,
+  "maxChars": 101,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

@@ -1,0 +1,205 @@
+{
+  "book": "北京法源寺",
+  "slug": "beijing_fayuansi",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\004.小说剧本类\\001.北京法源寺",
+  "sourceFiles": [
+    "《北京法源寺》目录.txt",
+    "001.楔子——神秘的棺材.txt",
+    "002.第一章——悯忠寺.txt",
+    "003.第二章——寂寞余花.txt",
+    "004.第三章——“休怀粉身念”.txt",
+    "005.第四章——西太后.txt",
+    "006.第五章——康进士.txt",
+    "007.第六章——皇帝.txt",
+    "008.第七章——回向.txt",
+    "009.第八章——大刀王五.txt",
+    "010.第九章——戊戌政变.txt",
+    "011.第十章——抢救.txt",
+    "012.第十一章——舍生.txt",
+    "013.第十二章——从监牢到法场.txt",
+    "014.第十三章——他们都死了.txt",
+    "015.第十四章——“明月几时有”.txt",
+    "016.第十五章——古刹重逢.txt",
+    "017.尾声——掘坟.txt",
+    "018.我写《北京法源寺》.txt"
+  ],
+  "selectionCount": 20,
+  "count": 20,
+  "totalChars": 9091,
+  "aggregateCount": 627,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    },
+    {
+      "book": "为中国思想趋向求答案",
+      "slug": "wei_zhongguo_sixiang_quxiang_qiu_daan",
+      "count": 15
+    },
+    {
+      "book": "上下古今谈",
+      "slug": "shangxia_gujin_tan",
+      "count": 20
+    },
+    {
+      "book": "世论新语",
+      "slug": "shilun_xinyu",
+      "count": 11
+    },
+    {
+      "book": "求是新语",
+      "slug": "qiushi_xinyu",
+      "count": 12
+    },
+    {
+      "book": "我是天安门",
+      "slug": "woshi_tiananmen",
+      "count": 7
+    },
+    {
+      "book": "你是景福门",
+      "slug": "ni_shi_jingfumen",
+      "count": 7
+    },
+    {
+      "book": "为自由招魂",
+      "slug": "wei_ziyou_zhaohun",
+      "count": 13
+    },
+    {
+      "book": "你笨蛋，你笨蛋",
+      "slug": "ni_bendan_ni_bendan",
+      "count": 8
+    },
+    {
+      "book": "我梦碎，所以我梦醒",
+      "slug": "wo_mengsui_suoyi_wo_mengxing",
+      "count": 10
+    },
+    {
+      "book": "李敖新刊",
+      "slug": "li_ao_xinkan",
+      "count": 14
+    },
+    {
+      "book": "千秋万岁乌鸦求是合集",
+      "slug": "qianqiu_wansui_wuya_qiushi_heji",
+      "count": 37
+    },
+    {
+      "book": "李敖杂文集",
+      "slug": "li_ao_zawenji",
+      "count": 11
+    },
+    {
+      "book": "千秋万岁编外集",
+      "slug": "qianqiu_wansui_bianwaiji",
+      "count": 27
+    },
+    {
+      "book": "北京法源寺",
+      "slug": "beijing_fayuansi",
+      "count": 20
+    }
+  ],
+  "criteria": "提取轮只收小说中明确讲出来的嵌入故事、笑话、掌故、历史轶事和典故；不把《北京法源寺》主线情节整体当作故事拆收。",
+  "excludedByStandard": [
+    "黑衣人运棺、康有为到寺、梁启超夜读、谭嗣同狱中行动、佘法师救王五、康有为晚年重访等段落属于小说主线情节或人物命运推进，本轮不作为独立故事条目。",
+    "咸丰纠正戏子字音、李鸿章“此次之辱，我不任咎也”、张俭与杜根诗典等段落过短或偏评论标签，故事动作不足，暂不收入。",
+    "九江先生焚书、恭亲王住法源寺谈判、肃顺受刑、张荫桓死里逃生、义和团乱事等段落偏人物履历、政治史事件链或历史背景材料，暂不收入。",
+    "方苞《狱中杂记》及行刑制度长段主要是制度黑暗和司法材料说明，不拆成法律案例条目。",
+    "周世宗毁佛铸钱、破山和尚吃肉救城、徐甲离老子成枯骨、刘赶三讽慈禧给光绪添座、贯高不诬赵王、方孝孺被诛十族已在总表收录，本轮不重复收入。",
+    "校对轮删除李三顺走正门牵动守门人：动作完整但主体是慈禧权力压司法的政治事件和制度案例，不作为独立小故事保留。",
+    "校对轮收窄藤牌兵与少林和尚打罗刹：只保留藤牌兵凿罗刹船的故事主体，删去火烧少林和洪门起源的后续传说。"
+  ],
+  "extractionNotes": [
+    "源目录含 18 篇正文与 1 个目录文件；候选扫描以 GB18030 解码后生成，提取轮收入 21 条，校对轮保留 20 条。",
+    "本书是小说，提取口径收窄为“故事中的故事”：角色或叙述者为说明忠义、舍生、权力、宗教、民族观等议题而讲出的掌故和典故。",
+    "保留项包括悯忠寺历史中的唐太宗、谢枋得，法源寺对话中的程本直、小徒弟和穷秀才笑话，以及晏子、专诸、田光、杨继盛、公孙杵臼等典故。",
+    "大刀王五、四当家跳山、藤牌兵等段落虽出现在小说人物线上，但本轮只取可脱离主线复述、且有完整动作和转折的片段。",
+    "校对轮后仍保留王五拒捕又自首，理由是其有明确的动作、对话和反转，不依赖小说主线也可独立复述。"
+  ],
+  "proofreadDropCount": 1,
+  "proofreadDrops": [
+    "李三顺走正门牵动守门人"
+  ],
+  "proofreadTrimCount": 1,
+  "proofreadTrims": [
+    "藤牌兵与少林和尚打罗刹 -> 藤牌兵凿罗刹船"
+  ],
+  "generatedAt": "2026-07-03T12:02:01.488Z"
+}

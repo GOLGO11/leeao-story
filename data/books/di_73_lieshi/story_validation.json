@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "第73烈士",
+  "slug": "di_73_lieshi",
+  "round": "story_round1",
+  "count": 7,
+  "totalChars": 1113,
+  "minChars": 70,
+  "maxChars": 311,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}
