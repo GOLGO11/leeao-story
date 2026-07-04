@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "李敖随写录后集",
+  "slug": "li_ao_suixielu_houji",
+  "round": "story_round1",
+  "count": 8,
+  "totalChars": 2833,
+  "minChars": 88,
+  "maxChars": 1501,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

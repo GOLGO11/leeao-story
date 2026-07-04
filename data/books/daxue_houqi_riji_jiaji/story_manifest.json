@@ -1,0 +1,256 @@
+{
+  "book": "大学后期日记甲集",
+  "slug": "daxue_houqi_riji_jiaji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\006.沉思日记类\\003.大学后期日记甲集",
+  "sourceFiles": [
+    "《大学后期日记甲集》目录.txt",
+    "《大学后期日记甲集》前记.txt",
+    "001.1958年6月.txt",
+    "002.1958年7月.txt",
+    "003.1958年8月.txt",
+    "004.1958年9月.txt",
+    "005.1958年10月.txt",
+    "006.1958年11月.txt",
+    "007.1958年12月.txt"
+  ],
+  "selectionCount": 5,
+  "count": 5,
+  "totalChars": 1077,
+  "aggregateCount": 791,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    },
+    {
+      "book": "为中国思想趋向求答案",
+      "slug": "wei_zhongguo_sixiang_quxiang_qiu_daan",
+      "count": 15
+    },
+    {
+      "book": "上下古今谈",
+      "slug": "shangxia_gujin_tan",
+      "count": 20
+    },
+    {
+      "book": "世论新语",
+      "slug": "shilun_xinyu",
+      "count": 11
+    },
+    {
+      "book": "求是新语",
+      "slug": "qiushi_xinyu",
+      "count": 12
+    },
+    {
+      "book": "我是天安门",
+      "slug": "woshi_tiananmen",
+      "count": 7
+    },
+    {
+      "book": "你是景福门",
+      "slug": "ni_shi_jingfumen",
+      "count": 7
+    },
+    {
+      "book": "为自由招魂",
+      "slug": "wei_ziyou_zhaohun",
+      "count": 13
+    },
+    {
+      "book": "你笨蛋，你笨蛋",
+      "slug": "ni_bendan_ni_bendan",
+      "count": 8
+    },
+    {
+      "book": "我梦碎，所以我梦醒",
+      "slug": "wo_mengsui_suoyi_wo_mengxing",
+      "count": 10
+    },
+    {
+      "book": "李敖新刊",
+      "slug": "li_ao_xinkan",
+      "count": 14
+    },
+    {
+      "book": "千秋万岁乌鸦求是合集",
+      "slug": "qianqiu_wansui_wuya_qiushi_heji",
+      "count": 37
+    },
+    {
+      "book": "李敖杂文集",
+      "slug": "li_ao_zawenji",
+      "count": 11
+    },
+    {
+      "book": "千秋万岁编外集",
+      "slug": "qianqiu_wansui_bianwaiji",
+      "count": 27
+    },
+    {
+      "book": "北京法源寺",
+      "slug": "beijing_fayuansi",
+      "count": 20
+    },
+    {
+      "book": "上山·上山·爱",
+      "slug": "shangshan_shangshan_ai",
+      "count": 33
+    },
+    {
+      "book": "红色11",
+      "slug": "hongse_11",
+      "count": 18
+    },
+    {
+      "book": "虚拟的十七岁",
+      "slug": "xuni_de_shiqisui",
+      "count": 31
+    },
+    {
+      "book": "阳痿美国",
+      "slug": "yangwei_meiguo",
+      "count": 11
+    },
+    {
+      "book": "第73烈士",
+      "slug": "di_73_lieshi",
+      "count": 7
+    },
+    {
+      "book": "爱情的秘密",
+      "slug": "aiqing_de_mimi",
+      "count": 6
+    },
+    {
+      "book": "李敖的情诗",
+      "slug": "li_ao_de_qingshi",
+      "count": 1
+    },
+    {
+      "book": "李语录",
+      "slug": "li_yulu",
+      "count": 4
+    },
+    {
+      "book": "李敖语录",
+      "slug": "li_ao_yulu",
+      "count": 10
+    },
+    {
+      "book": "虽千万人，李敖往矣",
+      "slug": "sui_qianwanren_li_ao_wangyi",
+      "count": 24
+    },
+    {
+      "book": "大学札记",
+      "slug": "daxue_zhaji",
+      "count": 10
+    },
+    {
+      "book": "早年日记",
+      "slug": "zaonian_riji",
+      "count": 4
+    },
+    {
+      "book": "大学后期日记甲集",
+      "slug": "daxue_houqi_riji_jiaji",
+      "count": 5
+    }
+  ],
+  "criteria": "沉思日记类只保留未在总表出现、能独立复述的外部小故事、笑话、掌故；排除李敖自身日记事件、交游、恋爱片段、单句感想、材料链和纯议论。",
+  "excludedByStandard": [
+    "李敖自己的日记事件、朋友往来、恋爱片段、论文题目和自我修养决心不收。",
+    "单句笑料、格言、读书感想和缺少故事正文的材料不收。",
+    "长篇论证材料和历史例子链不拆成故事，除非原文具有完整小故事形态。",
+    "前书已收的同题故事不重复收。"
+  ],
+  "extractionNotes": [
+    "候选扫描覆盖全书 7 个正文月份文件，自动候选 42 条。",
+    "补充以故事、笑话、问答、据说、结果、最后、Clive、Hastings 等关键词复查。",
+    "“天堂无神父”笑话已在《李敖语录》以本书来源收入总表，本轮不重复。",
+    "保留李幼冬事件，因为原文有完整事件和李敖用来说明传统观念害人的判断。",
+    "保留琳黛克丝儿、Clive、Hastings 段落，因为它们有外部人物、动作转折和故事收束。"
+  ],
+  "proofreadNotes": [
+    "提取轮 5 条，校对轮仍保留 5 条。",
+    "收窄 Clive 返国遭攻自杀条目，去掉同段前半引出 Hastings 的插句。",
+    "保留李幼冬事件、琳黛克丝儿入戏、Clive 顽童赴印度立功、Clive 返国遭攻自杀、Hastings 蒙冤昭雪。",
+    "继续排除李敖自身日记事件、单句笑料、条列提要、长篇议题材料和总表已收重复故事。"
+  ],
+  "aggregateDuplicateTextIds": [],
+  "generatedAt": "2026-07-04T09:55:32.789Z"
+}

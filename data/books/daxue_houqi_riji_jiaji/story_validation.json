@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "大学后期日记甲集",
+  "slug": "daxue_houqi_riji_jiaji",
+  "round": "story_round1",
+  "count": 5,
+  "totalChars": 1077,
+  "minChars": 96,
+  "maxChars": 398,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

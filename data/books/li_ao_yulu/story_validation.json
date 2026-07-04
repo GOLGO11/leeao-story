@@ -3,10 +3,10 @@
   "book": "李敖语录",
   "slug": "li_ao_yulu",
   "round": "story_round1",
-  "count": 13,
-  "totalChars": 2816,
-  "minChars": 95,
-  "maxChars": 432,
+  "count": 10,
+  "totalChars": 1356,
+  "minChars": 62,
+  "maxChars": 361,
   "duplicateTextIds": [],
   "missingSourceTextIds": []
 }

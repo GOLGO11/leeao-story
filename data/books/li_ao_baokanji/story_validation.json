@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "李敖报刊集",
+  "slug": "li_ao_baokanji",
+  "round": "story_round1",
+  "count": 5,
+  "totalChars": 1233,
+  "minChars": 101,
+  "maxChars": 515,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

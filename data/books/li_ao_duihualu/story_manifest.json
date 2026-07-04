@@ -1,0 +1,322 @@
+{
+  "book": "李敖对话录",
+  "slug": "li_ao_duihualu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\007.采访序跋类\\004.李敖对话录",
+  "sourceFiles": [
+    "《李敖对话录》目录.txt",
+    "《李敖对话录》自序.txt",
+    "001.才华盖世侠骨柔情的思想家.txt",
+    "002.对是非绝对是不让步的.txt",
+    "003.在台大·在法庭.txt",
+    "004.吐他一口痰.txt",
+    "005.答陈依玫.txt",
+    "006.论国民党的美感.txt",
+    "007.我的皮肉生涯.txt",
+    "008.党外人士不够小.txt",
+    "009.选举问题总解答.txt",
+    "010.李敖答问之一.txt",
+    "011.李敖答问之二.txt",
+    "012.李敖答问之三.txt",
+    "013.“却笑英雄‘有’好手，一江春水走曹瞒”.txt",
+    "014.台湾最有力量的个人.txt",
+    "015.给他来个“Seven Down”！.txt",
+    "016.五十而不知天命.txt",
+    "017.只有作战而死，怎能求情而死.txt",
+    "018.光靠龟儿子是不够的.txt",
+    "019.《花花公子》访问李敖.txt",
+    "020.书店升天，作者扫地.txt"
+  ],
+  "selectionCount": 19,
+  "count": 19,
+  "totalChars": 2112,
+  "aggregateCount": 900,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    },
+    {
+      "book": "为中国思想趋向求答案",
+      "slug": "wei_zhongguo_sixiang_quxiang_qiu_daan",
+      "count": 15
+    },
+    {
+      "book": "上下古今谈",
+      "slug": "shangxia_gujin_tan",
+      "count": 20
+    },
+    {
+      "book": "世论新语",
+      "slug": "shilun_xinyu",
+      "count": 11
+    },
+    {
+      "book": "求是新语",
+      "slug": "qiushi_xinyu",
+      "count": 12
+    },
+    {
+      "book": "我是天安门",
+      "slug": "woshi_tiananmen",
+      "count": 7
+    },
+    {
+      "book": "你是景福门",
+      "slug": "ni_shi_jingfumen",
+      "count": 7
+    },
+    {
+      "book": "为自由招魂",
+      "slug": "wei_ziyou_zhaohun",
+      "count": 13
+    },
+    {
+      "book": "你笨蛋，你笨蛋",
+      "slug": "ni_bendan_ni_bendan",
+      "count": 8
+    },
+    {
+      "book": "我梦碎，所以我梦醒",
+      "slug": "wo_mengsui_suoyi_wo_mengxing",
+      "count": 10
+    },
+    {
+      "book": "李敖新刊",
+      "slug": "li_ao_xinkan",
+      "count": 14
+    },
+    {
+      "book": "千秋万岁乌鸦求是合集",
+      "slug": "qianqiu_wansui_wuya_qiushi_heji",
+      "count": 37
+    },
+    {
+      "book": "李敖杂文集",
+      "slug": "li_ao_zawenji",
+      "count": 11
+    },
+    {
+      "book": "千秋万岁编外集",
+      "slug": "qianqiu_wansui_bianwaiji",
+      "count": 27
+    },
+    {
+      "book": "北京法源寺",
+      "slug": "beijing_fayuansi",
+      "count": 20
+    },
+    {
+      "book": "上山·上山·爱",
+      "slug": "shangshan_shangshan_ai",
+      "count": 33
+    },
+    {
+      "book": "红色11",
+      "slug": "hongse_11",
+      "count": 18
+    },
+    {
+      "book": "虚拟的十七岁",
+      "slug": "xuni_de_shiqisui",
+      "count": 31
+    },
+    {
+      "book": "阳痿美国",
+      "slug": "yangwei_meiguo",
+      "count": 11
+    },
+    {
+      "book": "第73烈士",
+      "slug": "di_73_lieshi",
+      "count": 7
+    },
+    {
+      "book": "爱情的秘密",
+      "slug": "aiqing_de_mimi",
+      "count": 6
+    },
+    {
+      "book": "李敖的情诗",
+      "slug": "li_ao_de_qingshi",
+      "count": 1
+    },
+    {
+      "book": "李语录",
+      "slug": "li_yulu",
+      "count": 4
+    },
+    {
+      "book": "李敖语录",
+      "slug": "li_ao_yulu",
+      "count": 10
+    },
+    {
+      "book": "虽千万人，李敖往矣",
+      "slug": "sui_qianwanren_li_ao_wangyi",
+      "count": 24
+    },
+    {
+      "book": "大学札记",
+      "slug": "daxue_zhaji",
+      "count": 10
+    },
+    {
+      "book": "早年日记",
+      "slug": "zaonian_riji",
+      "count": 4
+    },
+    {
+      "book": "大学后期日记甲集",
+      "slug": "daxue_houqi_riji_jiaji",
+      "count": 5
+    },
+    {
+      "book": "大学后期日记乙集",
+      "slug": "daxue_houqi_riji_yiji",
+      "count": 6
+    },
+    {
+      "book": "一个预备军官的日记",
+      "slug": "yige_yubei_junguan_de_riji",
+      "count": 17
+    },
+    {
+      "book": "李敖秘藏日记",
+      "slug": "li_ao_micang_riji",
+      "count": 6
+    },
+    {
+      "book": "李敖札记",
+      "slug": "li_ao_zhaji",
+      "count": 17
+    },
+    {
+      "book": "李敖五五日记",
+      "slug": "li_ao_wuwu_riji",
+      "count": 4
+    },
+    {
+      "book": "李敖随写录前集",
+      "slug": "li_ao_suixielu_qianji",
+      "count": 8
+    },
+    {
+      "book": "李敖随写录后集",
+      "slug": "li_ao_suixielu_houji",
+      "count": 8
+    },
+    {
+      "book": "李敖报刊集",
+      "slug": "li_ao_baokanji",
+      "count": 5
+    },
+    {
+      "book": "李敖书序集",
+      "slug": "li_ao_shuxuji",
+      "count": 14
+    },
+    {
+      "book": "李敖书序集续集",
+      "slug": "li_ao_shuxuji_xuji",
+      "count": 5
+    },
+    {
+      "book": "李敖对话录",
+      "slug": "li_ao_duihualu",
+      "count": 19
+    }
+  ],
+  "criteria": "对话录校对轮只收李敖在答问中讲成一个小故事、可独立复述并用来说明判断的历史掌故、文学故事、笑话、宗教故事和人物轶事；排除访谈问句、李敖自己的事件合集、政治材料链、人物履历、单句格言、纯观点论述和只有一句典故名片的材料。",
+  "excludedByStandard": [
+    "李敖自己的婚恋、坐牢、办刊、诉讼、查禁和政治交往经历原则上不收。",
+    "访谈问句本身、胡茵梦等非李敖回答中的故事不收。",
+    "人物履历、政治材料链、文章导读、单句格言、观点论述、一句话典故和事实材料不收。",
+    "总表已有更完整版本的同质故事不重复收入。"
+  ],
+  "extractionNotes": [
+    "通用候选扫描 224 条，补漏扫描 51 条。",
+    "提取轮保留 24 条；校对轮删去 5 条，保留 19 条。",
+    "奥本海默反问主考、晏子吊齐庄公等总表已有更完整版本，本轮不重复收入。",
+    "故事正文未改写，均按源文原句截取。"
+  ],
+  "proofreadNotes": [
+    "删去曾国藩洗脚戏门生、罗素竞选一败涂地：只有一句典故材料，故事性不足。",
+    "删去黄克强嫌袁世凯看低人、杜月笙说自己是夜壶、李宗仁台儿庄用杂牌军：偏一句话评价、比喻或事实材料。",
+    "保留 19 条有最小情节、动作、转折或结局的故事。"
+  ],
+  "aggregateDuplicateTextIds": [],
+  "generatedAt": "2026-07-04T13:34:02.010Z"
+}

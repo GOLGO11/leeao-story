@@ -1,0 +1,245 @@
+{
+  "book": "早年日记",
+  "slug": "zaonian_riji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\006.沉思日记类\\002.早年日记",
+  "sourceFiles": [
+    "《早年日记》目录.txt",
+    "001.十七天的校园生活.txt",
+    "002.毕业以后，从军以前.txt",
+    "003.四席小屋日记.txt",
+    "004.二十年前的一些断片.txt"
+  ],
+  "selectionCount": 4,
+  "count": 4,
+  "totalChars": 354,
+  "aggregateCount": 786,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    },
+    {
+      "book": "为中国思想趋向求答案",
+      "slug": "wei_zhongguo_sixiang_quxiang_qiu_daan",
+      "count": 15
+    },
+    {
+      "book": "上下古今谈",
+      "slug": "shangxia_gujin_tan",
+      "count": 20
+    },
+    {
+      "book": "世论新语",
+      "slug": "shilun_xinyu",
+      "count": 11
+    },
+    {
+      "book": "求是新语",
+      "slug": "qiushi_xinyu",
+      "count": 12
+    },
+    {
+      "book": "我是天安门",
+      "slug": "woshi_tiananmen",
+      "count": 7
+    },
+    {
+      "book": "你是景福门",
+      "slug": "ni_shi_jingfumen",
+      "count": 7
+    },
+    {
+      "book": "为自由招魂",
+      "slug": "wei_ziyou_zhaohun",
+      "count": 13
+    },
+    {
+      "book": "你笨蛋，你笨蛋",
+      "slug": "ni_bendan_ni_bendan",
+      "count": 8
+    },
+    {
+      "book": "我梦碎，所以我梦醒",
+      "slug": "wo_mengsui_suoyi_wo_mengxing",
+      "count": 10
+    },
+    {
+      "book": "李敖新刊",
+      "slug": "li_ao_xinkan",
+      "count": 14
+    },
+    {
+      "book": "千秋万岁乌鸦求是合集",
+      "slug": "qianqiu_wansui_wuya_qiushi_heji",
+      "count": 37
+    },
+    {
+      "book": "李敖杂文集",
+      "slug": "li_ao_zawenji",
+      "count": 11
+    },
+    {
+      "book": "千秋万岁编外集",
+      "slug": "qianqiu_wansui_bianwaiji",
+      "count": 27
+    },
+    {
+      "book": "北京法源寺",
+      "slug": "beijing_fayuansi",
+      "count": 20
+    },
+    {
+      "book": "上山·上山·爱",
+      "slug": "shangshan_shangshan_ai",
+      "count": 33
+    },
+    {
+      "book": "红色11",
+      "slug": "hongse_11",
+      "count": 18
+    },
+    {
+      "book": "虚拟的十七岁",
+      "slug": "xuni_de_shiqisui",
+      "count": 31
+    },
+    {
+      "book": "阳痿美国",
+      "slug": "yangwei_meiguo",
+      "count": 11
+    },
+    {
+      "book": "第73烈士",
+      "slug": "di_73_lieshi",
+      "count": 7
+    },
+    {
+      "book": "爱情的秘密",
+      "slug": "aiqing_de_mimi",
+      "count": 6
+    },
+    {
+      "book": "李敖的情诗",
+      "slug": "li_ao_de_qingshi",
+      "count": 1
+    },
+    {
+      "book": "李语录",
+      "slug": "li_yulu",
+      "count": 4
+    },
+    {
+      "book": "李敖语录",
+      "slug": "li_ao_yulu",
+      "count": 10
+    },
+    {
+      "book": "虽千万人，李敖往矣",
+      "slug": "sui_qianwanren_li_ao_wangyi",
+      "count": 24
+    },
+    {
+      "book": "大学札记",
+      "slug": "daxue_zhaji",
+      "count": 10
+    },
+    {
+      "book": "早年日记",
+      "slug": "zaonian_riji",
+      "count": 4
+    }
+  ],
+  "criteria": "沉思日记类只保留未在总表出现、能独立复述的外部小故事、笑话、掌故；排除李敖自身日记事件、交游、观影剧情摘要、单句感想、材料链和纯议论。",
+  "excludedByStandard": [
+    "李敖自己的日记事件、朋友往来、诉讼出版经过和自我修养决心不收。",
+    "电影剧情摘要、单句机锋、格言、读书感想和缺少动作转折的材料不收。",
+    "长篇论证材料和历史例子链不拆成故事，除非原文具有完整小故事形态。"
+  ],
+  "extractionNotes": [
+    "候选扫描覆盖全书 5 个文本文件，自动候选 32 条。",
+    "补充以故事、笑话、问答、闻、据说、有一位等关键词复查，保留 3 条外部小故事或笑话。",
+    "旧金山中国学生恶作剧虽带日记语境，但原文有外部人物、动作转折和李敖自己的归纳，暂收入提取轮待校对。",
+    "严复与张国淦选票段落合并为一条，因为原文在同一段中连续转述两个短投票讽刺。"
+  ],
+  "proofreadNotes": [
+    "提取轮 3 条，校对轮拆分 1 条为 2 条，校对后 4 条。",
+    "保留旧金山中国学生恶作剧、严复票上写梅兰芳、张国淦票上写五千元、美国人排犹笑话。",
+    "旧金山段落保留完整句群，因为最后的判断句是李敖用这则外部故事说明的道理。",
+    "严复与张国淦选票段落按独立笑话拆分，正文边界收窄到各自故事文字。"
+  ],
+  "aggregateDuplicateTextIds": [],
+  "generatedAt": "2026-07-04T09:43:16.149Z"
+}

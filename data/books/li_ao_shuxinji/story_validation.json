@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖书信集",
+  "slug": "li_ao_shuxinji",
+  "round": "story_round1",
+  "status": "提取轮",
+  "count": 6,
+  "totalChars": 808,
+  "minChars": 82,
+  "maxChars": 223,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "李敖五五日记",
+  "slug": "li_ao_wuwu_riji",
+  "round": "story_round1",
+  "count": 4,
+  "totalChars": 268,
+  "minChars": 40,
+  "maxChars": 123,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

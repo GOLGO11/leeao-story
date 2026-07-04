@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "李敖秘藏日记",
+  "slug": "li_ao_micang_riji",
+  "round": "story_round1",
+  "count": 6,
+  "totalChars": 1185,
+  "minChars": 72,
+  "maxChars": 318,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

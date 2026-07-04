@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "早年日记",
+  "slug": "zaonian_riji",
+  "round": "story_round1",
+  "count": 4,
+  "totalChars": 354,
+  "minChars": 20,
+  "maxChars": 239,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

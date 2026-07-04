@@ -1,0 +1,312 @@
+{
+  "book": "李敖书序集",
+  "slug": "li_ao_shuxuji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\007.采访序跋类\\002.李敖书序集",
+  "sourceFiles": [
+    "《李敖书序集》目录.txt",
+    "001.写在居浩然《十论》的前面.txt",
+    "002.介绍《汪政权的开场与收场》.txt",
+    "003.《恶法录及其他》新版前言.txt",
+    "004.介绍《紫禁城的黄昏》.txt",
+    "005.推荐《海国男儿》.txt",
+    "006.介绍《满宫残照记》.txt",
+    "007.《调查局研究》序.txt",
+    "008.推荐《李宗仁回忆录》.txt",
+    "009.我看《汪精卫传》.txt",
+    "010.新版《军统内幕》缘起.txt",
+    "011.新印《厚黑教主传》述源.txt",
+    "012.新版《政海秘辛》缘起.txt",
+    "013.《新官场现形记》序.txt",
+    "014.介绍《国共斗争的见闻》.txt",
+    "015.《鹰犬将军》新版书后.txt",
+    "016.《侍卫长谈毛泽东》题记.txt",
+    "017.《侍卫官谈蒋介石》题记.txt",
+    "018.梁漱溟和他的《忆往谈旧录》.txt",
+    "019.汪荣祖《章太炎研究》序.txt",
+    "020.安全局机密文件——《历年办理匪案汇编》序.txt"
+  ],
+  "selectionCount": 14,
+  "count": 14,
+  "totalChars": 4596,
+  "aggregateCount": 876,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    },
+    {
+      "book": "为中国思想趋向求答案",
+      "slug": "wei_zhongguo_sixiang_quxiang_qiu_daan",
+      "count": 15
+    },
+    {
+      "book": "上下古今谈",
+      "slug": "shangxia_gujin_tan",
+      "count": 20
+    },
+    {
+      "book": "世论新语",
+      "slug": "shilun_xinyu",
+      "count": 11
+    },
+    {
+      "book": "求是新语",
+      "slug": "qiushi_xinyu",
+      "count": 12
+    },
+    {
+      "book": "我是天安门",
+      "slug": "woshi_tiananmen",
+      "count": 7
+    },
+    {
+      "book": "你是景福门",
+      "slug": "ni_shi_jingfumen",
+      "count": 7
+    },
+    {
+      "book": "为自由招魂",
+      "slug": "wei_ziyou_zhaohun",
+      "count": 13
+    },
+    {
+      "book": "你笨蛋，你笨蛋",
+      "slug": "ni_bendan_ni_bendan",
+      "count": 8
+    },
+    {
+      "book": "我梦碎，所以我梦醒",
+      "slug": "wo_mengsui_suoyi_wo_mengxing",
+      "count": 10
+    },
+    {
+      "book": "李敖新刊",
+      "slug": "li_ao_xinkan",
+      "count": 14
+    },
+    {
+      "book": "千秋万岁乌鸦求是合集",
+      "slug": "qianqiu_wansui_wuya_qiushi_heji",
+      "count": 37
+    },
+    {
+      "book": "李敖杂文集",
+      "slug": "li_ao_zawenji",
+      "count": 11
+    },
+    {
+      "book": "千秋万岁编外集",
+      "slug": "qianqiu_wansui_bianwaiji",
+      "count": 27
+    },
+    {
+      "book": "北京法源寺",
+      "slug": "beijing_fayuansi",
+      "count": 20
+    },
+    {
+      "book": "上山·上山·爱",
+      "slug": "shangshan_shangshan_ai",
+      "count": 33
+    },
+    {
+      "book": "红色11",
+      "slug": "hongse_11",
+      "count": 18
+    },
+    {
+      "book": "虚拟的十七岁",
+      "slug": "xuni_de_shiqisui",
+      "count": 31
+    },
+    {
+      "book": "阳痿美国",
+      "slug": "yangwei_meiguo",
+      "count": 11
+    },
+    {
+      "book": "第73烈士",
+      "slug": "di_73_lieshi",
+      "count": 7
+    },
+    {
+      "book": "爱情的秘密",
+      "slug": "aiqing_de_mimi",
+      "count": 6
+    },
+    {
+      "book": "李敖的情诗",
+      "slug": "li_ao_de_qingshi",
+      "count": 1
+    },
+    {
+      "book": "李语录",
+      "slug": "li_yulu",
+      "count": 4
+    },
+    {
+      "book": "李敖语录",
+      "slug": "li_ao_yulu",
+      "count": 10
+    },
+    {
+      "book": "虽千万人，李敖往矣",
+      "slug": "sui_qianwanren_li_ao_wangyi",
+      "count": 24
+    },
+    {
+      "book": "大学札记",
+      "slug": "daxue_zhaji",
+      "count": 10
+    },
+    {
+      "book": "早年日记",
+      "slug": "zaonian_riji",
+      "count": 4
+    },
+    {
+      "book": "大学后期日记甲集",
+      "slug": "daxue_houqi_riji_jiaji",
+      "count": 5
+    },
+    {
+      "book": "大学后期日记乙集",
+      "slug": "daxue_houqi_riji_yiji",
+      "count": 6
+    },
+    {
+      "book": "一个预备军官的日记",
+      "slug": "yige_yubei_junguan_de_riji",
+      "count": 17
+    },
+    {
+      "book": "李敖秘藏日记",
+      "slug": "li_ao_micang_riji",
+      "count": 6
+    },
+    {
+      "book": "李敖札记",
+      "slug": "li_ao_zhaji",
+      "count": 17
+    },
+    {
+      "book": "李敖五五日记",
+      "slug": "li_ao_wuwu_riji",
+      "count": 4
+    },
+    {
+      "book": "李敖随写录前集",
+      "slug": "li_ao_suixielu_qianji",
+      "count": 8
+    },
+    {
+      "book": "李敖随写录后集",
+      "slug": "li_ao_suixielu_houji",
+      "count": 8
+    },
+    {
+      "book": "李敖报刊集",
+      "slug": "li_ao_baokanji",
+      "count": 5
+    },
+    {
+      "book": "李敖书序集",
+      "slug": "li_ao_shuxuji",
+      "count": 14
+    }
+  ],
+  "criteria": "书序类校对轮只收可独立复述并用来说明判断的小故事、掌故、人物轶事和短案例；排除书目评价、作者履历、版本说明、李敖自己的出版交往、案件材料链和未展开材料。",
+  "excludedByStandard": [
+    "李敖自己的出版、约稿、配图、校对、探访、狱中亲历和交往经过不收。",
+    "概括性人物履历、史论判断、文章导读、版本说明和材料清单不收。",
+    "案件类材料链即使有叙事性，也不作为故事条目。",
+    "总表已有同质故事不重复收入。"
+  ],
+  "extractionNotes": [
+    "候选扫描覆盖全书 20 个正文文件，自动候选 272 条。",
+    "提取轮保留居正、居瀛玖、淡江英专、庄士敦书中掌故、沈醉、李宗吾、万大鋐、曹操许子将、熊十力梁漱溟、章太炎陈炯明，以及《历年办理匪案汇编》外部冤案例证等 23 条。",
+    "007《调查局研究》叙事虽强，但主体为李敖自己的狱中亲历，本轮不收。",
+    "故事正文未改写，均按源文原句截取。"
+  ],
+  "proofreadNotes": [
+    "校对轮删去“居瀛玖偷通信寻亲”：偏人物身世铺陈，故事性弱于掌故轶事。",
+    "校对轮删去“张建邦夺淡江赶舅舅”“居瀛玖受辱自尽”：偏连续家族/学校事件，不作为小故事收入。",
+    "校对轮删去《历年办理匪案汇编》6 条：偏案件材料链和冤案档案，容易把故事集拉回事件合集。",
+    "校对轮保留 14 条短小、可独立复述且有判断指向的故事。"
+  ],
+  "aggregateDuplicateTextIds": [],
+  "generatedAt": "2026-07-04T12:50:46.370Z"
+}

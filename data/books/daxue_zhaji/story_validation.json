@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "大学札记",
+  "slug": "daxue_zhaji",
+  "round": "story_round1",
+  "count": 10,
+  "totalChars": 1342,
+  "minChars": 71,
+  "maxChars": 220,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

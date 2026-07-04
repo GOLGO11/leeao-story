@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "李敖书序集",
+  "slug": "li_ao_shuxuji",
+  "round": "story_round1",
+  "count": 14,
+  "totalChars": 4596,
+  "minChars": 96,
+  "maxChars": 656,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

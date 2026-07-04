@@ -1,0 +1,385 @@
+{
+  "book": "李敖书信集",
+  "slug": "li_ao_shuxinji",
+  "round": "story_round1",
+  "status": "提取轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\008.书信函件类\\002.李敖书信集",
+  "sourceFiles": [
+    "001.我怎样给王尚义擦屁股.txt",
+    "002.以失业为业.txt",
+    "003.才吏自扰.txt",
+    "004.谁来激烈？.txt",
+    "005.一个作家的反叛.txt",
+    "006.为“护照”而战.txt",
+    "007.论识货.txt",
+    "008.给许荣淑的一封信.txt",
+    "009.我才不走呢！.txt",
+    "010.给徐璐的一封信.txt",
+    "011.公器、选举及其他.txt",
+    "012.我为什么“战斗性隐居”？.txt",
+    "013.“三进宫”答刘辰旦.txt",
+    "014.坐假牢与判假刑.txt",
+    "015.回邓维桢的一封信.txt",
+    "016.特权阶级与残山剩水.txt",
+    "017.兔唇与真理.txt",
+    "018.自大者言.txt",
+    "019.归骨于昆仑之西.txt",
+    "020.乱世中的一个感想.txt",
+    "021.答陈平景.txt",
+    "022.全是天方夜谭！.txt",
+    "023.做光明磊落的朋友·做光明磊落的敌人.txt",
+    "024.别人捧得不够.txt",
+    "025.永怀沈铭三先生.txt",
+    "026.天下没有不散的筵席.txt",
+    "027.小批新生代.txt",
+    "028.我为什么不鼓掌？.txt",
+    "029.愈来愈像小偷了.txt",
+    "030.选举期间的三封信.txt",
+    "031.回“苏秋镇之女”的一封信.txt",
+    "032.扳手与玫瑰.txt",
+    "033.大丈夫不怕失败.txt",
+    "034.“我心里有老虎在闻玫瑰”.txt",
+    "035.为黑吃黑举一个例.txt",
+    "036.回陈水扁的一封信.txt",
+    "037.给谢长廷的一封信.txt",
+    "038.记“四大寇”之一.txt",
+    "039.我们有同第二代斗争的准备.txt",
+    "040.人见人怕鬼见愁.txt",
+    "041.佛头上与太岁头上.txt",
+    "042.给施启扬老兄的公开信.txt",
+    "043.给杨金欉市长的一封信.txt",
+    "044.给台北牢头的一封信.txt",
+    "045.你有郑文良，我有赖文良.txt",
+    "046.“吴代叶僵”探秘.txt",
+    "047.你怎能把所学和所用变成两截？.txt",
+    "048.善有恶报又何妨！.txt",
+    "049.关于同志的质疑.txt",
+    "050.质问黄少谷先生.txt",
+    "051.蚱蜢者，匪谍也.txt",
+    "052.封建主义是海峡两岸的共同敌人.txt",
+    "053.我不能不抗议了！.txt",
+    "054.迟来的“Ping”.txt",
+    "055.李敖看《消灭李敖，还是被李敖消灭？》.txt",
+    "056.寿星杂感.txt",
+    "057.可以怀古，不必怀乡.txt",
+    "058.不要为扶住懦夫而让勇士倒下.txt",
+    "059.左眼·右眼·青眼·白眼.txt",
+    "060.论小的也要.txt",
+    "061.1958年9月20日致胡适信.txt",
+    "062.1968年生日给王尚勤.txt",
+    "063.1981年李敖家书.txt",
+    "064.1971年9月30日致萧孟能信.txt",
+    "065.1973年3月5日致周渝信.txt",
+    "066.2002年1月20日致杨仁恺信.txt",
+    "067.2002年4月2日致杨仁恺信.txt",
+    "068.2010年致蔡武信残本.txt",
+    "069.2015年致王尚勤短信.txt",
+    "070.李敖写给王敬羲的十封信.txt",
+    "071.1980年末李敖致高信疆.txt"
+  ],
+  "sourceFileCount": 71,
+  "candidateScan": "notes/li_ao_shuxinji_candidate_scan.tsv",
+  "candidateCount": 266,
+  "selectionCount": 6,
+  "count": 6,
+  "totalChars": 808,
+  "aggregateCount": 935,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    },
+    {
+      "book": "为中国思想趋向求答案",
+      "slug": "wei_zhongguo_sixiang_quxiang_qiu_daan",
+      "count": 15
+    },
+    {
+      "book": "上下古今谈",
+      "slug": "shangxia_gujin_tan",
+      "count": 20
+    },
+    {
+      "book": "世论新语",
+      "slug": "shilun_xinyu",
+      "count": 11
+    },
+    {
+      "book": "求是新语",
+      "slug": "qiushi_xinyu",
+      "count": 12
+    },
+    {
+      "book": "我是天安门",
+      "slug": "woshi_tiananmen",
+      "count": 7
+    },
+    {
+      "book": "你是景福门",
+      "slug": "ni_shi_jingfumen",
+      "count": 7
+    },
+    {
+      "book": "为自由招魂",
+      "slug": "wei_ziyou_zhaohun",
+      "count": 13
+    },
+    {
+      "book": "你笨蛋，你笨蛋",
+      "slug": "ni_bendan_ni_bendan",
+      "count": 8
+    },
+    {
+      "book": "我梦碎，所以我梦醒",
+      "slug": "wo_mengsui_suoyi_wo_mengxing",
+      "count": 10
+    },
+    {
+      "book": "李敖新刊",
+      "slug": "li_ao_xinkan",
+      "count": 14
+    },
+    {
+      "book": "千秋万岁乌鸦求是合集",
+      "slug": "qianqiu_wansui_wuya_qiushi_heji",
+      "count": 37
+    },
+    {
+      "book": "李敖杂文集",
+      "slug": "li_ao_zawenji",
+      "count": 11
+    },
+    {
+      "book": "千秋万岁编外集",
+      "slug": "qianqiu_wansui_bianwaiji",
+      "count": 27
+    },
+    {
+      "book": "北京法源寺",
+      "slug": "beijing_fayuansi",
+      "count": 20
+    },
+    {
+      "book": "上山·上山·爱",
+      "slug": "shangshan_shangshan_ai",
+      "count": 33
+    },
+    {
+      "book": "红色11",
+      "slug": "hongse_11",
+      "count": 18
+    },
+    {
+      "book": "虚拟的十七岁",
+      "slug": "xuni_de_shiqisui",
+      "count": 31
+    },
+    {
+      "book": "阳痿美国",
+      "slug": "yangwei_meiguo",
+      "count": 11
+    },
+    {
+      "book": "第73烈士",
+      "slug": "di_73_lieshi",
+      "count": 7
+    },
+    {
+      "book": "爱情的秘密",
+      "slug": "aiqing_de_mimi",
+      "count": 6
+    },
+    {
+      "book": "李敖的情诗",
+      "slug": "li_ao_de_qingshi",
+      "count": 1
+    },
+    {
+      "book": "李语录",
+      "slug": "li_yulu",
+      "count": 4
+    },
+    {
+      "book": "李敖语录",
+      "slug": "li_ao_yulu",
+      "count": 10
+    },
+    {
+      "book": "虽千万人，李敖往矣",
+      "slug": "sui_qianwanren_li_ao_wangyi",
+      "count": 24
+    },
+    {
+      "book": "大学札记",
+      "slug": "daxue_zhaji",
+      "count": 10
+    },
+    {
+      "book": "早年日记",
+      "slug": "zaonian_riji",
+      "count": 4
+    },
+    {
+      "book": "大学后期日记甲集",
+      "slug": "daxue_houqi_riji_jiaji",
+      "count": 5
+    },
+    {
+      "book": "大学后期日记乙集",
+      "slug": "daxue_houqi_riji_yiji",
+      "count": 6
+    },
+    {
+      "book": "一个预备军官的日记",
+      "slug": "yige_yubei_junguan_de_riji",
+      "count": 17
+    },
+    {
+      "book": "李敖秘藏日记",
+      "slug": "li_ao_micang_riji",
+      "count": 6
+    },
+    {
+      "book": "李敖札记",
+      "slug": "li_ao_zhaji",
+      "count": 17
+    },
+    {
+      "book": "李敖五五日记",
+      "slug": "li_ao_wuwu_riji",
+      "count": 4
+    },
+    {
+      "book": "李敖随写录前集",
+      "slug": "li_ao_suixielu_qianji",
+      "count": 8
+    },
+    {
+      "book": "李敖随写录后集",
+      "slug": "li_ao_suixielu_houji",
+      "count": 8
+    },
+    {
+      "book": "李敖报刊集",
+      "slug": "li_ao_baokanji",
+      "count": 5
+    },
+    {
+      "book": "李敖书序集",
+      "slug": "li_ao_shuxuji",
+      "count": 14
+    },
+    {
+      "book": "李敖书序集续集",
+      "slug": "li_ao_shuxuji_xuji",
+      "count": 5
+    },
+    {
+      "book": "李敖对话录",
+      "slug": "li_ao_duihualu",
+      "count": 19
+    },
+    {
+      "book": "李敖访谈录1990-2018",
+      "slug": "li_ao_fangtanlu_1990_2018",
+      "count": 22
+    },
+    {
+      "book": "李敖情书集",
+      "slug": "li_ao_qingshuji",
+      "count": 7
+    },
+    {
+      "book": "李敖书信集",
+      "slug": "li_ao_shuxinji",
+      "count": 6
+    }
+  ],
+  "criteria": "书信类提取轮只收信中被讲成一个可独立复述、并用来说明观点的小故事、笑话、神话或历史掌故；排除李敖自己的事件合集、现实案件材料、时政材料链、人物履历、单句典故和纯文学评论。",
+  "excludedByStandard": [
+    "李敖自己的出版、官司、坐牢、家务、人际往来和政治论战材料原则上不收。",
+    "现实案件、牢狱见闻、家书纠纷和书信往返本身不收。",
+    "人物履历、文学评论、单句典故、引文材料和故事性过薄的材料不收。",
+    "总表已有同质或更完整版本的故事不重复收入。"
+  ],
+  "extractionNotes": [
+    "候选扫描覆盖 71 个正文文件，通用候选 266 条。",
+    "清教徒遇海盗、山西房东骗杀黑狗、苏峻宁山头望廷尉已在总表有版本，本轮不重复收入。",
+    "保留丁惟汾、陶渊明种桑、欧阳修父亲、兔儿爷传错话、投币按摩床、猎人老鼠头漫画等 6 条。",
+    "对长段只截取故事本身，删去前后书信问候、政治类比或李敖自我延伸。",
+    "故事正文未改写，均按源文原句截取。"
+  ],
+  "aggregateDuplicateTextIds": [],
+  "generatedAt": "2026-07-04T14:03:48.784Z"
+}

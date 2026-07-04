@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖访谈录1990-2018",
+  "slug": "li_ao_fangtanlu_1990_2018",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 22,
+  "totalChars": 2942,
+  "minChars": 51,
+  "maxChars": 299,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

@@ -1,0 +1,391 @@
+{
+  "book": "李敖访谈录1990-2018",
+  "slug": "li_ao_fangtanlu_1990_2018",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\007.采访序跋类\\005.李敖访谈录1990-2018",
+  "sourceFiles": [
+    "001.19850412《民主天地周刊》专访李敖.txt",
+    "002.19901120戴小华专访李敖.txt",
+    "003.19960415《远见》专访李敖.txt",
+    "004.1997李敖养生之道——打官司.txt",
+    "005.1998《新新闻周报》李敖专题.txt",
+    "006.199810《跨海看台湾》专访李敖.txt",
+    "007.19990403《长江日报》专访李敖.txt",
+    "008.1999年6月PLAYBOY专访李敖.txt",
+    "009.19990819《中国时报》专访李敖.txt",
+    "010.19990825《商业周刊》专访李敖.txt",
+    "011.19990828-0903《TVBS周刊》专访李敖.txt",
+    "012.20000111《中国青年报》专访李敖.txt",
+    "013.20000218《上海青年报》专访李敖.txt",
+    "014.20000412《TVBS周刊》李敖对谈.txt",
+    "015.20000413《北京青年报》专访李敖.txt",
+    "016.2000《北京青年报》《羊城晚报》《搜狐网》专访李敖.txt",
+    "017.2000《时事开讲》专访李敖.txt",
+    "018.20000809《北京青年报》专访李敖.txt",
+    "019.20000809《羊城晚报》专访李敖.txt",
+    "020.2000-2001《上海青年报》专访李敖.txt",
+    "021.20010423《亚洲周刊》专访李敖.txt",
+    "022.20010604《新华网》专访李敖.txt",
+    "023.20010716《广角镜月刊》专访李敖.txt",
+    "024.20030504《亚洲周刊》专访李敖.txt",
+    "025.20031123《亚洲周刊》李敖专题.txt",
+    "026.20031124《联合晚报》李敖专题.txt",
+    "027.20031126《苹果日报》李敖专题.txt",
+    "028.20031215《TVBS》李敖专题.txt",
+    "029.20031215《东森新闻》专访李敖.txt",
+    "030.200402《齐鲁周刊》专访李敖.txt",
+    "031.2004李敖参选立委对话录.txt",
+    "032.20040229《中国时报》李敖专题.txt",
+    "033.20040522《文汇报》专访李敖.txt",
+    "034.20041202《新周报》专访李敖.txt",
+    "035.20041213《中国新闻周刊》专访李敖.txt",
+    "036.20050121《中新网》李敖专题.txt",
+    "037.20050202、200505中旬《南方人物周刊》专访李敖.txt",
+    "038.20050330《人民日报》专访李敖.txt",
+    "039.20050602《读者文摘》李敖专题.txt",
+    "040.20050702《美国侨报》专访李敖.txt",
+    "041.20050919《中国时报》专访李敖.txt",
+    "042.20050923《北京晚报》专访李敖.txt",
+    "043.20050929《南方周末》专访李敖.txt",
+    "044.20060210《南方周末》专访李敖.txt",
+    "045.20060426《联合早报》专访李敖.txt",
+    "046.20070126《南都周刊》专访李敖.txt",
+    "047.20090803《南方人物周刊》专访李敖.txt",
+    "048.20100830《凤凰网》专访李敖.txt",
+    "049.20100831《凤凰网》专访李敖.txt",
+    "050.20100910《南方周末》专访李敖.txt",
+    "051.20110402《南方日报》李敖专题.txt",
+    "052.20110404《厦门商报》李敖专题.txt",
+    "053.20110406《中国网》李敖专题.txt",
+    "054.20110821《晶报·深港书评》专访李敖.txt",
+    "055.20110822《现代快报》专访李敖.txt",
+    "056.20110824《京华时报》专访李敖.txt",
+    "057.20110831《辽沈晚报》专访李敖.txt",
+    "058.20110907《中国新闻周刊》专访李敖.txt",
+    "059.20111123《华西都市报》专访李敖.txt",
+    "060.2011《新闻晨报》专访李敖.txt",
+    "061.20120523《外滩画报》专访李敖.txt",
+    "062.20121010《成都商报》专访李敖.txt",
+    "063.20121010《华西都市报》专访李敖.txt",
+    "064.20121010《长江日报》专访李敖.txt",
+    "065.20121028《长春晚报》专访李敖.txt",
+    "066.20130730《环球人物杂志》专访李敖.txt",
+    "067.20140410《海峡导报》专访李敖.txt",
+    "068.20140413《亚洲周刊》专访李敖.txt",
+    "069.20140616《半岛都市报》李敖专题.txt",
+    "070.20140728《澎湃新闻网》李敖、李戡专题.txt",
+    "071.20140828《南方周末》专访李敖.txt",
+    "072.20150407《海峡导报》专访李敖.txt",
+    "073.20150730中视专访李敖.txt",
+    "074.20170222《亚洲周刊》专访李敖.txt",
+    "075.20170225《亚洲周刊》专访李敖.txt",
+    "076.20170411《中国报》报导.txt",
+    "077.2018《新民周刊》回顾专访.txt",
+    "078.20180319《北京青年报》报导.txt",
+    "079.20180329腾讯新闻报导.txt",
+    "080.20180722中新社报导.txt",
+    "081.20180829《广州日报》报导.txt"
+  ],
+  "sourceFileCount": 81,
+  "candidateScan": "notes/li_ao_fangtanlu_1990_2018_candidate_scan.tsv",
+  "candidateCount": 940,
+  "selectionCount": 22,
+  "count": 22,
+  "totalChars": 2942,
+  "aggregateCount": 922,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    },
+    {
+      "book": "为中国思想趋向求答案",
+      "slug": "wei_zhongguo_sixiang_quxiang_qiu_daan",
+      "count": 15
+    },
+    {
+      "book": "上下古今谈",
+      "slug": "shangxia_gujin_tan",
+      "count": 20
+    },
+    {
+      "book": "世论新语",
+      "slug": "shilun_xinyu",
+      "count": 11
+    },
+    {
+      "book": "求是新语",
+      "slug": "qiushi_xinyu",
+      "count": 12
+    },
+    {
+      "book": "我是天安门",
+      "slug": "woshi_tiananmen",
+      "count": 7
+    },
+    {
+      "book": "你是景福门",
+      "slug": "ni_shi_jingfumen",
+      "count": 7
+    },
+    {
+      "book": "为自由招魂",
+      "slug": "wei_ziyou_zhaohun",
+      "count": 13
+    },
+    {
+      "book": "你笨蛋，你笨蛋",
+      "slug": "ni_bendan_ni_bendan",
+      "count": 8
+    },
+    {
+      "book": "我梦碎，所以我梦醒",
+      "slug": "wo_mengsui_suoyi_wo_mengxing",
+      "count": 10
+    },
+    {
+      "book": "李敖新刊",
+      "slug": "li_ao_xinkan",
+      "count": 14
+    },
+    {
+      "book": "千秋万岁乌鸦求是合集",
+      "slug": "qianqiu_wansui_wuya_qiushi_heji",
+      "count": 37
+    },
+    {
+      "book": "李敖杂文集",
+      "slug": "li_ao_zawenji",
+      "count": 11
+    },
+    {
+      "book": "千秋万岁编外集",
+      "slug": "qianqiu_wansui_bianwaiji",
+      "count": 27
+    },
+    {
+      "book": "北京法源寺",
+      "slug": "beijing_fayuansi",
+      "count": 20
+    },
+    {
+      "book": "上山·上山·爱",
+      "slug": "shangshan_shangshan_ai",
+      "count": 33
+    },
+    {
+      "book": "红色11",
+      "slug": "hongse_11",
+      "count": 18
+    },
+    {
+      "book": "虚拟的十七岁",
+      "slug": "xuni_de_shiqisui",
+      "count": 31
+    },
+    {
+      "book": "阳痿美国",
+      "slug": "yangwei_meiguo",
+      "count": 11
+    },
+    {
+      "book": "第73烈士",
+      "slug": "di_73_lieshi",
+      "count": 7
+    },
+    {
+      "book": "爱情的秘密",
+      "slug": "aiqing_de_mimi",
+      "count": 6
+    },
+    {
+      "book": "李敖的情诗",
+      "slug": "li_ao_de_qingshi",
+      "count": 1
+    },
+    {
+      "book": "李语录",
+      "slug": "li_yulu",
+      "count": 4
+    },
+    {
+      "book": "李敖语录",
+      "slug": "li_ao_yulu",
+      "count": 10
+    },
+    {
+      "book": "虽千万人，李敖往矣",
+      "slug": "sui_qianwanren_li_ao_wangyi",
+      "count": 24
+    },
+    {
+      "book": "大学札记",
+      "slug": "daxue_zhaji",
+      "count": 10
+    },
+    {
+      "book": "早年日记",
+      "slug": "zaonian_riji",
+      "count": 4
+    },
+    {
+      "book": "大学后期日记甲集",
+      "slug": "daxue_houqi_riji_jiaji",
+      "count": 5
+    },
+    {
+      "book": "大学后期日记乙集",
+      "slug": "daxue_houqi_riji_yiji",
+      "count": 6
+    },
+    {
+      "book": "一个预备军官的日记",
+      "slug": "yige_yubei_junguan_de_riji",
+      "count": 17
+    },
+    {
+      "book": "李敖秘藏日记",
+      "slug": "li_ao_micang_riji",
+      "count": 6
+    },
+    {
+      "book": "李敖札记",
+      "slug": "li_ao_zhaji",
+      "count": 17
+    },
+    {
+      "book": "李敖五五日记",
+      "slug": "li_ao_wuwu_riji",
+      "count": 4
+    },
+    {
+      "book": "李敖随写录前集",
+      "slug": "li_ao_suixielu_qianji",
+      "count": 8
+    },
+    {
+      "book": "李敖随写录后集",
+      "slug": "li_ao_suixielu_houji",
+      "count": 8
+    },
+    {
+      "book": "李敖报刊集",
+      "slug": "li_ao_baokanji",
+      "count": 5
+    },
+    {
+      "book": "李敖书序集",
+      "slug": "li_ao_shuxuji",
+      "count": 14
+    },
+    {
+      "book": "李敖书序集续集",
+      "slug": "li_ao_shuxuji_xuji",
+      "count": 5
+    },
+    {
+      "book": "李敖对话录",
+      "slug": "li_ao_duihualu",
+      "count": 19
+    },
+    {
+      "book": "李敖访谈录1990-2018",
+      "slug": "li_ao_fangtanlu_1990_2018",
+      "count": 22
+    }
+  ],
+  "criteria": "访谈录校对轮只收李敖在回答中讲成一个可独立复述、并明显用来说明道理或判断的小故事；排除李敖自己的事件、访谈现场问答、政治材料链、人物履历、单句观点、书籍剧情介绍和只有一个典故名片的材料。",
+  "excludedByStandard": [
+    "李敖自己的坐牢、选举、出版、疾病、收藏、人际往来和时政判断原则上不收。",
+    "访谈问句、主持人叙述、记者报导和李敖逝后他人回忆不收。",
+    "事实说明、观点论述、人物履历、文章导读、单句典故和故事性过薄的材料不收。",
+    "总表已有同质或更完整版本的故事不重复收入。"
+  ],
+  "extractionNotes": [
+    "候选扫描覆盖 81 个正文文件，通用候选 940 条。",
+    "提取轮入选 25 条；校对轮删去 3 条，保留 22 条。",
+    "湖北人牵骆驼、卓别林扮卓别林、小女孩丢十块钱、施华德买阿拉斯加等总表已有版本，本轮不重复收入。",
+    "丙吉问牛喘已有古文典故嵌入杨颙条，本轮因访谈段为独立复述，校对轮仍保留。",
+    "徐世勣割股喂单雄信用《新华网》较干净段落，不用《广角镜》长段。",
+    "故事正文未改写，均按源文原句截取。"
+  ],
+  "proofreadNotes": [
+    "删去孙中山让位袁世凯：偏政治事实和时局判断，故事性不足。",
+    "删去董其昌看王献之字：更像题跋态度或一句掌故，缺少动作闭合。",
+    "删去列宁割地以后拿回：偏历史政策材料，用作政治类比，不作为故事收入。"
+  ],
+  "aggregateDuplicateTextIds": [],
+  "generatedAt": "2026-07-04T13:47:42.992Z"
+}

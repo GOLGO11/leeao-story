@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "一个预备军官的日记",
+  "slug": "yige_yubei_junguan_de_riji",
+  "round": "story_round1",
+  "count": 17,
+  "totalChars": 2021,
+  "minChars": 42,
+  "maxChars": 441,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

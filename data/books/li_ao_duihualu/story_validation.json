@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "李敖对话录",
+  "slug": "li_ao_duihualu",
+  "round": "story_round1",
+  "count": 19,
+  "totalChars": 2112,
+  "minChars": 39,
+  "maxChars": 217,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

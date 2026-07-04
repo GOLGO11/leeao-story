@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "book": "李敖札记",
+  "slug": "li_ao_zhaji",
+  "round": "story_round1",
+  "count": 17,
+  "totalChars": 2681,
+  "minChars": 46,
+  "maxChars": 498,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}
