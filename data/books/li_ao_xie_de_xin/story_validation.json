@@ -1,13 +1,13 @@
 {
   "ok": true,
-  "book": "李敖书信集",
-  "slug": "li_ao_shuxinji",
+  "book": "李敖写的信",
+  "slug": "li_ao_xie_de_xin",
   "round": "story_round1",
   "status": "校对轮",
-  "count": 6,
-  "totalChars": 808,
+  "count": 5,
+  "totalChars": 730,
   "minChars": 82,
-  "maxChars": 223,
+  "maxChars": 254,
   "duplicateTextIds": [],
   "missingSourceTextIds": []
 }

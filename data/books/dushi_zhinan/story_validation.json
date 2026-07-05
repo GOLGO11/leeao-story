@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "读史指南",
+  "slug": "dushi_zhinan",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 11,
+  "totalChars": 2300,
+  "minChars": 102,
+  "maxChars": 400,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

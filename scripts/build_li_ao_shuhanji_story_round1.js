@@ -3,56 +3,29 @@ const path = require("path");
 const { TextDecoder } = require("util");
 
 const ROOT = process.cwd();
-const BOOK = "李敖书信集";
-const SLUG = "li_ao_shuxinji";
+const BOOK = "李敖书翰集";
+const SLUG = "li_ao_shuhanji";
 const ROUND = "story_round1";
-const ID_PREFIX = "LASXJ";
+const ID_PREFIX = "LASHJ";
+const STATUS = "校对轮";
 const OUT_DIR = path.join(ROOT, "data", "books", SLUG);
-const NOTES_PATH = path.join(ROOT, "notes", "li_ao_shuxinji_story_round1.md");
-const CANDIDATE_SCAN = "notes/li_ao_shuxinji_candidate_scan.tsv";
+const NOTES_PATH = path.join(ROOT, "notes", "li_ao_shuhanji_story_round1.md");
+const CANDIDATE_SCAN = "notes/li_ao_shuhanji_candidate_scan.tsv";
 
 const selections = [
   {
-    prefix: "004",
-    paragraph: 9,
-    title: "丁惟汾说让老袁拿头",
-    start: "辛亥革命成功后",
-    end: "让老袁把我的头拿了去吧！”"
+    prefix: "003",
+    paragraph: "99-103",
+    title: "须少白替日本学生作保",
+    start: "〔本报讯〕两位爱慕中国文化的日本学生",
+    end: "完全由我一个人来负责解决。”"
   },
   {
-    prefix: "010",
-    paragraph: 6,
-    title: "陶渊明种桑漂失不悔",
-    start: "陶渊明诗里说他在长江边种桑树",
-    end: "又有什么好后悔的呢？"
-  },
-  {
-    prefix: "014",
-    paragraph: 15,
-    title: "欧阳修父亲求死狱生路",
-    start: "欧阳修《泷冈阡表》里记他母亲回忆他父亲说",
-    end: "何况有些执法者根本就唯恐不判人死刑呢？"
-  },
-  {
-    prefix: "017",
-    paragraph: 4,
-    title: "兔子传错月亮的话",
-    start: "南非哈坦塔特（Hottentot）土人传说里",
-    end: "月亮也变得有阴影了。"
-  },
-  {
-    prefix: "060",
-    paragraph: 10,
-    title: "投币按摩床半夜启动",
-    start: "某君住旅馆",
-    end: "方定惊魂云。"
-  },
-  {
-    prefix: "060",
-    paragraph: 15,
-    title: "打猎家连老鼠头也挂",
-    start: "我蛮喜欢一幅漫画",
-    end: "真是要得！"
+    prefix: "034",
+    paragraph: 40,
+    title: "小偷连本带利还钱",
+    start: "昨天上午当他要出门上班时",
+    end: "希望你老哥能原谅小弟。”"
   }
 ];
 
@@ -65,7 +38,7 @@ function findSourceRoot() {
   if (!categoryDir) throw new Error("Cannot find letters category directory");
   const bookDir = fs
     .readdirSync(path.join(ROOT, corpusDir, categoryDir))
-    .find((name) => name.startsWith("002.") && name.includes("李敖书信集"));
+    .find((name) => name.startsWith("003.") && name.includes(BOOK));
   if (!bookDir) throw new Error("Cannot find source book directory");
   return path.join(ROOT, corpusDir, categoryDir, bookDir);
 }
@@ -172,7 +145,7 @@ function writeTxt(filePath, rows) {
         [
           `【${row.id}】${row.title}`,
           `书名：${row.book}`,
-          `来源：${row.source_file}：${row.source_lines}`,
+          `来源：${row.source_file}:${row.source_lines}`,
           "",
           row.story_text
         ].join("\n")
@@ -354,7 +327,9 @@ function validateSourceMatches(rows) {
   const cache = new Map();
   return rows
     .filter((row) => {
-      if (!cache.has(row.source_file)) cache.set(row.source_file, normalizeText(readSource(row.source_file)));
+      if (!cache.has(row.source_file)) {
+        cache.set(row.source_file, normalizeText(readSource(row.source_file)));
+      }
       return !cache.get(row.source_file).includes(normalizeText(row.story_text));
     })
     .map((row) => row.id);
@@ -371,7 +346,7 @@ function validate(rows) {
     book: BOOK,
     slug: SLUG,
     round: ROUND,
-    status: "校对轮",
+    status: STATUS,
     count: rows.length,
     totalChars: rows.reduce((sum, row) => sum + Number(row.char_count || 0), 0),
     minChars: rows.length ? Math.min(...rows.map((row) => Number(row.char_count || 0))) : 0,
@@ -398,10 +373,10 @@ function candidateCount() {
 function writeNotes(rows, validation, aggregate, manifest) {
   fs.mkdirSync(path.dirname(NOTES_PATH), { recursive: true });
   const lines = [
-    "# 李敖书信集故事校对轮",
+    "# 李敖书翰集故事校对轮",
     "",
     `- 轮次：${ROUND}`,
-    "- 状态：校对轮",
+    `- 状态：${STATUS}`,
     `- 来源目录：${path.relative(ROOT, SOURCE_ROOT)}`,
     `- 候选扫描：${CANDIDATE_SCAN}`,
     `- 候选条数：${manifest.candidateCount}`,
@@ -411,7 +386,7 @@ function writeNotes(rows, validation, aggregate, manifest) {
     "",
     "## 口径",
     "",
-    "《李敖书信集》为公开信、家书和私人信札汇编，正文中大量是李敖自己的出版、官司、坐牢、家务、人际往来和政治论战材料。校对轮只保留信中被讲成一个可独立复述、并用来说明观点的小故事、笑话、神话或历史掌故；不收李敖自己的事件合集、现实案件材料、时政材料链、人物履历、单句典故和纯文学评论。",
+    "《李敖书翰集》以书信、旧信、公开信和附录材料为主，正文里大量是李敖自己的出版、论战、官司、通信和人际往来。校对轮只保留信中被讲成一个可独立复述、并用来说明观点的小故事、笑话、历史掌故或外部小新闻；不收李敖自己的事件合集、现实案情链、人物履历、单句典故、比喻句和纯评论材料。",
     "",
     "## 入选条目",
     "",
@@ -421,17 +396,18 @@ function writeNotes(rows, validation, aggregate, manifest) {
     "",
     "## 本轮排除重点",
     "",
-    "- 清教徒遇海盗已在《波波颂》收入，山西房东骗杀黑狗已在《红色11》收入，苏峻宁山头望廷尉已在《李语录》收入，本轮不重复收入。",
-    "- 牢狱打人、李聪明案、胡虚一眼病、王尚义遗稿、殷海光与金岳霖、李敖家书等，虽有情节，但属于现实事件材料或李敖自己的交往/家务/牢狱材料，不收。",
-    "- 胡适会客、澹台灭明、申屠嘉、甘地入狱等材料偏人物评论、引文或单句典故，故事性不足，本轮不收。",
-    "- Kuznetsov 声明、奥斯本坐假牢、陶百川/陈鼓应/苏秋镇等论战材料，是书信论述材料，不作为故事收入。",
+    "- 徐复观向法官解释同性恋、宋某带信未带信、刘家昌说赌友、台大演说被挡、书籍出口被禁等，属于李敖自己的现实事件或交往材料，不收。",
+    "- 包校长哭胡适和“铭传殡仪馆”是现实讽刺，王老儿劝孙悟空往东天取经只是借一句《西游记》作自况，故事完整度不足，不收。",
+    "- 清教徒遇海盗、山西房东骂杀黑狗、苏峻宁山头望廷尉等同类故事总表已有版本，本轮不重复收录。",
+    "- 凶婆婆三型、文化基金、软禁通信、资料贩子、Kuznetsov/美国犹太人等材料偏论述、档案或时政材料，不作故事收入。",
+    "- 提取轮中的“薛烛说名剑要大用于天下”只是《越绝书》掌故的一句概括，文本没有展开故事本身，校对轮删除。",
     "",
     "## 校对说明",
     "",
     `- 候选扫描覆盖全书 ${manifest.sourceFileCount} 个正文文件，通用候选 ${manifest.candidateCount} 条。`,
-    "- 提取轮入选 6 条；校对轮复核后保留 6 条，没有删除。",
-    "- 保留项包括丁惟汾、陶渊明种桑、欧阳修父亲、兔儿爷传错话、投币按摩床、猎人老鼠头漫画。",
-    "- 对长段只截取故事本身，删去前后书信问候、政治类比或李敖自我延伸。",
+    "- 提取轮入选 3 条；校对轮删除 1 条，保留 2 条。",
+    "- 保留项为须少白作保、小偷连本带利还钱，均有具体人物、障碍、转折和结局，可独立复述。",
+    "- 长段只截取故事本身及李敖用来点明意义的原句，去掉书信问候、上下文论战和个人延伸。",
     "- 故事正文未改写，均按源文原句截取。",
     "",
     "## 校验",
@@ -457,7 +433,7 @@ function main() {
     book: BOOK,
     slug: SLUG,
     round: ROUND,
-    status: "校对轮",
+    status: STATUS,
     sourceRoot: path.relative(ROOT, SOURCE_ROOT),
     sourceFiles: sourceFiles(),
     sourceFileCount: sourceFiles().length,
@@ -469,25 +445,23 @@ function main() {
     aggregateCount: aggregate.rows.length,
     aggregateBooks: aggregate.books,
     criteria:
-      "书信类校对轮只收信中被讲成一个可独立复述、并用来说明观点的小故事、笑话、神话或历史掌故；排除李敖自己的事件合集、现实案件材料、时政材料链、人物履历、单句典故和纯文学评论。",
+      "书信类校对轮只收信中被讲成一个可独立复述、并用来说明观点的小故事、笑话、历史掌故或外部小新闻；排除李敖自己的事件合集、现实案情链、人物履历、单句典故、比喻句和纯评论材料。",
     excludedByStandard: [
-      "李敖自己的出版、官司、坐牢、家务、人际往来和政治论战材料原则上不收。",
-      "现实案件、牢狱见闻、家书纠纷和书信往返本身不收。",
-      "人物履历、文学评论、单句典故、引文材料和故事性过薄的材料不收。",
+      "李敖自己的出版、官司、坐牢、通信、人际往来和政治论战材料原则上不收。",
+      "现实讽刺、比喻段、单句典故和纯评论材料不收。",
       "总表已有同质或更完整版本的故事不重复收入。"
     ],
     extractionNotes: [
       `候选扫描覆盖 ${sourceFiles().length} 个正文文件，通用候选 ${candidateCount()} 条。`,
-      "提取轮入选 6 条；校对轮复核后保留 6 条，没有删除。",
-      "清教徒遇海盗、山西房东骗杀黑狗、苏峻宁山头望廷尉已在总表有版本，本轮不重复收入。",
-      "保留丁惟汾、陶渊明种桑、欧阳修父亲、兔儿爷传错话、投币按摩床、猎人老鼠头漫画等 6 条。",
-      "对长段只截取故事本身，删去前后书信问候、政治类比或李敖自我延伸。",
+      "提取轮保留 3 条：须少白作保、小偷连本带利还钱、薛烛评名剑。",
+      "徐复观法庭笑料、宋某带信、刘家昌赌友、包校长哭丧等段落因偏现实事件或讽刺材料，暂不收入。",
+      "王老儿往东天取经属于单句借典，未形成完整故事，暂不收入。",
       "故事正文未改写，均按源文原句截取。"
     ],
     proofreadNotes: [
-      "6 条均有可独立复述的动作、转折、寓意或笑点，校对轮不删。",
-      "陶渊明种桑虽来自诗句，但具有种桑、山河变色、漂失不悔的完整寓言式结构，保留。",
-      "打猎家连老鼠头也挂属于漫画式小故事，能独立说明大小都要的意思，保留。"
+      "校对轮删除薛烛评名剑：它只是电影意见中的单句历史掌故概括，缺少可独立复述的故事展开。",
+      "保留须少白作保：两名日本学生求学受保证人手续所困，须少白出面担保，有完整困难与解决。",
+      "保留小偷连本带利还钱：失窃、挂号退钱、附信道歉构成完整笑话式转折。"
     ],
     aggregateDuplicateTextIds: aggregate.duplicateTextIds,
     generatedAt: new Date().toISOString()

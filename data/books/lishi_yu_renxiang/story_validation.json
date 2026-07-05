@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "历史与人像",
+  "slug": "lishi_yu_renxiang",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 23,
+  "totalChars": 6326,
+  "minChars": 68,
+  "maxChars": 739,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

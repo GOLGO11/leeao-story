@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖书函集",
+  "slug": "li_ao_shuhanji_han",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 1,
+  "totalChars": 118,
+  "minChars": 118,
+  "maxChars": 118,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

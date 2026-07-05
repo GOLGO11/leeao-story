@@ -3,56 +3,43 @@ const path = require("path");
 const { TextDecoder } = require("util");
 
 const ROOT = process.cwd();
-const BOOK = "李敖书信集";
-const SLUG = "li_ao_shuxinji";
+const BOOK = "李敖书启集";
+const SLUG = "li_ao_shuqiji";
 const ROUND = "story_round1";
-const ID_PREFIX = "LASXJ";
+const ID_PREFIX = "LASQJ";
+const STATUS = "校对轮";
 const OUT_DIR = path.join(ROOT, "data", "books", SLUG);
-const NOTES_PATH = path.join(ROOT, "notes", "li_ao_shuxinji_story_round1.md");
-const CANDIDATE_SCAN = "notes/li_ao_shuxinji_candidate_scan.tsv";
+const NOTES_PATH = path.join(ROOT, "notes", "li_ao_shuqiji_story_round1.md");
+const CANDIDATE_SCAN = "notes/li_ao_shuqiji_candidate_scan.tsv";
 
 const selections = [
   {
-    prefix: "004",
-    paragraph: 9,
-    title: "丁惟汾说让老袁拿头",
-    start: "辛亥革命成功后",
-    end: "让老袁把我的头拿了去吧！”"
+    prefix: "001",
+    paragraph: 28,
+    title: "罗素学欧氏几何只好屈服",
+    start: "罗素回忆他小时候刚学欧氏几何",
+    end: "他只好屈服。"
   },
   {
-    prefix: "010",
-    paragraph: 6,
-    title: "陶渊明种桑漂失不悔",
-    start: "陶渊明诗里说他在长江边种桑树",
-    end: "又有什么好后悔的呢？"
+    prefix: "001",
+    paragraph: 28,
+    title: "张之洞批名词也是日本货",
+    start: "张之洞批公文，看到属下引进外来语",
+    end: "就是日本货。"
   },
   {
-    prefix: "014",
-    paragraph: 15,
-    title: "欧阳修父亲求死狱生路",
-    start: "欧阳修《泷冈阡表》里记他母亲回忆他父亲说",
-    end: "何况有些执法者根本就唯恐不判人死刑呢？"
+    prefix: "032",
+    paragraph: 3,
+    title: "猎兔人只剩两条兔腿",
+    start: "一个笑话说某人去猎兔",
+    end: "我射中了两条兔腿吧？"
   },
   {
-    prefix: "017",
-    paragraph: 4,
-    title: "兔子传错月亮的话",
-    start: "南非哈坦塔特（Hottentot）土人传说里",
-    end: "月亮也变得有阴影了。"
-  },
-  {
-    prefix: "060",
-    paragraph: 10,
-    title: "投币按摩床半夜启动",
-    start: "某君住旅馆",
-    end: "方定惊魂云。"
-  },
-  {
-    prefix: "060",
-    paragraph: 15,
-    title: "打猎家连老鼠头也挂",
-    start: "我蛮喜欢一幅漫画",
-    end: "真是要得！"
+    prefix: "033",
+    paragraph: 16,
+    title: "傅斯年要杀丁文江后成好友",
+    start: "第一个故事是一个很老很老的故事。",
+    end: "做成为最最要好的朋友。"
   }
 ];
 
@@ -65,7 +52,7 @@ function findSourceRoot() {
   if (!categoryDir) throw new Error("Cannot find letters category directory");
   const bookDir = fs
     .readdirSync(path.join(ROOT, corpusDir, categoryDir))
-    .find((name) => name.startsWith("002.") && name.includes("李敖书信集"));
+    .find((name) => name.startsWith("009.") && name.includes(BOOK));
   if (!bookDir) throw new Error("Cannot find source book directory");
   return path.join(ROOT, corpusDir, categoryDir, bookDir);
 }
@@ -157,9 +144,10 @@ function writeCsv(filePath, rows) {
   ];
   fs.writeFileSync(
     filePath,
-    `${[headers.join(","), ...rows.map((row) => headers.map((h) => csvEscape(row[h])).join(","))].join(
-      "\n"
-    )}\n`,
+    `${[
+      headers.join(","),
+      ...rows.map((row) => headers.map((header) => csvEscape(row[header])).join(","))
+    ].join("\n")}\n`,
     "utf8"
   );
 }
@@ -172,7 +160,7 @@ function writeTxt(filePath, rows) {
         [
           `【${row.id}】${row.title}`,
           `书名：${row.book}`,
-          `来源：${row.source_file}：${row.source_lines}`,
+          `来源：${row.source_file}:${row.source_lines}`,
           "",
           row.story_text
         ].join("\n")
@@ -354,7 +342,9 @@ function validateSourceMatches(rows) {
   const cache = new Map();
   return rows
     .filter((row) => {
-      if (!cache.has(row.source_file)) cache.set(row.source_file, normalizeText(readSource(row.source_file)));
+      if (!cache.has(row.source_file)) {
+        cache.set(row.source_file, normalizeText(readSource(row.source_file)));
+      }
       return !cache.get(row.source_file).includes(normalizeText(row.story_text));
     })
     .map((row) => row.id);
@@ -371,7 +361,7 @@ function validate(rows) {
     book: BOOK,
     slug: SLUG,
     round: ROUND,
-    status: "校对轮",
+    status: STATUS,
     count: rows.length,
     totalChars: rows.reduce((sum, row) => sum + Number(row.char_count || 0), 0),
     minChars: rows.length ? Math.min(...rows.map((row) => Number(row.char_count || 0))) : 0,
@@ -398,10 +388,10 @@ function candidateCount() {
 function writeNotes(rows, validation, aggregate, manifest) {
   fs.mkdirSync(path.dirname(NOTES_PATH), { recursive: true });
   const lines = [
-    "# 李敖书信集故事校对轮",
+    "# 李敖书启集故事校对轮",
     "",
     `- 轮次：${ROUND}`,
-    "- 状态：校对轮",
+    `- 状态：${STATUS}`,
     `- 来源目录：${path.relative(ROOT, SOURCE_ROOT)}`,
     `- 候选扫描：${CANDIDATE_SCAN}`,
     `- 候选条数：${manifest.candidateCount}`,
@@ -411,7 +401,7 @@ function writeNotes(rows, validation, aggregate, manifest) {
     "",
     "## 口径",
     "",
-    "《李敖书信集》为公开信、家书和私人信札汇编，正文中大量是李敖自己的出版、官司、坐牢、家务、人际往来和政治论战材料。校对轮只保留信中被讲成一个可独立复述、并用来说明观点的小故事、笑话、神话或历史掌故；不收李敖自己的事件合集、现实案件材料、时政材料链、人物履历、单句典故和纯文学评论。",
+    "《李敖书启集》多为公开信、邻里纠纷、法务材料、出版往来和亲友通信。本轮只收文中被李敖讲出来、可独立复述、并用来说明观点的小故事、笑话或压缩轶事；不收李敖自己的邻里、官司、亲友、节目、出版和政治行动材料，不收别人写给李敖的个人回忆，不收单句典故式引用。",
     "",
     "## 入选条目",
     "",
@@ -421,18 +411,18 @@ function writeNotes(rows, validation, aggregate, manifest) {
     "",
     "## 本轮排除重点",
     "",
-    "- 清教徒遇海盗已在《波波颂》收入，山西房东骗杀黑狗已在《红色11》收入，苏峻宁山头望廷尉已在《李语录》收入，本轮不重复收入。",
-    "- 牢狱打人、李聪明案、胡虚一眼病、王尚义遗稿、殷海光与金岳霖、李敖家书等，虽有情节，但属于现实事件材料或李敖自己的交往/家务/牢狱材料，不收。",
-    "- 胡适会客、澹台灭明、申屠嘉、甘地入狱等材料偏人物评论、引文或单句典故，故事性不足，本轮不收。",
-    "- Kuznetsov 声明、奥斯本坐假牢、陶百川/陈鼓应/苏秋镇等论战材料，是书信论述材料，不作为故事收入。",
+    "- 金兰大厦、程灝、CD座、管理费、车位、违建、法务部调查局、法院、调解委员会、新闻更正等材料，虽然有叙事过程，但主要是现实争议和证据链，不作小故事收录。",
+    "- 邓丽君吊唁澄清、给周荃节目邀约、李敖女儿求学、父辈赙金往还、刘九庵看藏品等，属于李敖自身或亲友现实事件，不收。",
+    "- 删除“斯德哥尔摩女职员回护强盗”：它主要是心理学概念说明和案例材料，用来解释“拘禁反应”，不是李敖展开讲出的独立小故事。",
+    "- 孔子与程子倾盖、约翰生与鲍斯威尔、章太炎不写信史等偏单句典故或史论材料，未展开为独立小故事，本轮不收。",
+    "- 《从“冷淡”到“偷笑”》后半多为正凡/雪儿对李敖的观察与申论，不是李敖讲故事，不收。",
     "",
-    "## 校对说明",
+    "## 提取说明",
     "",
-    `- 候选扫描覆盖全书 ${manifest.sourceFileCount} 个正文文件，通用候选 ${manifest.candidateCount} 条。`,
-    "- 提取轮入选 6 条；校对轮复核后保留 6 条，没有删除。",
-    "- 保留项包括丁惟汾、陶渊明种桑、欧阳修父亲、兔儿爷传错话、投币按摩床、猎人老鼠头漫画。",
-    "- 对长段只截取故事本身，删去前后书信问候、政治类比或李敖自我延伸。",
-    "- 故事正文未改写，均按源文原句截取。",
+    `- 候选扫描覆盖全书 ${manifest.sourceFileCount} 个正文文件，通用候选 ${manifest.candidateCount} 条；另以“故事、笑话、有一次、不料、记载、曾经”等关键词横扫低分漏网项。`,
+    "- 提取轮原入选 5 条；校对轮删除斯德哥尔摩银行女职员一条，保留 4 条。",
+    "- 保留罗素学欧氏几何、张之洞批“名词”、兔子腿笑话、傅斯年与丁文江由成见到好友：均有可独立复述的动作、转折或讽刺点。",
+    "- 故事正文未改写，均按源文原句截取；同一段中只截取故事本体或与故事不可分割的说明。",
     "",
     "## 校验",
     "",
@@ -457,7 +447,7 @@ function main() {
     book: BOOK,
     slug: SLUG,
     round: ROUND,
-    status: "校对轮",
+    status: STATUS,
     sourceRoot: path.relative(ROOT, SOURCE_ROOT),
     sourceFiles: sourceFiles(),
     sourceFileCount: sourceFiles().length,
@@ -469,35 +459,46 @@ function main() {
     aggregateCount: aggregate.rows.length,
     aggregateBooks: aggregate.books,
     criteria:
-      "书信类校对轮只收信中被讲成一个可独立复述、并用来说明观点的小故事、笑话、神话或历史掌故；排除李敖自己的事件合集、现实案件材料、时政材料链、人物履历、单句典故和纯文学评论。",
+      "书信类校对轮只收文中被李敖讲出来、可独立复述、并用来说明观点的小故事、笑话或压缩轶事；排除李敖自己的邻里、官司、亲友、节目、出版和政治行动材料，排除别人写给李敖的个人回忆、证据链、概念案例和单句典故。",
     excludedByStandard: [
-      "李敖自己的出版、官司、坐牢、家务、人际往来和政治论战材料原则上不收。",
-      "现实案件、牢狱见闻、家书纠纷和书信往返本身不收。",
-      "人物履历、文学评论、单句典故、引文材料和故事性过薄的材料不收。",
-      "总表已有同质或更完整版本的故事不重复收入。"
+      "李敖自己的邻里纠纷、官司、亲友往来、节目邀约、出版事务和政治行动材料不收。",
+      "法务证据链、新闻更正、法规说明、人物履历、单句典故和纯评论材料不收。",
+      "别人写给李敖或评论李敖的个人回忆，除李敖转述为独立故事外，不收。"
     ],
     extractionNotes: [
       `候选扫描覆盖 ${sourceFiles().length} 个正文文件，通用候选 ${candidateCount()} 条。`,
-      "提取轮入选 6 条；校对轮复核后保留 6 条，没有删除。",
-      "清教徒遇海盗、山西房东骗杀黑狗、苏峻宁山头望廷尉已在总表有版本，本轮不重复收入。",
-      "保留丁惟汾、陶渊明种桑、欧阳修父亲、兔儿爷传错话、投币按摩床、猎人老鼠头漫画等 6 条。",
-      "对长段只截取故事本身，删去前后书信问候、政治类比或李敖自我延伸。",
+      "提取轮保留 5 条：罗素学欧氏几何、张之洞批“名词”、斯德哥尔摩女职员回护强盗、兔子腿笑话、傅斯年与丁文江由成见到好友。",
+      "校对轮删除斯德哥尔摩女职员回护强盗：偏心理学概念说明和案例材料，不作为本项目的小故事收录。",
+      "校对轮保留 4 条：罗素学欧氏几何、张之洞批“名词”、兔子腿笑话、傅斯年与丁文江由成见到好友。",
+      "金兰大厦、法务、新闻更正、政治书信和亲友现实事件材料已按事件/证据链排除。",
+      "孔子倾盖、约翰生/鲍斯威尔、章太炎不写信史等偏单句典故或史论材料，暂不收入。",
       "故事正文未改写，均按源文原句截取。"
     ],
     proofreadNotes: [
-      "6 条均有可独立复述的动作、转折、寓意或笑点，校对轮不删。",
-      "陶渊明种桑虽来自诗句，但具有种桑、山河变色、漂失不悔的完整寓言式结构，保留。",
-      "打猎家连老鼠头也挂属于漫画式小故事，能独立说明大小都要的意思，保留。"
+      "保留罗素学欧氏几何：虽短，但有质疑、被要求接受前提、屈服的完整小轶事，用来说明阅读小说需接受必要设定。",
+      "保留张之洞批“名词”：讽刺结构完整，用来说明外来语早已进入中文语境。",
+      "保留兔子腿笑话和傅斯年/丁文江故事：一个是明确笑话，一个在原文中明称“第一个故事”。",
+      "删除斯德哥尔摩女职员回护强盗：偏心理学案例和概念说明，不是独立小故事。"
     ],
     aggregateDuplicateTextIds: aggregate.duplicateTextIds,
     generatedAt: new Date().toISOString()
   };
-  fs.writeFileSync(path.join(OUT_DIR, "story_manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`, "utf8");
-  fs.writeFileSync(path.join(OUT_DIR, "story_validation.json"), `${JSON.stringify(validation, null, 2)}\n`, "utf8");
+  fs.writeFileSync(
+    path.join(OUT_DIR, "story_manifest.json"),
+    `${JSON.stringify(manifest, null, 2)}\n`,
+    "utf8"
+  );
+  fs.writeFileSync(
+    path.join(OUT_DIR, "story_validation.json"),
+    `${JSON.stringify(validation, null, 2)}\n`,
+    "utf8"
+  );
   writeNotes(rows, validation, aggregate, manifest);
   if (!validation.ok) throw new Error(`Validation failed: ${JSON.stringify(validation)}`);
   if (aggregateDuplicatesForThisBook.length) {
-    throw new Error(`Duplicate story text for ${BOOK}: ${JSON.stringify(aggregateDuplicatesForThisBook)}`);
+    throw new Error(
+      `Duplicate story text for ${BOOK}: ${JSON.stringify(aggregateDuplicatesForThisBook)}`
+    );
   }
   console.log(
     JSON.stringify(

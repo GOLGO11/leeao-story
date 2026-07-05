@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "给马戈的五十封信",
+  "slug": "gei_mage_de_wushi_fengxin",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 4,
+  "totalChars": 445,
+  "minChars": 36,
+  "maxChars": 197,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

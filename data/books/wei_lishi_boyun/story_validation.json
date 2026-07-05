@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "为历史拨云",
+  "slug": "wei_lishi_boyun",
+  "round": "story_round1",
+  "status": "提取轮",
+  "count": 63,
+  "totalChars": 12837,
+  "minChars": 38,
+  "maxChars": 699,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

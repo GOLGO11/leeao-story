@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖书札集",
+  "slug": "li_ao_shuzhaji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 4,
+  "totalChars": 1042,
+  "minChars": 207,
+  "maxChars": 411,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}
