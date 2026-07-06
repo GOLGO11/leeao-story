@@ -6,7 +6,7 @@ const ROOT = process.cwd();
 const BOOK = "为历史拨云";
 const SLUG = "wei_lishi_boyun";
 const ROUND = "story_round1";
-const STATUS = "提取轮";
+const STATUS = "校对轮";
 const ID_PREFIX = "WLSBY";
 const OUT_DIR = path.join(ROOT, "data", "books", SLUG);
 const NOTES_PATH = path.join(ROOT, "notes", `${SLUG}_story_round1.md`);
@@ -456,7 +456,28 @@ const selections = [
   }
 ];
 
-const proofreadDrops = new Map();
+const proofreadDrops = new Map([
+  [
+    "孟子去齐自许五百年第一名",
+    "主体是“五百年”思想的经典阐释，虽有问答场景，但更像思想出处说明，不够像独立小故事。"
+  ],
+  [
+    "处女大腿生擒洋麒麟",
+    "这是洋麒麟物性传说的说明，缺少具体人物行动和完整转折；保留后面狮子与独角兽一条即可。"
+  ],
+  [
+    "明成祖焚毁干犯封事",
+    "同属“烧掉黑资料”主题的补充短例，情节过于压缩；本轮保留刘秀、曹操、陆象先三条更完整故事。"
+  ],
+  [
+    "孟夫子见孟太太箕踞要离婚",
+    "只有一句典故点名，缺少故事展开和收束，校对轮不单列。"
+  ],
+  [
+    "朱温把清流投进黄河",
+    "这是附记里的史料梗和反讽联想，故事边界较弱，容易落回材料摘录。"
+  ]
+]);
 
 const candidateMarkers = [
   "故事",
@@ -908,8 +929,9 @@ function candidateCount() {
 
 function writeNotes(rows, validation, aggregate, manifest) {
   fs.mkdirSync(path.dirname(NOTES_PATH), { recursive: true });
+  const proofreadDropLines = Array.from(proofreadDrops, ([title, reason]) => `- ${title}：${reason}`);
   const lines = [
-    "# 为历史拨云故事提取轮",
+    "# 为历史拨云故事校对轮",
     "",
     `- 轮次：${ROUND}`,
     `- 状态：${STATUS}`,
@@ -917,13 +939,14 @@ function writeNotes(rows, validation, aggregate, manifest) {
     `- 候选扫描：${CANDIDATE_SCAN}`,
     `- 候选条数：${manifest.candidateCount}`,
     `- 提取轮入选：${selections.length} 条`,
+    `- 校对轮删除：${proofreadDrops.size} 条`,
     `- 入选：${validation.count} 条`,
     `- 单书总字数：${validation.totalChars}`,
     `- 汇总总数：${aggregate.rows.length} 条`,
     "",
     "## 口径",
     "",
-    "《为历史拨云》多为历史文化、制度和政治史论。提取轮只收李敖文中讲成可独立复述、带人物行动、问答、反讽、奇事或明确后果，并用来说明思想、制度、政治伦理或历史判断的小故事、寓言、笑话和掌故；不收纯概念辨析、制度沿革、文献罗列、当代政论材料、李敖自己的议论和只有一句名言/典故名的材料。",
+    "《为历史拨云》多为历史文化、制度和政治史论。校对轮只保留李敖文中讲成可独立复述、带人物行动、问答、反讽、奇事或明确后果，并用来说明思想、制度、政治伦理或历史判断的小故事、寓言、笑话和掌故；删去纯概念辨析、制度沿革、文献罗列、当代政论材料、李敖自己的议论、只有一句名言/典故名的材料，以及同主题中较弱的补例。",
     "",
     "## 入选条目",
     "",
@@ -931,17 +954,22 @@ function writeNotes(rows, validation, aggregate, manifest) {
       (row) => `- ${row.id} ${row.title}：${row.source_file}:${row.source_lines}（${row.char_count}字）`
     ),
     "",
+    "## 校对轮删除",
+    "",
+    ...proofreadDropLines,
+    "",
     "## 本轮排除重点",
     "",
     "- 《中国史的拨云见日》《中国人的汉贼问题》《从科举到选举》《论“大夫无私交”》《从官逼民反到民逼官反》《限时专判》《郝柏村岂可朝淫祠上香！》《中国印》《图章政治》《“生稊”与“生华”》《中国的家》《岳飞案的另一面》《捺钵文化和比较》《既不“盛世”，也不“修史”，更不“春秋”》主体为概念、制度、史论或当代政论，未整体转为故事条目。",
-    "- 《政治椅子学》中的宋太祖撤椅子与前书已有同类故事，本轮只保留孟夫子箕踞一条。",
+    "- 《政治椅子学》中的宋太祖撤椅子与前书已有同类故事，孟夫子箕踞又过短，校对轮均不收。",
     "- 《立肺石》《拦路告状不可拦！》主要是制度说明和当代告状案件，暂不收作故事。",
-    "- 《范仲淹的四大坚持》因连续讲了多个独立掌故，按故事边界拆收。",
+    "- 《烧掉黑资料》《蝙蝠和清流》同主题中只保留情节较完整的故事，删去过短补例。",
+    "- 《范仲淹的四大坚持》因连续讲了多个独立掌故，按故事边界拆收并保留。",
     "",
-    "## 提取说明",
+    "## 提取与校对说明",
     "",
     `- 候选扫描覆盖全书 ${manifest.sourceFileCount} 个正文文件，得到 ${manifest.candidateCount} 条候选。`,
-    `- 提取轮保留 ${validation.count} 条，等待校对轮继续删去边界偏宽或材料性偏重的条目。`,
+    `- 提取轮入选 ${selections.length} 条；校对轮删除 ${proofreadDrops.size} 条，保留 ${validation.count} 条。`,
     "- 故事正文未改写，均按源文原句截取；长段只截故事本体，尽量排除前后铺陈和政论结论。",
     "",
     "## 校验",
@@ -982,7 +1010,7 @@ function main() {
     aggregateCount: aggregate.rows.length,
     aggregateBooks: aggregate.books,
     criteria:
-      "提取轮只收李敖文中讲成可独立复述、带人物行动、问答、反讽、奇事或明确后果，并用来说明思想、制度、政治伦理或历史判断的小故事、寓言、笑话和掌故；排除纯概念辨析、制度沿革、文献罗列、当代政论材料、李敖自己的议论和只有一句名言/典故名的材料。",
+      "校对轮只保留李敖文中讲成可独立复述、带人物行动、问答、反讽、奇事或明确后果，并用来说明思想、制度、政治伦理或历史判断的小故事、寓言、笑话和掌故；排除纯概念辨析、制度沿革、文献罗列、当代政论材料、李敖自己的议论、只有一句名言/典故名的材料，以及同主题中较弱的补例。",
     excludedByStandard: [
       "纯历史概念、制度沿革、文献罗列和政论判断不收。",
       "当代新闻/政治事件若只是李敖论敌材料，不收。",
@@ -991,9 +1019,10 @@ function main() {
     ],
     extractionNotes: [
       `候选扫描覆盖 ${sourceFiles().length} 个正文文件，通用候选 ${candidateCount()} 条。`,
-      `提取轮保留 ${rows.length} 条，等待校对轮进一步收缩。`,
+      `提取轮入选 ${selections.length} 条；校对轮删除 ${proofreadDrops.size} 条，保留 ${rows.length} 条。`,
       "故事正文未改写，均按源文原句截取。",
-      "长篇史论中只截取故事本体，尽量删去前后铺陈、制度解释和政论结论。"
+      "长篇史论中只截取故事本体，尽量删去前后铺陈、制度解释和政论结论。",
+      "校对轮删去孟子五百年思想、处女腿生擒洋麒麟、明成祖焚封事、孟夫子箕踞、朱温投清流五条。"
     ],
     aggregateDuplicateTextIds: aggregate.duplicateTextIds,
     generatedAt: new Date().toISOString()

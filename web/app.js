@@ -1,4 +1,21 @@
-const data = window.STORY_DATA || window.LEEAO_STORIES || { stories: [] };
+const rawData = window.STORY_DATA || window.LEEAO_STORIES || { stories: [] };
+
+function normalizeStoryRecord(story) {
+  return {
+    ...story,
+    bookSlug: story.bookSlug ?? story.book_slug ?? story.book,
+    sourceIds: story.sourceIds ?? story.source_ids ?? "",
+    sourceFile: story.sourceFile ?? story.source_file ?? "",
+    sourceLines: story.sourceLines ?? story.source_lines ?? "",
+    charCount: story.charCount ?? Number(story.char_count || 0),
+    text: story.text ?? story.story_text ?? ""
+  };
+}
+
+const data = {
+  ...rawData,
+  stories: Array.isArray(rawData.stories) ? rawData.stories.map(normalizeStoryRecord) : []
+};
 
 const elements = {
   storyCount: document.querySelector("#storyCount"),

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖颠倒众生",
+  "slug": "li_ao_diandao_zhongsheng",
+  "round": "story_round1",
+  "status": "提取轮",
+  "count": 21,
+  "totalChars": 7623,
+  "minChars": 148,
+  "maxChars": 1117,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

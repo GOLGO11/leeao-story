@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "中国近代史新论",
+  "slug": "zhongguo_jindaishi_xinlun",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 31,
+  "totalChars": 12855,
+  "minChars": 137,
+  "maxChars": 845,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

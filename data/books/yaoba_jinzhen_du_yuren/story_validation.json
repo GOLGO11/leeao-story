@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "要把金针度与人",
+  "slug": "yaoba_jinzhen_du_yuren",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 42,
+  "totalChars": 6597,
+  "minChars": 63,
+  "maxChars": 342,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

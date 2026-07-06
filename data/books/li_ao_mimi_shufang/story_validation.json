@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖秘密书房",
+  "slug": "li_ao_mimi_shufang",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 44,
+  "totalChars": 10049,
+  "minChars": 68,
+  "maxChars": 876,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

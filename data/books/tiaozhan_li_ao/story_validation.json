@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "挑战李敖",
+  "slug": "tiaozhan_li_ao",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 87,
+  "totalChars": 26914,
+  "minChars": 63,
+  "maxChars": 879,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

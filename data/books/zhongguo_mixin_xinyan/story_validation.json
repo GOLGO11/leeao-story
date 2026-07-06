@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "中国迷信新研",
+  "slug": "zhongguo_mixin_xinyan",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 50,
+  "totalChars": 13741,
+  "minChars": 72,
+  "maxChars": 840,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

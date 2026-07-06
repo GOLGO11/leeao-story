@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "中国性研究",
+  "slug": "zhongguo_xing_yanjiu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 17,
+  "totalChars": 3041,
+  "minChars": 89,
+  "maxChars": 293,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

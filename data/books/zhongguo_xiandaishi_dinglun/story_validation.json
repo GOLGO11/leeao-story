@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "中国现代史定论",
+  "slug": "zhongguo_xiandaishi_dinglun",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 16,
+  "totalChars": 6330,
+  "minChars": 132,
+  "maxChars": 792,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

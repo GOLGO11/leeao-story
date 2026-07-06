@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "中国命研究",
+  "slug": "zhongguo_ming_yanjiu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 37,
+  "totalChars": 11604,
+  "minChars": 96,
+  "maxChars": 1375,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

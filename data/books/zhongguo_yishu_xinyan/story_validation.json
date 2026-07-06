@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "中国艺术新研",
+  "slug": "zhongguo_yishu_xinyan",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 14,
+  "totalChars": 2614,
+  "minChars": 67,
+  "maxChars": 307,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

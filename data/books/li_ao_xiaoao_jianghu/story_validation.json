@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖笑傲江湖",
+  "slug": "li_ao_xiaoao_jianghu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 59,
+  "totalChars": 25406,
+  "minChars": 120,
+  "maxChars": 1546,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}
