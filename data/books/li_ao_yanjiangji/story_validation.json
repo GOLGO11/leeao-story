@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖演讲集",
+  "slug": "li_ao_yanjiangji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 44,
+  "totalChars": 13765,
+  "minChars": 80,
+  "maxChars": 2427,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

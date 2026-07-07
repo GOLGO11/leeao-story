@@ -353,7 +353,7 @@ function parseCsv(text) {
     rows.push(row);
   }
 
-  const headers = rows.shift();
+  const headers = rows.shift().map((header) => header.replace(/^\uFEFF/u, ""));
   return rows
     .filter((values) => values.some((value) => value !== ""))
     .map((values) => Object.fromEntries(headers.map((header, index) => [header, values[index] ?? ""])));

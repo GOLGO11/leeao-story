@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖语妙天下",
+  "slug": "li_ao_yumiao_tianxia",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 66,
+  "totalChars": 27518,
+  "minChars": 133,
+  "maxChars": 1619,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

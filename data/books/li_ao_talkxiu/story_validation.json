@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖Talk秀",
+  "slug": "li_ao_talkxiu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 35,
+  "totalChars": 7754,
+  "minChars": 60,
+  "maxChars": 601,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

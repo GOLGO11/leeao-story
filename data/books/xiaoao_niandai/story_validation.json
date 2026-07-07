@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "笑敖年代",
+  "slug": "xiaoao_niandai",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 30,
+  "totalChars": 6888,
+  "minChars": 72,
+  "maxChars": 633,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

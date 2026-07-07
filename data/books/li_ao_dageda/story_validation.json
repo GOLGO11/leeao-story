@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖大哥大",
+  "slug": "li_ao_dageda",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 51,
+  "totalChars": 18896,
+  "minChars": 79,
+  "maxChars": 1115,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

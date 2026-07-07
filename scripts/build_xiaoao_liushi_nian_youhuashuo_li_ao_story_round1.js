@@ -3,222 +3,146 @@ const path = require("path");
 const { TextDecoder } = require("util");
 
 const ROOT = process.cwd();
-const BOOK = "李敖颠倒众生";
-const SLUG = "li_ao_diandao_zhongsheng";
+const BOOK = "笑傲六十年·有话说李敖";
+const SLUG = "xiaoao_liushi_nian_youhuashuo_li_ao";
 const ROUND = "story_round1";
 const STATUS = "校对轮";
-const ID_PREFIX = "LADZ";
-const ORIGINAL_EXTRACTION_COUNT = 21;
+const ID_PREFIX = "XALS";
 const OUT_DIR = path.join(ROOT, "data", "books", SLUG);
 const NOTES_PATH = path.join(ROOT, "notes", `${SLUG}_story_round1.md`);
 const CANDIDATE_SCAN = `notes/${SLUG}_candidate_scan.tsv`;
-const SLUG_BY_BOOK = {
-  "李敖自传与回忆": "li_ao_zizhuan_yu_huiyi"
-};
-const PREFERRED_ORDER_PREFIX = ["li_ao_zizhuan_yu_huiyi", "li_ao_zizhuan_yu_huiyi_xuji"];
+const decoder = new TextDecoder("gb18030");
 
 const selections = [
   {
-    prefix: "001",
-    paragraph: 11,
-    title: "古人倒看榜成第一",
-    start: "中国古代有一个人他去考试",
-    end: "我倒数第一，我也是第一名。"
+    prefix: "002",
+    paragraphs: [8, 9],
+    title: "尹俊奖赏打手铳士兵",
+    start: "军队里面有很多有趣的事情",
+    end: "赏他两百块钱。"
+  },
+  {
+    prefix: "002",
+    paragraphs: [19, 20],
+    title: "老徐返乡分三百万",
+    start: "譬如说我住在台北市金兰大厦",
+    end: "他们有不同的辛苦的生活。"
+  },
+  {
+    prefix: "002",
+    paragraphs: [21, 22],
+    title: "李师科抢银行为女孩留钱",
+    start: "有名的一个老兵叫做李师科",
+    end: "可是呢，他们有他们的正义。"
+  },
+  {
+    prefix: "002",
+    paragraph: 36,
+    title: "洪炎秋怕朋友替他辩护",
+    start: "我骂他以后啊",
+    end: "因为你们顶嘴就是害了我。"
   },
   {
     prefix: "004",
-    paragraph: 4,
-    title: "穆生见醴酒不设便离开",
-    start: "古代有一个故事",
-    end: "重要的大家相处的标准。"
+    paragraphs: [7, 8],
+    title: "成大共产党致敬假共产党",
+    start: "吴荣元他们十七个人",
+    end: "只是跟北京没有联络而已。"
   },
   {
-    prefix: "007",
-    paragraph: 4,
-    title: "钱穆考证被银雀山竹简推翻",
-    start: "过去有一位有名的历史家叫做钱穆",
-    end: "然后把他的理论推翻。"
+    prefix: "003",
+    paragraph: 40,
+    title: "罗永黎自称神仙老虎狗",
+    start: "事后我选所谓“总统”的时候",
+    end: "后来他死掉了。"
   },
   {
-    prefix: "009",
-    paragraph: 13,
-    title: "乔路易不把拳头打小流氓",
-    start: "美国以前有一个有名的拳王叫做乔路易",
-    end: "所任他们打架，我不要打架。"
+    prefix: "005",
+    paragraphs: [4, 5],
+    title: "苏秋镇憋尿守预算",
+    start: "我的好朋友苏秋镇",
+    end: "这是小便过少的方法，来做立法委员。"
   },
   {
-    prefix: "010",
-    paragraph: "9-10",
-    title: "范子文说连杨森都跑掉",
-    start: "这个范子文当时有个有趣的事情",
-    end: "叫我们哭笑不得的话。"
-  },
-  {
-    prefix: "010",
-    paragraph: 13,
-    title: "雷啸岑笑说干脆选蒋介石做皇帝",
-    start: "这个老人活了年纪很大，他跟我讲个笑话",
-    end: "当然这个构想是开玩笑的。"
-  },
-  {
-    prefix: "013",
-    paragraph: 13,
-    title: "《亚玛》妓女为革命筹钱",
-    start: "这个是什么故事呢？我告诉大家是俄国的一个有名妓院",
-    end: "跟摸我手一样，有什么不同？"
-  },
-  {
-    prefix: "014",
+    prefix: "005",
     paragraph: 6,
-    title: "武二爷轿中说花书",
-    start: "刚才我讲过这说花书的",
-    end: "结果射出来了一背一脊梁。"
+    title: "陈水扁上厕所记预算",
+    start: "还有一个人我们不要埋没他",
+    end: "好像得了淋病一样。"
   },
   {
-    prefix: "015",
-    paragraph: 15,
-    title: "李师科抢银行给小女孩",
-    start: "有一个老兵叫李师科",
-    end: "后来被枪毙了。"
-  },
-  {
-    prefix: "016",
-    paragraph: 14,
-    title: "斯德哥尔摩人质跟强盗同流亡",
-    start: "瑞典斯德哥尔摩一个银行的女职员",
-    end: "他会认同那个强迫他做事的人。"
-  },
-  {
-    prefix: "017",
+    prefix: "006",
     paragraph: 5,
-    title: "张学良听戏时放何东鸽子",
-    start: "他爸爸到了北方",
-    end: "也会谅解这个情况。"
-  },
-  {
-    prefix: "024",
-    paragraph: "7-9",
-    title: "吕后回信化解匈奴调情",
-    start: "匈奴的领袖就听说刘邦死掉了",
-    end: "而不是制造麻烦。"
-  },
-  {
-    prefix: "037",
-    paragraph: 7,
-    title: "李夫人临死不让汉武帝看见病容",
-    start: "李夫人就是这样子",
-    end: "就是我跟你生离死别做的漂亮。"
-  },
-  {
-    prefix: "037",
-    paragraph: 8,
-    title: "唐太宗为侯君集不再上凌烟阁",
-    start: "唐太宗打天下有24个功臣帮他打天下",
-    end: "你想想看唐太宗做的漂不漂亮？"
-  },
-  {
-    prefix: "045",
-    paragraph: 10,
-    title: "王旦只认得随从后脑勺",
-    start: "宋朝的丞相叫做王旦",
-    end: "所以可以不认识他。"
-  },
-  {
-    prefix: "047",
-    paragraph: 14,
-    title: "菲律宾司机宁选吃饱的马科斯",
-    start: "他说他到菲律宾去的时候上了计程车",
-    end: "吃的我们吃不消！"
-  },
-  {
-    prefix: "049",
-    paragraph: 4,
-    title: "厨子回家炒菜也偷菜",
-    start: "一个笑话是说，过去的厨子很穷",
-    end: "你已没有了这个偷菜者的立场和身份了。"
-  },
-  {
-    prefix: "052",
-    paragraph: 5,
-    title: "威尔森说美国利益就是通用利益",
-    start: "当年美国的艾森豪总统",
-    end: "是一致的。"
-  },
-  {
-    prefix: "057",
-    paragraph: 6,
-    title: "丘吉尔裸身说对美国毫无保留",
-    start: "就好像二次世界大战的时候",
-    end: "还讲了这么一句话。"
-  },
-  {
-    prefix: "057",
-    paragraph: 9,
-    title: "胡金铨问小图怎么不算黄色",
-    start: "过去我记得已经死掉的一个名导演叫胡金铨",
-    end: "他们不敢。"
+    title: "熊十力用蒋介石照片擦裤子",
+    start: "我想到大哲学家熊十力",
+    end: "可是这种方法也太粗糙了，不是吗？"
   }
 ];
 
+const ORIGINAL_EXTRACTION_COUNT = selections.length;
 const proofreadDrops = [
   {
-    title: "日本文官怕分发到韩国",
-    source: "009.20000522追杀李登辉.txt:31-31",
-    reason:
-      "这是关于日本殖民地文官分发和韩国民风的概括性历史判断，缺少具体人物行动、对话和反转，校对轮按非故事删除。"
+    title: "洪炎秋怕朋友替他辩护",
+    reason: "主干仍是李敖自己骂洪炎秋及其朋友反应，属于李敖个人论战事件，不作独立故事保留。"
+  },
+  {
+    title: "罗永黎自称神仙老虎狗",
+    reason: "只是罗永黎一句自我分类式笑话，情节动作不足，且嵌在李敖个人参选相遇回忆中，校对轮删除。"
   }
 ];
+const proofreadAdds = [];
+const proofreadTrims = [];
+const proofreadDropTitles = new Set(proofreadDrops.map((item) => item.title));
 
 const excludedByStandard = [
-  "李敖自己的竞选、官司、访客、出行、书信和现场节目经历，除非段内转述的是独立故事，否则排除。",
-  "阿扁、李登辉、吕秀莲、尹清枫案等连续时政评论和案情整理，只有一句典故或比喻时不入选。",
-  "嘉宾长段自述和主持人追问案情，原则上不作为李敖讲出的故事。",
-  "纯历史事件、制度说明、文件材料、概念定义和一句机锋，缺少人物动作或问答反转的排除。",
-  "同一书内重复出现的同一故事只取较完整、较适合独立复述的一处。"
+  "李敖自己的抵台、军中、办刊、坐牢、官司、家庭和节目回顾经历不直接收，除非段内转述的是独立外部故事。",
+  "主持人提问、人物评价、书籍资料、政治材料和新闻论证，缺少完整人物行动或情节反转的，不列为故事。",
+  "同一段里的多个故事拆成可独立阅读的小条；只保留故事本体和必要的原文收束语。",
+  "只是一句典故、比喻、概念判断或口号式引文的，排除。",
+  "低俗笑话只在情节完整且明显服务李敖论证时保留；单纯插科打诨排除。"
 ];
 
 const candidateMarkers = [
   "故事",
   "笑话",
-  "寓言",
   "典故",
-  "轶事",
-  "趣闻",
+  "有趣",
   "有一次",
   "有一天",
-  "过去有",
-  "古代有",
-  "我讲",
-  "讲个",
-  "讲一个",
-  "我告诉",
-  "我记得",
-  "我想起",
-  "我想到",
-  "我举个例子",
-  "乔路易",
-  "匈奴",
-  "汉武帝",
-  "唐太宗",
-  "王旦",
-  "丘吉尔",
-  "胡金铨",
-  "厨子",
-  "计程车"
+  "忽然",
+  "结果",
+  "后来",
+  "最后",
+  "问",
+  "回答",
+  "说"
+];
+
+const footerPatterns = [
+  "李敖影音E书",
+  "李敖数字博物馆",
+  "李敖资源下载站",
+  "李敖导航站",
+  "油管/抖音"
 ];
 
 function findSourceRoot() {
-  const chaptersRoot = path.join(ROOT, "《大李敖全集6.0》分章节");
-  const category = fs.readdirSync(chaptersRoot).find((name) => name.startsWith("010."));
-  if (!category) throw new Error("Missing 010 source category");
-  const categoryRoot = path.join(chaptersRoot, category);
-  const bookDir = fs.readdirSync(categoryRoot).find((name) => name.startsWith("004."));
-  if (!bookDir) throw new Error("Missing 004 book source");
-  return path.join(categoryRoot, bookDir);
+  const editionRoot = fs.readdirSync(ROOT).find((name) => name.includes("6.0"));
+  if (!editionRoot) throw new Error("Missing 大李敖全集6.0 source directory");
+  const editionPath = path.join(ROOT, editionRoot);
+  const categoryDir = fs
+    .readdirSync(editionPath, { withFileTypes: true })
+    .find((entry) => entry.isDirectory() && entry.name.startsWith("010."));
+  if (!categoryDir) throw new Error("Missing 010.节目演讲类 source directory");
+  const categoryRoot = path.join(editionPath, categoryDir.name);
+  const bookDir = fs
+    .readdirSync(categoryRoot, { withFileTypes: true })
+    .find((entry) => entry.isDirectory() && entry.name.startsWith("010."));
+  if (!bookDir) throw new Error("Missing 010.笑傲六十年·有话说李敖 source directory");
+  return path.join(categoryRoot, bookDir.name);
 }
 
 const SOURCE_ROOT = findSourceRoot();
-const decoder = new TextDecoder("gb18030");
 
 function sourceFiles() {
   return fs
@@ -227,8 +151,18 @@ function sourceFiles() {
     .sort((a, b) => a.localeCompare(b, "zh-Hans-CN", { numeric: true }));
 }
 
+function stripFooter(text) {
+  const lines = text.replace(/\r\n/gu, "\n").replace(/\r/gu, "\n").split("\n");
+  const footerIndex = lines.findIndex((line) =>
+    footerPatterns.some((pattern) => line.includes(pattern))
+  );
+  return (footerIndex >= 0 ? lines.slice(0, footerIndex) : lines).join("\n").trim();
+}
+
 function readSource(fileName) {
-  return decoder.decode(fs.readFileSync(path.join(SOURCE_ROOT, fileName))).replace(/^\uFEFF/u, "");
+  return stripFooter(
+    decoder.decode(fs.readFileSync(path.join(SOURCE_ROOT, fileName))).replace(/^\uFEFF/u, "")
+  );
 }
 
 function splitParagraphObjects(text) {
@@ -243,9 +177,7 @@ function splitParagraphObjects(text) {
       .join(" ")
       .replace(/\s+/gu, " ")
       .trim();
-    if (paragraph) {
-      paragraphs.push({ text: paragraph, startLine, endLine });
-    }
+    if (paragraph) paragraphs.push({ text: paragraph, startLine, endLine });
     buffer = [];
     startLine = 0;
   };
@@ -260,7 +192,6 @@ function splitParagraphObjects(text) {
     buffer.push(line);
   });
   if (buffer.length) flush(lines.length);
-
   return paragraphs;
 }
 
@@ -273,23 +204,23 @@ function fileForPrefix(prefix) {
 function paragraphForSelection(selection) {
   const fileName = fileForPrefix(selection.prefix);
   const paragraphs = splitParagraphObjects(readSource(fileName));
-  if (typeof selection.paragraph === "string" && selection.paragraph.includes("-")) {
-    const [start, end] = selection.paragraph.split("-").map((value) => Number(value));
-    const picked = paragraphs.slice(start - 1, end);
-    if (picked.length !== end - start + 1) {
-      throw new Error(`Missing paragraph range ${selection.paragraph} in ${fileName}`);
-    }
+  const pick = (number) => {
+    const paragraph = paragraphs[Number(number) - 1];
+    if (!paragraph) throw new Error(`Missing paragraph ${number} in ${fileName}`);
+    return { paragraphNumber: Number(number), ...paragraph };
+  };
+
+  if (Array.isArray(selection.paragraphs)) {
+    const picked = selection.paragraphs.map(pick);
     return {
       fileName,
-      sourceId: `${selection.prefix}#P${selection.paragraph}`,
-      sourceLines: `${picked[0].startLine}-${picked[picked.length - 1].endLine}`,
+      sourceId: picked.map((paragraph) => `${selection.prefix}#P${paragraph.paragraphNumber}`).join(";"),
+      sourceLines: picked.map((paragraph) => `${paragraph.startLine}-${paragraph.endLine}`).join(";"),
       text: picked.map((paragraph) => paragraph.text).join("\n\n")
     };
   }
 
-  const index = Number(selection.paragraph) - 1;
-  const paragraph = paragraphs[index];
-  if (!paragraph) throw new Error(`Missing paragraph ${selection.paragraph} in ${fileName}`);
+  const paragraph = pick(selection.paragraph);
   return {
     fileName,
     sourceId: `${selection.prefix}#P${selection.paragraph}`,
@@ -318,32 +249,32 @@ function charCount(text) {
 }
 
 function normalizeText(text) {
-  return text.replace(/\s+/gu, "");
+  return String(text || "").replace(/\s+/gu, "");
 }
 
 function buildRows() {
-  return selections.map((selection, index) => {
-    const paragraph = paragraphForSelection(selection);
-    const storyText = selectedText(selection, paragraph.text);
-    return {
-      id: `${ID_PREFIX}${String(index + 1).padStart(3, "0")}`,
-      book: BOOK,
-      book_slug: SLUG,
-      title: selection.title,
-      source_ids: paragraph.sourceId,
-      source_file: paragraph.fileName,
-      source_lines: paragraph.sourceLines,
-      char_count: charCount(storyText),
-      story_text: storyText
-    };
-  });
+  return [...selections, ...proofreadAdds]
+    .filter((selection) => !proofreadDropTitles.has(selection.title))
+    .map((selection, index) => {
+      const paragraph = paragraphForSelection(selection);
+      const storyText = selectedText(selection, paragraph.text);
+      return {
+        id: `${ID_PREFIX}${String(index + 1).padStart(3, "0")}`,
+        book: BOOK,
+        book_slug: SLUG,
+        title: selection.title,
+        source_ids: paragraph.sourceId,
+        source_file: paragraph.fileName,
+        source_lines: paragraph.sourceLines,
+        char_count: charCount(storyText),
+        story_text: storyText
+      };
+    });
 }
 
 function csvEscape(value) {
   const stringValue = String(value ?? "");
-  if (/[",\r\n]/u.test(stringValue)) {
-    return `"${stringValue.replace(/"/gu, '""')}"`;
-  }
+  if (/[",\r\n]/u.test(stringValue)) return `"${stringValue.replace(/"/gu, '""')}"`;
   return stringValue;
 }
 
@@ -388,7 +319,6 @@ function parseCsv(text) {
   let row = [];
   let field = "";
   let inQuotes = false;
-
   for (let index = 0; index < text.length; index += 1) {
     const char = text[index];
     const next = text[index + 1];
@@ -403,9 +333,8 @@ function parseCsv(text) {
       }
       continue;
     }
-    if (char === '"') {
-      inQuotes = true;
-    } else if (char === ",") {
+    if (char === '"') inQuotes = true;
+    else if (char === ",") {
       row.push(field);
       field = "";
     } else if (char === "\n") {
@@ -438,7 +367,7 @@ function normalizeAggregateRow(row, bookSlug) {
   return {
     id: row.id,
     book: row.book,
-    book_slug: row.book_slug || bookSlug || SLUG_BY_BOOK[row.book] || "",
+    book_slug: row.book_slug || bookSlug || "",
     title: row.title,
     source_ids: row.source_ids || row.source_id || "",
     source_file: row.source_file,
@@ -454,11 +383,8 @@ function duplicateTextPairs(rows) {
   const duplicates = [];
   rows.forEach((row) => {
     const normalized = normalizeText(row.story_text);
-    if (seen.has(normalized)) {
-      duplicates.push([seen.get(normalized), row.id]);
-    } else {
-      seen.set(normalized, row.id);
-    }
+    if (seen.has(normalized)) duplicates.push([seen.get(normalized), row.id]);
+    else seen.set(normalized, row.id);
   });
   return duplicates;
 }
@@ -466,15 +392,12 @@ function duplicateTextPairs(rows) {
 function existingBookOrder() {
   const aggregatePath = path.join(ROOT, "data", "all_stories.csv");
   if (!fs.existsSync(aggregatePath)) return [];
-  const rows = readRowsFromCsv(aggregatePath);
-  const order = rows
-    .map((row) => row.book_slug || SLUG_BY_BOOK[row.book])
-    .filter(Boolean);
-  const unique = [...new Set(order)];
-  return [
-    ...PREFERRED_ORDER_PREFIX.filter((slug) => unique.includes(slug)),
-    ...unique.filter((slug) => !PREFERRED_ORDER_PREFIX.includes(slug))
-  ];
+  const order = [];
+  readRowsFromCsv(aggregatePath).forEach((row) => {
+    const slug = row.book_slug;
+    if (slug && !order.includes(slug)) order.push(slug);
+  });
+  return order;
 }
 
 function buildAggregateRows() {
@@ -487,15 +410,11 @@ function buildAggregateRows() {
     ...order.filter((slug) => slugs.includes(slug)),
     ...slugs.filter((slug) => !order.includes(slug)).sort()
   ];
-  const rows = [];
-  orderedSlugs.forEach((slug) => {
-    rows.push(
-      ...readRowsFromCsv(path.join(booksRoot, slug, `${ROUND}.csv`)).map((row) =>
-        normalizeAggregateRow(row, slug)
-      )
-    );
-  });
-  return rows;
+  return orderedSlugs.flatMap((slug) =>
+    readRowsFromCsv(path.join(booksRoot, slug, `${ROUND}.csv`)).map((row) =>
+      normalizeAggregateRow(row, slug)
+    )
+  );
 }
 
 function writeAggregate() {
@@ -577,10 +496,10 @@ function validate(rows) {
 
 function candidateScore(paragraph, found) {
   let score = found.length;
-  if (/故事|笑话|轶事|趣闻|典故|寓言/u.test(paragraph)) score += 6;
+  if (/故事|笑话|轶事|趣闻|典故|寓言|成语|电影|小说/u.test(paragraph)) score += 6;
   if (/问|答|说|讲/u.test(paragraph)) score += 2;
   if ((paragraph.match(/[“”]/gu) || []).length >= 4) score += 2;
-  if (/哭|笑|杀|逃|打|骗|偷|抓|跪|求|死|梦|醒|嫁|娶|抢|跑|问|答/u.test(paragraph)) {
+  if (/哭|笑|杀|逃|打|骗|偷|抓|跪|求|死|嫁|娶|抢|跑|问|答|赏/u.test(paragraph)) {
     score += 2;
   }
   return score;
@@ -595,7 +514,7 @@ function writeCandidateScan() {
       const quoteHeavy = (paragraph.text.match(/[“”]/gu) || []).length >= 6;
       if (!found.length && !quoteHeavy) return;
       const score = candidateScore(paragraph.text, found);
-      if (score < 7 && !quoteHeavy) return;
+      if (score < 8 && !quoteHeavy) return;
       rows.push({
         file: fileName,
         paragraph: index + 1,
@@ -624,13 +543,14 @@ function writeCandidateScan() {
 function candidateCount() {
   const candidatePath = path.join(ROOT, CANDIDATE_SCAN);
   if (!fs.existsSync(candidatePath)) return 0;
-  return Math.max(0, fs.readFileSync(candidatePath, "utf8").trim().split(/\r?\n/u).length - 1);
+  const text = fs.readFileSync(candidatePath, "utf8").trim();
+  return text ? Math.max(0, text.split(/\r?\n/u).length - 1) : 0;
 }
 
 function writeNotes(rows, validation, aggregate, manifest) {
   fs.mkdirSync(path.dirname(NOTES_PATH), { recursive: true });
   const lines = [
-    "# 李敖颠倒众生故事校对轮",
+    "# 笑傲六十年·有话说李敖故事校对轮",
     "",
     `- 轮次：${ROUND}`,
     `- 状态：${STATUS}`,
@@ -640,13 +560,14 @@ function writeNotes(rows, validation, aggregate, manifest) {
     `- 提取轮初选：${manifest.originalExtractionCount} 条`,
     `- 校对删除：${manifest.proofreadDropCount} 条`,
     `- 校对补入：${manifest.proofreadAddCount} 条`,
+    `- 校对修边：${manifest.proofreadTrimCount} 条`,
     `- 校对保留：${validation.count} 条`,
     `- 单书总字数：${validation.totalChars}`,
     `- 汇总总数：${aggregate.rows.length} 条`,
     "",
     "## 口径",
     "",
-    "《李敖颠倒众生》是节目逐字稿，主体是时政解读、官司回应、资料展示和访谈。校对轮继续只收李敖在文中讲成可独立复述、带人物行动或问答反转、并用来说明道理的小故事、笑话、典故、掌故和文学故事；不把李敖自己的事件、纯案情复盘、嘉宾叙述和概念解释当故事。",
+    "《笑傲六十年·有话说李敖》主要是六十年自述与节目回顾，李敖自己的抵台、军中、坐牢、办刊、家庭和政治事件很多。本轮继续按故事集口径收窄：只收李敖讲出来、可以独立复述、带人物行动或荒诞反转、并用来说明一层意思的小故事、笑话、历史掌故；李敖自己的事件和纯材料说明不收。",
     "",
     "## 入选条目",
     "",
@@ -654,21 +575,34 @@ function writeNotes(rows, validation, aggregate, manifest) {
       (row) => `- ${row.id} ${row.title}：${row.source_file}:${row.source_lines}（${row.char_count}字）`
     ),
     "",
-    "## 校对删除",
-    "",
-    ...manifest.proofreadDrops.map((item) => `- ${item.title}：${item.source}。${item.reason}`),
-    "",
     "## 排除重点",
     "",
     ...excludedByStandard.map((item) => `- ${item}`),
     "",
-    "## 提取说明",
+    "## 校对删除",
+    "",
+    ...(manifest.proofreadDrops.length
+      ? manifest.proofreadDrops.map((item) => `- ${item.title}：${item.reason}`)
+      : ["- 无"]),
+    "",
+    "## 校对补入",
+    "",
+    ...(manifest.proofreadAdds.length
+      ? manifest.proofreadAdds.map((item) => `- ${item.title}：${item.reason}`)
+      : ["- 无"]),
+    "",
+    "## 校对修边",
+    "",
+    ...(manifest.proofreadTrims.length
+      ? manifest.proofreadTrims.map((item) => `- ${item.title}：${item.reason}`)
+      : ["- 无"]),
+    "",
+    "## 校对说明",
     "",
     `- 候选扫描覆盖全书 ${manifest.sourceFileCount} 个正文文件，机器候选 ${manifest.candidateCount} 条。`,
-    `- 提取轮初选 ${manifest.originalExtractionCount} 条；校对轮删除 ${manifest.proofreadDropCount} 条、补入 ${manifest.proofreadAddCount} 条，保留 ${validation.count} 条，单书总字数 ${validation.totalChars}。`,
+    `- 提取轮初选 ${manifest.originalExtractionCount} 条；校对轮删除 ${manifest.proofreadDropCount} 条、补入 ${manifest.proofreadAddCount} 条、修边 ${manifest.proofreadTrimCount} 条，保留 ${validation.count} 条。`,
     "- 故事正文均来自源文原段或段内原文截取，没有改写。",
-    "- 对长段只截故事本体和必要的原文收束语，尽量切掉后续时政评论和现场追问。",
-    "- 对真实政治案件、新闻材料和李敖自身经历保持收紧，只保留被李敖讲成独立故事或笑话的一小段。",
+    "- 本册入选较少是口径收紧的结果；校对轮继续排除了李敖个人论战事件和故事性不足的自我分类笑话。",
     "",
     "## 校验",
     "",
@@ -706,20 +640,22 @@ function main() {
     selectionCount: selections.length,
     proofreadDropCount: proofreadDrops.length,
     proofreadDrops,
-    proofreadAddCount: 0,
-    proofreadAdds: [],
+    proofreadTrimCount: proofreadTrims.length,
+    proofreadTrims,
+    proofreadAddCount: proofreadAdds.length,
+    proofreadAdds,
     count: rows.length,
     totalChars: validation.totalChars,
     aggregateCount: aggregate.rows.length,
     aggregateBooks: aggregate.books,
     criteria:
-      "只收李敖讲成可独立复述、带人物行动或问答反转、并用于说明道理的小故事、笑话、典故、掌故和文学故事；排除李敖自身事件、纯时政连续叙述、文件材料、嘉宾长段自述和无情节概念。",
+      "只收李敖亲自讲成可独立复述、带人物行动或问答反转、并用于说明道理的小故事、笑话、历史掌故；排除李敖自身事件、节目流程、纯时政连续叙述、资料展示和无情节概念。",
     excludedByStandard,
     extractionNotes: [
       `候选扫描覆盖 ${sourceFiles().length} 个正文文件，机器候选 ${candidateCount()} 条。`,
-      `提取轮初选 ${ORIGINAL_EXTRACTION_COUNT} 条；校对轮删除 ${proofreadDrops.length} 条、补入 0 条，保留 ${rows.length} 条。`,
+      `提取轮初选 ${ORIGINAL_EXTRACTION_COUNT} 条；校对轮删除 ${proofreadDrops.length} 条，补入 ${proofreadAdds.length} 条，修边 ${proofreadTrims.length} 条，保留 ${rows.length} 条。`,
       "正文均按源文原段或段内原文截取。",
-      "本轮特别收紧节目中的政治案情和李敖自身经历，避免做成事件合集。"
+      "本册自传回顾密度高，校对轮继续按故事集口径收窄。"
     ],
     aggregateDuplicateTextIds: aggregate.duplicateTextIds,
     generatedAt: new Date().toISOString()

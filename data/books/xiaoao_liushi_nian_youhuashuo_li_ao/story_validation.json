@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "笑傲六十年·有话说李敖",
+  "slug": "xiaoao_liushi_nian_youhuashuo_li_ao",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 7,
+  "totalChars": 1749,
+  "minChars": 116,
+  "maxChars": 360,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

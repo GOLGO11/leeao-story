@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖放电集",
+  "slug": "li_ao_fangdianji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 8,
+  "totalChars": 1844,
+  "minChars": 67,
+  "maxChars": 562,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

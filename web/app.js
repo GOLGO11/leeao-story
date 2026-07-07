@@ -1,12 +1,22 @@
 const rawData = window.STORY_DATA || window.LEEAO_STORIES || { stories: [] };
 
-function normalizeStoryRecord(story) {
+function normalizeStoryRecord(story, index) {
+  const bookSlug = story.bookSlug ?? story.book_slug ?? story.book;
+  const sourceIds = story.sourceIds ?? story.source_ids ?? "";
+  const sourceFile = story.sourceFile ?? story.source_file ?? "";
+  const sourceLines = story.sourceLines ?? story.source_lines ?? "";
+  const id = String(story.id ?? "").trim();
+  const fallbackId = [bookSlug, story.title, sourceFile, sourceLines, index + 1]
+    .filter(Boolean)
+    .join("::");
   return {
     ...story,
-    bookSlug: story.bookSlug ?? story.book_slug ?? story.book,
-    sourceIds: story.sourceIds ?? story.source_ids ?? "",
-    sourceFile: story.sourceFile ?? story.source_file ?? "",
-    sourceLines: story.sourceLines ?? story.source_lines ?? "",
+    id: id || fallbackId,
+    storyKey: id ? `${id}::${index}` : fallbackId,
+    bookSlug,
+    sourceIds,
+    sourceFile,
+    sourceLines,
     charCount: story.charCount ?? Number(story.char_count || 0),
     text: story.text ?? story.story_text ?? ""
   };
@@ -33,7 +43,7 @@ const state = {
   query: "",
   book: "all",
   source: "all",
-  selectedId: data?.stories?.[0]?.id ?? ""
+  selectedKey: data?.stories?.[0]?.storyKey ?? ""
 };
 
 function formatNumber(value) {
@@ -161,16 +171,16 @@ function renderList(stories) {
     return;
   }
 
-  if (!stories.some((story) => story.id === state.selectedId)) {
-    state.selectedId = stories[0].id;
+  if (!stories.some((story) => story.storyKey === state.selectedKey)) {
+    state.selectedKey = stories[0].storyKey;
   }
 
   for (const story of stories) {
     const button = document.createElement("button");
     button.type = "button";
-    button.className = `storyRow${story.id === state.selectedId ? " isActive" : ""}`;
+    button.className = `storyRow${story.storyKey === state.selectedKey ? " isActive" : ""}`;
     button.addEventListener("click", () => {
-      state.selectedId = story.id;
+      state.selectedKey = story.storyKey;
       render();
       elements.storyDetail.scrollIntoView({ block: "start", behavior: "smooth" });
     });
@@ -189,7 +199,7 @@ function renderList(stories) {
 
 function renderDetail(stories) {
   elements.storyDetail.innerHTML = "";
-  const story = stories.find((item) => item.id === state.selectedId);
+  const story = stories.find((item) => item.storyKey === state.selectedKey);
   if (!story) {
     appendText(elements.storyDetail, "div", "emptyState", "请选择条目");
     return;

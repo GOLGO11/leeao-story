@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖政论综艺集",
+  "slug": "li_ao_zhenglun_zongyi",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 15,
+  "totalChars": 2673,
+  "minChars": 59,
+  "maxChars": 265,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}
