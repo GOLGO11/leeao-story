@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "郑南榕研究",
+  "slug": "zheng_nanrong_yanjiu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 8,
+  "totalChars": 1847,
+  "minChars": 57,
+  "maxChars": 510,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

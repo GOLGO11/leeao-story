@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "胡适评传",
+  "slug": "hushi_pingzhuan",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 18,
+  "totalChars": 6513,
+  "minChars": 112,
+  "maxChars": 976,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

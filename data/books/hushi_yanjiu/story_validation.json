@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "胡适研究",
+  "slug": "hushi_yanjiu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 5,
+  "totalChars": 1948,
+  "minChars": 129,
+  "maxChars": 781,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

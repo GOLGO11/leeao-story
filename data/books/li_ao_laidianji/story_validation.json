@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖来电集",
+  "slug": "li_ao_laidianji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 2,
+  "totalChars": 132,
+  "minChars": 53,
+  "maxChars": 79,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

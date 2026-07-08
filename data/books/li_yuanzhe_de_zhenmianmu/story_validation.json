@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李远哲的真面目",
+  "slug": "li_yuanzhe_de_zhenmianmu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 1,
+  "totalChars": 133,
+  "minChars": 133,
+  "maxChars": 133,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

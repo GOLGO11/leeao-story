@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "孙逸仙和中国西化医学",
+  "slug": "sun_yixian_zhongguo_xihua_yixue",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 21,
+  "totalChars": 5996,
+  "minChars": 85,
+  "maxChars": 921,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

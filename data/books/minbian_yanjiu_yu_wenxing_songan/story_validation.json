@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "闽变研究与文星讼案",
+  "slug": "minbian_yanjiu_yu_wenxing_songan",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 5,
+  "totalChars": 1196,
+  "minChars": 117,
+  "maxChars": 386,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

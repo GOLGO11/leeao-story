@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李登辉的真面目",
+  "slug": "li_denghui_de_zhenmianmu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 11,
+  "totalChars": 2915,
+  "minChars": 138,
+  "maxChars": 676,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

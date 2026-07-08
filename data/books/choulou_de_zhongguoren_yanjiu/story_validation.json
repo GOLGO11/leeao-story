@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "丑陋的中国人研究",
+  "slug": "choulou_de_zhongguoren_yanjiu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 8,
+  "totalChars": 1331,
+  "minChars": 26,
+  "maxChars": 722,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

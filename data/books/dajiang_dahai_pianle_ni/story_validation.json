@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "大江大海骗了你",
+  "slug": "dajiang_dahai_pianle_ni",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 11,
+  "totalChars": 2713,
+  "minChars": 87,
+  "maxChars": 880,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "为文学开窗",
+  "slug": "wei_wenxue_kaichuang",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 4,
+  "totalChars": 620,
+  "minChars": 58,
+  "maxChars": 258,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖发电集",
+  "slug": "li_ao_fadianji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 11,
+  "totalChars": 2565,
+  "minChars": 142,
+  "maxChars": 365,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

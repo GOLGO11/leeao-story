@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "胡适与我",
+  "slug": "hushi_yu_wo",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 8,
+  "totalChars": 3708,
+  "minChars": 213,
+  "maxChars": 838,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

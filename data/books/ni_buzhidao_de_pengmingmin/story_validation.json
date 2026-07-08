@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "你不知道的彭明敏",
+  "slug": "ni_buzhidao_de_pengmingmin",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 8,
+  "totalChars": 2127,
+  "minChars": 91,
+  "maxChars": 535,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "陈水扁的真面目",
+  "slug": "chen_shuibian_de_zhenmianmu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 3,
+  "totalChars": 567,
+  "minChars": 107,
+  "maxChars": 252,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

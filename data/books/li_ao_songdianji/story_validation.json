@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖送电集",
+  "slug": "li_ao_songdianji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 8,
+  "totalChars": 928,
+  "minChars": 44,
+  "maxChars": 239,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

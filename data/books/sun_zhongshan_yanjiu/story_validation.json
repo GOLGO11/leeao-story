@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "孙中山研究",
+  "slug": "sun_zhongshan_yanjiu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 15,
+  "totalChars": 3881,
+  "minChars": 57,
+  "maxChars": 544,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}
