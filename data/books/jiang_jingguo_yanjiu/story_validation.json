@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "蒋经国研究",
+  "slug": "jiang_jingguo_yanjiu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 13,
+  "totalChars": 3210,
+  "minChars": 98,
+  "maxChars": 476,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

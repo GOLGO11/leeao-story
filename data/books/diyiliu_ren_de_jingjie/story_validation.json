@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "第一流人的境界",
+  "slug": "diyiliu_ren_de_jingjie",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 10,
+  "totalChars": 1807,
+  "minChars": 50,
+  "maxChars": 640,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

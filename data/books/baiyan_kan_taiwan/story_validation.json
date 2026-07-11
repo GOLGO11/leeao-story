@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "白眼看台湾",
+  "slug": "baiyan_kan_taiwan",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 7,
+  "totalChars": 1684,
+  "minChars": 130,
+  "maxChars": 376,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

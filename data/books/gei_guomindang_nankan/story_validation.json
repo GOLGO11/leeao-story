@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "给国民党难看",
+  "slug": "gei_guomindang_nankan",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 11,
+  "totalChars": 2642,
+  "minChars": 75,
+  "maxChars": 513,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

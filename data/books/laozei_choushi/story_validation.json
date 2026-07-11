@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "老贼臭史",
+  "slug": "laozei_choushi",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 6,
+  "totalChars": 782,
+  "minChars": 48,
+  "maxChars": 209,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

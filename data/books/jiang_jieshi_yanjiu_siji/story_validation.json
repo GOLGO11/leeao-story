@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "蒋介石研究四集",
+  "slug": "jiang_jieshi_yanjiu_siji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 10,
+  "totalChars": 1650,
+  "minChars": 67,
+  "maxChars": 350,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

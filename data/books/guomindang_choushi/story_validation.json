@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "国民党臭史",
+  "slug": "guomindang_choushi",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 4,
+  "totalChars": 1054,
+  "minChars": 139,
+  "maxChars": 458,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

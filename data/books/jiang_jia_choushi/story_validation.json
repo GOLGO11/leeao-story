@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "蒋家臭史",
+  "slug": "jiang_jia_choushi",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 5,
+  "totalChars": 1127,
+  "minChars": 124,
+  "maxChars": 355,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

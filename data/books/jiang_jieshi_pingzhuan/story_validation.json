@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "蒋介石评传",
+  "slug": "jiang_jieshi_pingzhuan",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 17,
+  "totalChars": 5814,
+  "minChars": 74,
+  "maxChars": 1481,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

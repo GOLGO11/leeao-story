@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖好讼集",
+  "slug": "li_ao_haosongji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 0,
+  "totalChars": 0,
+  "minChars": 0,
+  "maxChars": 0,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

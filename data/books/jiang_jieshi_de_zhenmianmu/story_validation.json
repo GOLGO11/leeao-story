@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "蒋介石的真面目",
+  "slug": "jiang_jieshi_de_zhenmianmu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 7,
+  "totalChars": 2154,
+  "minChars": 114,
+  "maxChars": 578,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

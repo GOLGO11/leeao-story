@@ -2,7 +2,7 @@
   "book": "蒋介石研究续集",
   "slug": "jiang_jieshi_yanjiu_xuji",
   "round": "story_round1",
-  "status": "提取轮",
+  "status": "校对轮",
   "sourceRoot": "《大李敖全集6.0》分章节\\012.人物研究类\\017.蒋介石研究续集",
   "sourceFiles": [
     "001.蒋介石还是没加入“丈夫团”.txt",
@@ -29,8 +29,11 @@
   "candidateScan": "notes/jiang_jieshi_yanjiu_xuji_candidate_scan.tsv",
   "candidateCount": 175,
   "selectionCount": 12,
+  "originalExtractionCount": 12,
+  "proofreadDropCount": 0,
+  "proofreadTightenedCount": 5,
   "count": 12,
-  "totalChars": 4885,
+  "totalChars": 4033,
   "aggregateCount": 2079,
   "aggregateBooks": [
     {
@@ -600,11 +603,12 @@
     "“曹秀清买票被奚落”已在总库《大江大海骗了你》收入，本书同文不重复。",
     "“李宗仁吊丧也要蒋准”在本书 010 与 015 两处近同文，本轮只取 015《蒋介石亲准》处。"
   ],
-  "extractionNotes": [
-    "入选以原文里确有动作、对话或反转的短故事为主；杨虎两则因原文明确称“这两个故事”，分拆保留。",
-    "杜聿明被俘审问、孙科黑马拉票、真假保密局、逃亡路线、棺材书目、《苏俄在中国》代笔证据等，虽有情节或材料价值，但本轮按战事/政事过程、考证证据或李敖本人取证经历处理，不拆成故事。",
-    "曹秀清到使馆买票被奚落与既有总库故事同核心，已排除。"
+  "proofreadNotes": [
+    "保留 12 条；杨虎两则因原文明确称“这两个故事”，继续分拆保留。",
+    "张群、陶成章、刘诚之、改机场、冯玉祥五条收短到故事主体，减少背景材料和政事铺陈。",
+    "杜聿明被俘审问、孙科黑马拉票、真假保密局、逃亡路线、棺材书目、《苏俄在中国》代笔证据等，虽有情节或材料价值，但校对轮仍按战事/政事过程、考证证据或李敖本人取证经历处理，不拆成故事。",
+    "曹秀清到使馆买票被奚落与既有总库故事同核心，继续排除。"
   ],
   "aggregateDuplicateTextIds": [],
-  "generatedAt": "2026-07-08T10:33:35.040Z"
+  "generatedAt": "2026-07-10T02:52:57.022Z"
 }

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "给外省人难看",
+  "slug": "gei_waishengren_nankan",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 6,
+  "totalChars": 1191,
+  "minChars": 36,
+  "maxChars": 410,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

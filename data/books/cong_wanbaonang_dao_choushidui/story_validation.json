@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "从万宝囊到臭屎堆",
+  "slug": "cong_wanbaonang_dao_choushidui",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 9,
+  "totalChars": 1715,
+  "minChars": 65,
+  "maxChars": 379,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

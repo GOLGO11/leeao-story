@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "白色恐怖述奇",
+  "slug": "baise_kongbu_shuqi",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 8,
+  "totalChars": 1334,
+  "minChars": 99,
+  "maxChars": 375,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖刀笔集",
+  "slug": "li_ao_daobiji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 1,
+  "totalChars": 73,
+  "minChars": 73,
+  "maxChars": 73,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

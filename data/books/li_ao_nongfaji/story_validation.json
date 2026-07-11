@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖弄法集",
+  "slug": "li_ao_nongfaji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 1,
+  "totalChars": 426,
+  "minChars": 426,
+  "maxChars": 426,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

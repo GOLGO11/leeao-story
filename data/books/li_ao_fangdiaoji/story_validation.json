@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖放刁集",
+  "slug": "li_ao_fangdiaoji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 1,
+  "totalChars": 88,
+  "minChars": 88,
+  "maxChars": 88,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

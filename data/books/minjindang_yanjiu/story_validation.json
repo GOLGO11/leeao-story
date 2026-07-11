@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "民进党研究",
+  "slug": "minjindang_yanjiu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 6,
+  "totalChars": 1165,
+  "minChars": 80,
+  "maxChars": 345,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

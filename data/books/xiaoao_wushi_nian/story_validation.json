@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "笑傲五十年",
+  "slug": "xiaoao_wushi_nian",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 6,
+  "totalChars": 1395,
+  "minChars": 86,
+  "maxChars": 361,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

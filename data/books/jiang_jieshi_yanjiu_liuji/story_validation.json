@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "蒋介石研究六集",
+  "slug": "jiang_jieshi_yanjiu_liuji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 9,
+  "totalChars": 1688,
+  "minChars": 73,
+  "maxChars": 356,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

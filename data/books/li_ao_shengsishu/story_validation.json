@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖生死书",
+  "slug": "li_ao_shengsishu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 9,
+  "totalChars": 1909,
+  "minChars": 99,
+  "maxChars": 445,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

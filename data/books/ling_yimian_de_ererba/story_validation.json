@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "另一面的二二八",
+  "slug": "ling_yimian_de_ererba",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 11,
+  "totalChars": 3227,
+  "minChars": 86,
+  "maxChars": 688,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

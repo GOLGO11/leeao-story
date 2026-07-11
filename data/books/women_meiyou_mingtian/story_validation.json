@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "我们没有明天",
+  "slug": "women_meiyou_mingtian",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 10,
+  "totalChars": 1542,
+  "minChars": 56,
+  "maxChars": 278,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

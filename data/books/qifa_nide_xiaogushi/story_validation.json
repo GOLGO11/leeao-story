@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "启发你的小故事",
+  "slug": "qifa_nide_xiaogushi",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 13,
+  "totalChars": 1796,
+  "minChars": 49,
+  "maxChars": 288,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

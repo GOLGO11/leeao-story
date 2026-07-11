@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "只爱一点点",
+  "slug": "zhi_ai_yidian_dian",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 10,
+  "totalChars": 1686,
+  "minChars": 102,
+  "maxChars": 285,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

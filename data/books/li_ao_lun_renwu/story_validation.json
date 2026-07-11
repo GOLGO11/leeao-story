@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖论人物",
+  "slug": "li_ao_lun_renwu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 7,
+  "totalChars": 1558,
+  "minChars": 93,
+  "maxChars": 498,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

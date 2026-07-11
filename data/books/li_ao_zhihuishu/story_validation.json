@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "李敖智慧书",
+  "slug": "li_ao_zhihuishu",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 2,
+  "totalChars": 352,
+  "minChars": 134,
+  "maxChars": 218,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

@@ -123,7 +123,7 @@ function main() {
 
   const files = fs
     .readdirSync(sourceRoot)
-    .filter((fileName) => /^\d{3}\..*\.txt$/.test(fileName))
+    .filter((fileName) => /^\d{3}(?:\.|(?=\D)).*\.txt$/u.test(fileName))
     .sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
 
   for (const fileName of files) {

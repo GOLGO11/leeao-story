@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "国民党研究续集",
+  "slug": "guomindang_yanjiu_xuji",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 10,
+  "totalChars": 1848,
+  "minChars": 47,
+  "maxChars": 546,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

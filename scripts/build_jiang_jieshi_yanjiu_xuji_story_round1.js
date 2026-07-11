@@ -6,8 +6,11 @@ const ROOT = process.cwd();
 const BOOK = "蒋介石研究续集";
 const SLUG = "jiang_jieshi_yanjiu_xuji";
 const ROUND = "story_round1";
-const STATUS = "提取轮";
+const STATUS = "校对轮";
 const ID_PREFIX = "JJSYXJ";
+const ORIGINAL_EXTRACTION_COUNT = 12;
+const PROOFREAD_DROP_COUNT = 0;
+const PROOFREAD_TIGHTENED_COUNT = 5;
 const CORPUS_ROOT = fs.readdirSync(ROOT).find((name) => name.includes("6.0"));
 const CATEGORY_DIR = fs
   .readdirSync(path.join(ROOT, CORPUS_ROOT))
@@ -25,12 +28,14 @@ const selections = [
   {
     title: "张群拒行请安礼",
     prefix: "002",
-    paragraph: 6
+    paragraph: 6,
+    start: "会试时，由段祺瑞亲自召见"
   },
   {
     title: "陶成章除夕不归家",
     prefix: "003",
-    paragraph: 11
+    paragraph: 11,
+    start: "在联系工作中"
   },
   {
     title: "杨虎送茅老先生五千银元",
@@ -48,9 +53,10 @@ const selections = [
     paragraph: 32
   },
   {
-    title: "刘诚之由侦查转同情",
+    title: "刘诚之侦查后抱不平",
     prefix: "010",
-    paragraphs: [52, 53]
+    paragraph: 53,
+    start: "诚之是黄埔四期毕业生"
   },
   {
     title: "于右任追蒋求放张杨",
@@ -60,7 +66,8 @@ const selections = [
   {
     title: "蒋介石改机场避镜头",
     prefix: "011",
-    paragraph: 5
+    paragraph: 5,
+    start: "1月21日下午"
   },
   {
     title: "毛人凤机场相机待机",
@@ -75,7 +82,8 @@ const selections = [
   {
     title: "冯玉祥要给孙凤鸣铸像",
     prefix: "015",
-    paragraph: 4
+    paragraph: 4,
+    start: "礼行完后，马上就是中央委员会谈话会"
   },
   {
     title: "李宗仁吊丧也要蒋准",
@@ -554,20 +562,23 @@ function candidateCount() {
 function writeNotes(rows, validation, aggregate, manifest) {
   fs.mkdirSync(path.dirname(NOTES_PATH), { recursive: true });
   const lines = [
-    `# ${BOOK}故事提取轮`,
+    `# ${BOOK}故事校对轮`,
     "",
     `- 轮次：${ROUND}`,
     `- 状态：${STATUS}`,
     `- 来源目录：${path.relative(ROOT, SOURCE_ROOT)}`,
     `- 候选扫描：${CANDIDATE_SCAN}`,
     `- 候选条数：${manifest.candidateCount}`,
-    `- 提取保留：${validation.count} 条`,
+    `- 提取轮原保留：${manifest.originalExtractionCount} 条`,
+    `- 校对保留：${validation.count} 条`,
+    `- 校对删除：${manifest.proofreadDropCount} 条`,
+    `- 校对收短：${manifest.proofreadTightenedCount} 条`,
     `- 单书总字数：${validation.totalChars}`,
     `- 汇总总数：${aggregate.rows.length} 条`,
     "",
     "## 口径",
     "",
-    "本书以蒋介石革命履历、暗杀旧案、史料辨伪、国民党权力操作和蒋李关系考证为主。提取轮从严，只留李敖正文中讲成可独立复述、带人物行动或问答转折、并用来说明道理的小故事；年谱考证、日期校勘、档案引文、政治事件链、薄事实和纯评论不收。",
+    "本书以蒋介石革命履历、暗杀旧案、史料辨伪、国民党权力操作和蒋李关系考证为主。校对轮继续从严，只留李敖正文中讲成可独立复述、带人物行动或问答转折、并用来说明道理的小故事；年谱考证、日期校勘、档案引文、政治事件链、薄事实和纯评论不收。",
     "",
     "## 入选条目",
     "",
@@ -579,11 +590,17 @@ function writeNotes(rows, validation, aggregate, manifest) {
     "",
     ...excludedByStandard.map((item) => `- ${item}`),
     "",
-    "## 提取说明",
+    "## 校对调整",
+    "",
+    "- 删除：无。",
+    "- 收短：张群拒行请安礼、陶成章除夕不归家、刘诚之侦查后抱不平、蒋介石改机场避镜头、冯玉祥要给孙凤鸣铸像。理由：去掉段首背景、政事铺陈或来源说明，只保留故事动作与对话本身。",
+    "",
+    "## 校对说明",
     "",
     `- 候选扫描覆盖全书 ${manifest.sourceFileCount} 个正文文件，机器候选 ${manifest.candidateCount} 条。`,
-    `- 提取轮保留 ${validation.count} 条；正文按源文段内原文截取，没有改写。`,
-    ...(manifest.extractionNotes || []).map((item) => `- ${item}`),
+    `- 提取轮 ${manifest.originalExtractionCount} 条，校对轮保留 ${validation.count} 条；删除 ${manifest.proofreadDropCount} 条，收短 ${manifest.proofreadTightenedCount} 条。`,
+    "- 正文按源文段内原文截取，没有改写。",
+    ...(manifest.proofreadNotes || []).map((item) => `- ${item}`),
     "",
     "## 校验",
     "",
@@ -632,6 +649,9 @@ function main() {
     candidateScan: CANDIDATE_SCAN,
     candidateCount: candidateCount(),
     selectionCount: selections.length,
+    originalExtractionCount: ORIGINAL_EXTRACTION_COUNT,
+    proofreadDropCount: PROOFREAD_DROP_COUNT,
+    proofreadTightenedCount: PROOFREAD_TIGHTENED_COUNT,
     count: rows.length,
     totalChars: validation.totalChars,
     aggregateCount: aggregate.rows.length,
@@ -643,10 +663,11 @@ function main() {
       "“曹秀清买票被奚落”已在总库《大江大海骗了你》收入，本书同文不重复。",
       "“李宗仁吊丧也要蒋准”在本书 010 与 015 两处近同文，本轮只取 015《蒋介石亲准》处。"
     ],
-    extractionNotes: [
-      "入选以原文里确有动作、对话或反转的短故事为主；杨虎两则因原文明确称“这两个故事”，分拆保留。",
-      "杜聿明被俘审问、孙科黑马拉票、真假保密局、逃亡路线、棺材书目、《苏俄在中国》代笔证据等，虽有情节或材料价值，但本轮按战事/政事过程、考证证据或李敖本人取证经历处理，不拆成故事。",
-      "曹秀清到使馆买票被奚落与既有总库故事同核心，已排除。"
+    proofreadNotes: [
+      "保留 12 条；杨虎两则因原文明确称“这两个故事”，继续分拆保留。",
+      "张群、陶成章、刘诚之、改机场、冯玉祥五条收短到故事主体，减少背景材料和政事铺陈。",
+      "杜聿明被俘审问、孙科黑马拉票、真假保密局、逃亡路线、棺材书目、《苏俄在中国》代笔证据等，虽有情节或材料价值，但校对轮仍按战事/政事过程、考证证据或李敖本人取证经历处理，不拆成故事。",
+      "曹秀清到使馆买票被奚落与既有总库故事同核心，继续排除。"
     ],
     aggregateDuplicateTextIds: aggregate.duplicateTextIds,
     generatedAt: new Date().toISOString()

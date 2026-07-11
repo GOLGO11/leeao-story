@@ -3,11 +3,11 @@
   "book": "蒋介石研究续集",
   "slug": "jiang_jieshi_yanjiu_xuji",
   "round": "story_round1",
-  "status": "提取轮",
+  "status": "校对轮",
   "count": 12,
-  "totalChars": 4885,
-  "minChars": 181,
-  "maxChars": 761,
+  "totalChars": 4033,
+  "minChars": 132,
+  "maxChars": 607,
   "duplicateTextIds": [],
   "missingSourceTextIds": []
 }

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "给台湾人难看",
+  "slug": "gei_taiwanren_nankan",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 10,
+  "totalChars": 2512,
+  "minChars": 90,
+  "maxChars": 404,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "恰似我的温柔",
+  "slug": "qiasi_wode_wenrou",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 2,
+  "totalChars": 174,
+  "minChars": 74,
+  "maxChars": 100,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

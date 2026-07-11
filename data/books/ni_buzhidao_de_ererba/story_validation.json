@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "你不知道的二二八",
+  "slug": "ni_buzhidao_de_ererba",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 20,
+  "totalChars": 2502,
+  "minChars": 58,
+  "maxChars": 226,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}

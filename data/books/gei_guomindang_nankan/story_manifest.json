@@ -1,0 +1,768 @@
+{
+  "book": "给国民党难看",
+  "slug": "gei_guomindang_nankan",
+  "round": "story_round1",
+  "status": "校对轮",
+  "sourceRoot": "《大李敖全集6.0》分章节\\013.国民党史政\\005.给国民党难看",
+  "sourceFiles": [
+    "001.向国民党讨十大债.txt",
+    "002.国民党“走过从前”吗？.txt",
+    "003.肚子疼的革命党.txt",
+    "004.承认的暗杀和否认的暗杀.txt",
+    "005.国民党式暗杀与共产党式暗杀.txt",
+    "006.国民党打炮史.txt",
+    "007.国民党通敌成性.txt",
+    "008.朝国民党的便秘通三通.txt",
+    "009.从《新华》到《求是》.txt",
+    "010.国民党的天祥症.txt",
+    "011.不牺牲，只退却.txt",
+    "012.鹰犬将军.txt",
+    "013.国民党式撤退.txt",
+    "014.“杀人如草不闻声”.txt",
+    "015.国民党的胡子问题.txt",
+    "016.比江东还江东.txt",
+    "017.谁分裂了国土？.txt",
+    "018.谁在“地方割据”？.txt",
+    "019.如此“修宪”，又与“临时条款”何异！.txt",
+    "020.“戒严令”穿帮了！.txt",
+    "021.这就是国民党！.txt",
+    "022.国民党要肏人妈.txt",
+    "023.国民党又捏造烈士了！.txt",
+    "024.贰臣心理学.txt",
+    "025.烧卖之间.txt",
+    "026.国民党的演说狂.txt",
+    "027.别遮了，中常委！.txt",
+    "028.上台下台两不知.txt",
+    "029.国民党的政治年龄.txt",
+    "030.国民党懂什么文化！.txt",
+    "031.国民党不封建吗？.txt",
+    "032.国民党的不义责任.txt",
+    "033.从《少年中国晨报》停刊看国民党的没落.txt",
+    "034.不信书生唤不回.txt",
+    "035.《中央日报》不要脸.txt",
+    "036.《中央日报》别看错了人！.txt",
+    "037.这也叫“慨然赴义”？.txt",
+    "038.你一说，就完蛋.txt",
+    "039.中央银行胡说.txt",
+    "040.国民党走不出无知的迷思.txt",
+    "041.咬贼一口烂三分.txt",
+    "042.国民党何必假惺惺呢？.txt",
+    "043.私下加入、公开脱离.txt",
+    "044.国民党同路人的一件杰作.txt"
+  ],
+  "sourceFileCount": 44,
+  "candidateScan": "notes/gei_guomindang_nankan_candidate_scan.tsv",
+  "candidateCount": 179,
+  "selectionCount": 11,
+  "originalExtractionCount": 13,
+  "proofreadAddCount": 0,
+  "proofreadDropCount": 2,
+  "proofreadRetainedCount": 11,
+  "proofreadTightenedCount": 0,
+  "proofreadTitleAdjustedCount": 4,
+  "count": 11,
+  "totalChars": 2642,
+  "aggregateCount": 2224,
+  "aggregateBooks": [
+    {
+      "book": "李敖自传与回忆",
+      "slug": "li_ao_zizhuan_yu_huiyi",
+      "count": 29
+    },
+    {
+      "book": "李敖自传与回忆续集",
+      "slug": "li_ao_zizhuan_yu_huiyi_xuji",
+      "count": 30
+    },
+    {
+      "book": "我最难忘的事和人",
+      "slug": "wo_zui_nanwang_de_shi_he_ren",
+      "count": 39
+    },
+    {
+      "book": "李敖回忆录",
+      "slug": "li_ao_huiyilu",
+      "count": 34
+    },
+    {
+      "book": "李敖快意恩仇录",
+      "slug": "li_ao_kuaiyi_enchoulu",
+      "count": 25
+    },
+    {
+      "book": "李敖议坛哀思录",
+      "slug": "li_ao_yitan_aisi_lu",
+      "count": 22
+    },
+    {
+      "book": "李敖风流自传",
+      "slug": "li_ao_fengliu_zizhuan",
+      "count": 17
+    },
+    {
+      "book": "传统下的独白",
+      "slug": "chuantong_xia_de_dubai",
+      "count": 26
+    },
+    {
+      "book": "传统下的再白",
+      "slug": "chuantong_xia_de_zaibai",
+      "count": 5
+    },
+    {
+      "book": "独白下的传统",
+      "slug": "dubai_xia_de_chuantong",
+      "count": 83
+    },
+    {
+      "book": "李敖文存",
+      "slug": "li_ao_wencun",
+      "count": 32
+    },
+    {
+      "book": "李敖文存二集",
+      "slug": "li_ao_wencun_erji",
+      "count": 20
+    },
+    {
+      "book": "波波颂",
+      "slug": "bobo_song",
+      "count": 34
+    },
+    {
+      "book": "李敖全集",
+      "slug": "li_ao_quanji",
+      "count": 13
+    },
+    {
+      "book": "教育与脸谱",
+      "slug": "jiaoyu_yu_lianpu",
+      "count": 6
+    },
+    {
+      "book": "为中国思想趋向求答案",
+      "slug": "wei_zhongguo_sixiang_quxiang_qiu_daan",
+      "count": 15
+    },
+    {
+      "book": "上下古今谈",
+      "slug": "shangxia_gujin_tan",
+      "count": 20
+    },
+    {
+      "book": "世论新语",
+      "slug": "shilun_xinyu",
+      "count": 11
+    },
+    {
+      "book": "求是新语",
+      "slug": "qiushi_xinyu",
+      "count": 12
+    },
+    {
+      "book": "我是天安门",
+      "slug": "woshi_tiananmen",
+      "count": 7
+    },
+    {
+      "book": "你是景福门",
+      "slug": "ni_shi_jingfumen",
+      "count": 7
+    },
+    {
+      "book": "为自由招魂",
+      "slug": "wei_ziyou_zhaohun",
+      "count": 13
+    },
+    {
+      "book": "你笨蛋，你笨蛋",
+      "slug": "ni_bendan_ni_bendan",
+      "count": 8
+    },
+    {
+      "book": "我梦碎，所以我梦醒",
+      "slug": "wo_mengsui_suoyi_wo_mengxing",
+      "count": 10
+    },
+    {
+      "book": "李敖新刊",
+      "slug": "li_ao_xinkan",
+      "count": 14
+    },
+    {
+      "book": "千秋万岁乌鸦求是合集",
+      "slug": "qianqiu_wansui_wuya_qiushi_heji",
+      "count": 37
+    },
+    {
+      "book": "李敖杂文集",
+      "slug": "li_ao_zawenji",
+      "count": 11
+    },
+    {
+      "book": "千秋万岁编外集",
+      "slug": "qianqiu_wansui_bianwaiji",
+      "count": 27
+    },
+    {
+      "book": "北京法源寺",
+      "slug": "beijing_fayuansi",
+      "count": 20
+    },
+    {
+      "book": "上山·上山·爱",
+      "slug": "shangshan_shangshan_ai",
+      "count": 33
+    },
+    {
+      "book": "红色11",
+      "slug": "hongse_11",
+      "count": 18
+    },
+    {
+      "book": "虚拟的十七岁",
+      "slug": "xuni_de_shiqisui",
+      "count": 31
+    },
+    {
+      "book": "阳痿美国",
+      "slug": "yangwei_meiguo",
+      "count": 11
+    },
+    {
+      "book": "第73烈士",
+      "slug": "di_73_lieshi",
+      "count": 7
+    },
+    {
+      "book": "爱情的秘密",
+      "slug": "aiqing_de_mimi",
+      "count": 6
+    },
+    {
+      "book": "李敖的情诗",
+      "slug": "li_ao_de_qingshi",
+      "count": 1
+    },
+    {
+      "book": "李语录",
+      "slug": "li_yulu",
+      "count": 4
+    },
+    {
+      "book": "李敖语录",
+      "slug": "li_ao_yulu",
+      "count": 10
+    },
+    {
+      "book": "虽千万人，李敖往矣",
+      "slug": "sui_qianwanren_li_ao_wangyi",
+      "count": 24
+    },
+    {
+      "book": "大学札记",
+      "slug": "daxue_zhaji",
+      "count": 10
+    },
+    {
+      "book": "早年日记",
+      "slug": "zaonian_riji",
+      "count": 4
+    },
+    {
+      "book": "大学后期日记甲集",
+      "slug": "daxue_houqi_riji_jiaji",
+      "count": 5
+    },
+    {
+      "book": "大学后期日记乙集",
+      "slug": "daxue_houqi_riji_yiji",
+      "count": 6
+    },
+    {
+      "book": "一个预备军官的日记",
+      "slug": "yige_yubei_junguan_de_riji",
+      "count": 17
+    },
+    {
+      "book": "李敖秘藏日记",
+      "slug": "li_ao_micang_riji",
+      "count": 6
+    },
+    {
+      "book": "李敖札记",
+      "slug": "li_ao_zhaji",
+      "count": 17
+    },
+    {
+      "book": "李敖五五日记",
+      "slug": "li_ao_wuwu_riji",
+      "count": 4
+    },
+    {
+      "book": "李敖随写录前集",
+      "slug": "li_ao_suixielu_qianji",
+      "count": 8
+    },
+    {
+      "book": "李敖随写录后集",
+      "slug": "li_ao_suixielu_houji",
+      "count": 8
+    },
+    {
+      "book": "李敖报刊集",
+      "slug": "li_ao_baokanji",
+      "count": 5
+    },
+    {
+      "book": "李敖书序集",
+      "slug": "li_ao_shuxuji",
+      "count": 14
+    },
+    {
+      "book": "李敖书序集续集",
+      "slug": "li_ao_shuxuji_xuji",
+      "count": 5
+    },
+    {
+      "book": "李敖对话录",
+      "slug": "li_ao_duihualu",
+      "count": 19
+    },
+    {
+      "book": "李敖访谈录1990-2018",
+      "slug": "li_ao_fangtanlu_1990_2018",
+      "count": 22
+    },
+    {
+      "book": "李敖情书集",
+      "slug": "li_ao_qingshuji",
+      "count": 7
+    },
+    {
+      "book": "李敖书信集",
+      "slug": "li_ao_shuxinji",
+      "count": 6
+    },
+    {
+      "book": "李敖书翰集",
+      "slug": "li_ao_shuhanji",
+      "count": 2
+    },
+    {
+      "book": "李敖书简集",
+      "slug": "li_ao_shujianji",
+      "count": 3
+    },
+    {
+      "book": "李敖书札集",
+      "slug": "li_ao_shuzhaji",
+      "count": 4
+    },
+    {
+      "book": "李敖书笺集",
+      "slug": "li_ao_shujianji_jian",
+      "count": 4
+    },
+    {
+      "book": "李敖书牍集",
+      "slug": "li_ao_shuduji",
+      "count": 9
+    },
+    {
+      "book": "李敖书函集",
+      "slug": "li_ao_shuhanji_han",
+      "count": 1
+    },
+    {
+      "book": "李敖书启集",
+      "slug": "li_ao_shuqiji",
+      "count": 4
+    },
+    {
+      "book": "坐牢家爸爸给女儿的八十封信",
+      "slug": "zuolaojia_baba_gei_nuer_de_bashi_fengxin",
+      "count": 48
+    },
+    {
+      "book": "给马戈的五十封信",
+      "slug": "gei_mage_de_wushi_fengxin",
+      "count": 4
+    },
+    {
+      "book": "李敖写的信",
+      "slug": "li_ao_xie_de_xin",
+      "count": 5
+    },
+    {
+      "book": "历史与人像",
+      "slug": "lishi_yu_renxiang",
+      "count": 23
+    },
+    {
+      "book": "读史指南",
+      "slug": "dushi_zhinan",
+      "count": 11
+    },
+    {
+      "book": "为历史拨云",
+      "slug": "wei_lishi_boyun",
+      "count": 58
+    },
+    {
+      "book": "要把金针度与人",
+      "slug": "yaoba_jinzhen_du_yuren",
+      "count": 42
+    },
+    {
+      "book": "中国性研究",
+      "slug": "zhongguo_xing_yanjiu",
+      "count": 17
+    },
+    {
+      "book": "中国命研究",
+      "slug": "zhongguo_ming_yanjiu",
+      "count": 37
+    },
+    {
+      "book": "中国近代史新论",
+      "slug": "zhongguo_jindaishi_xinlun",
+      "count": 31
+    },
+    {
+      "book": "中国现代史正论",
+      "slug": "zhongguo_xiandaishi_zhenglun",
+      "count": 16
+    },
+    {
+      "book": "中国现代史定论",
+      "slug": "zhongguo_xiandaishi_dinglun",
+      "count": 16
+    },
+    {
+      "book": "中国迷信新研",
+      "slug": "zhongguo_mixin_xinyan",
+      "count": 50
+    },
+    {
+      "book": "中国艺术新研",
+      "slug": "zhongguo_yishu_xinyan",
+      "count": 14
+    },
+    {
+      "book": "李敖笑傲江湖",
+      "slug": "li_ao_xiaoao_jianghu",
+      "count": 59
+    },
+    {
+      "book": "挑战李敖",
+      "slug": "tiaozhan_li_ao",
+      "count": 87
+    },
+    {
+      "book": "李敖秘密书房",
+      "slug": "li_ao_mimi_shufang",
+      "count": 44
+    },
+    {
+      "book": "李敖颠倒众生",
+      "slug": "li_ao_diandao_zhongsheng",
+      "count": 20
+    },
+    {
+      "book": "李敖Talk秀",
+      "slug": "li_ao_talkxiu",
+      "count": 35
+    },
+    {
+      "book": "李敖大哥大",
+      "slug": "li_ao_dageda",
+      "count": 51
+    },
+    {
+      "book": "李敖有话说",
+      "slug": "li_ao_youhuashuo",
+      "count": 102
+    },
+    {
+      "book": "笑敖年代",
+      "slug": "xiaoao_niandai",
+      "count": 30
+    },
+    {
+      "book": "李敖语妙天下",
+      "slug": "li_ao_yumiao_tianxia",
+      "count": 66
+    },
+    {
+      "book": "笑傲六十年·有话说李敖",
+      "slug": "xiaoao_liushi_nian_youhuashuo_li_ao",
+      "count": 7
+    },
+    {
+      "book": "李敖演讲集",
+      "slug": "li_ao_yanjiangji",
+      "count": 44
+    },
+    {
+      "book": "李敖政论综艺集",
+      "slug": "li_ao_zhenglun_zongyi",
+      "count": 15
+    },
+    {
+      "book": "快意还乡——李敖神州文化之旅",
+      "slug": "kuaiyi_huanxiang_li_ao_shenzhou_wenhua_zhilv",
+      "count": 7
+    },
+    {
+      "book": "李敖放电集",
+      "slug": "li_ao_fangdianji",
+      "count": 8
+    },
+    {
+      "book": "李敖发电集",
+      "slug": "li_ao_fadianji",
+      "count": 11
+    },
+    {
+      "book": "李敖送电集",
+      "slug": "li_ao_songdianji",
+      "count": 8
+    },
+    {
+      "book": "李敖来电集",
+      "slug": "li_ao_laidianji",
+      "count": 2
+    },
+    {
+      "book": "李敖通电集",
+      "slug": "li_ao_tongdianji",
+      "count": 1
+    },
+    {
+      "book": "胡适研究",
+      "slug": "hushi_yanjiu",
+      "count": 5
+    },
+    {
+      "book": "胡适评传",
+      "slug": "hushi_pingzhuan",
+      "count": 18
+    },
+    {
+      "book": "胡适与我",
+      "slug": "hushi_yu_wo",
+      "count": 8
+    },
+    {
+      "book": "孙逸仙和中国西化医学",
+      "slug": "sun_yixian_zhongguo_xihua_yixue",
+      "count": 21
+    },
+    {
+      "book": "孙中山研究",
+      "slug": "sun_zhongshan_yanjiu",
+      "count": 15
+    },
+    {
+      "book": "李登辉的真面目",
+      "slug": "li_denghui_de_zhenmianmu",
+      "count": 11
+    },
+    {
+      "book": "郑南榕研究",
+      "slug": "zheng_nanrong_yanjiu",
+      "count": 8
+    },
+    {
+      "book": "陈水扁的真面目",
+      "slug": "chen_shuibian_de_zhenmianmu",
+      "count": 3
+    },
+    {
+      "book": "李远哲的真面目",
+      "slug": "li_yuanzhe_de_zhenmianmu",
+      "count": 1
+    },
+    {
+      "book": "你不知道的彭明敏",
+      "slug": "ni_buzhidao_de_pengmingmin",
+      "count": 8
+    },
+    {
+      "book": "为文学开窗",
+      "slug": "wei_wenxue_kaichuang",
+      "count": 4
+    },
+    {
+      "book": "丑陋的中国人研究",
+      "slug": "choulou_de_zhongguoren_yanjiu",
+      "count": 8
+    },
+    {
+      "book": "闽变研究与文星讼案",
+      "slug": "minbian_yanjiu_yu_wenxing_songan",
+      "count": 5
+    },
+    {
+      "book": "大江大海骗了你",
+      "slug": "dajiang_dahai_pianle_ni",
+      "count": 11
+    },
+    {
+      "book": "蒋介石研究",
+      "slug": "jiang_jieshi_yanjiu",
+      "count": 10
+    },
+    {
+      "book": "蒋介石研究续集",
+      "slug": "jiang_jieshi_yanjiu_xuji",
+      "count": 12
+    },
+    {
+      "book": "蒋介石研究三集",
+      "slug": "jiang_jieshi_yanjiu_sanji",
+      "count": 17
+    },
+    {
+      "book": "蒋介石研究四集",
+      "slug": "jiang_jieshi_yanjiu_siji",
+      "count": 10
+    },
+    {
+      "book": "蒋介石研究五集",
+      "slug": "jiang_jieshi_yanjiu_wuji",
+      "count": 9
+    },
+    {
+      "book": "蒋介石研究六集",
+      "slug": "jiang_jieshi_yanjiu_liuji",
+      "count": 9
+    },
+    {
+      "book": "蒋介石的真面目",
+      "slug": "jiang_jieshi_de_zhenmianmu",
+      "count": 7
+    },
+    {
+      "book": "蒋介石评传",
+      "slug": "jiang_jieshi_pingzhuan",
+      "count": 17
+    },
+    {
+      "book": "蒋经国研究",
+      "slug": "jiang_jingguo_yanjiu",
+      "count": 13
+    },
+    {
+      "book": "论定蒋经国",
+      "slug": "lunding_jiang_jingguo",
+      "count": 13
+    },
+    {
+      "book": "蒋家臭史",
+      "slug": "jiang_jia_choushi",
+      "count": 5
+    },
+    {
+      "book": "李敖论人物",
+      "slug": "li_ao_lun_renwu",
+      "count": 7
+    },
+    {
+      "book": "国民党研究",
+      "slug": "guomindang_yanjiu",
+      "count": 7
+    },
+    {
+      "book": "国民党研究续集",
+      "slug": "guomindang_yanjiu_xuji",
+      "count": 10
+    },
+    {
+      "book": "国民党臭史",
+      "slug": "guomindang_choushi",
+      "count": 4
+    },
+    {
+      "book": "老贼臭史",
+      "slug": "laozei_choushi",
+      "count": 6
+    },
+    {
+      "book": "给国民党难看",
+      "slug": "gei_guomindang_nankan",
+      "count": 11
+    }
+  ],
+  "criteria": "校对轮只保留可脱离国民党史政论战、政治案件与史料证据链独立复述，有明确场景、行动、转折或结果，并用于揭示人物或说明道理的小故事；排除李敖自己的事件、战争与案件经过、法规条文、报刊争论、薄事实、纯评论、原文明示失实的故事和总库已有同核故事。",
+  "excludedByStandard": [
+    "本书主体是国民党史政论战、暗杀与撤退史料、法规争议、报刊批评和人物评价；只收可脱离论证链独立复述，并有场景、行动、转折或结果的小故事。",
+    "李敖自己的经历不单独成条；政治案件、战争过程、党史沿革、法规条文、报刊争论、演说摘录、名单和薄事实均不按故事收入。",
+    "转述、掌故与传说保留原文的来源限定，不把作者引用的材料提升为经独立核实的史实。",
+    "同一故事或同一核心正文如已在总库收过，本轮不重复。",
+    "刘峙被安排做文天祥、谷正纲在迪斯尼想演说、伊索毒蛇献花、项羽无颜见江东父老及《笑府》‘第一声最像’等故事已在总库收录，本轮不重复。",
+    "林肯在奴隶市场立誓、王国维靠妻子唠叨写作及寇准服何首乌使须发变白三则，原文均明确指出其可靠性有问题、纯属虚构或记载有误，不作为准确故事收入。",
+    "萧同兹送机回来才知社长已被撤换的核心情节，已包含在《挑战李敖》现有故事中，校对轮删除本书重复条目。"
+  ],
+  "duplicateChecks": [
+    "刘峙被安排做文天祥却未死成的故事已在《中国现代史定论》收录，本轮不重复。",
+    "谷正纲在迪斯尼乐园也想演说的故事已在《千秋万岁乌鸦求是合集》收录，本轮不重复。",
+    "伊索毒蛇口含玫瑰送礼的寓言已在《千秋万岁乌鸦求是合集》收录，本轮不重复。",
+    "项羽无颜见江东父老的故事已在《中国现代史正论》收录，本轮不重复。",
+    "《笑府》主人放屁后拉椅子、客人说‘还是第一声最像’的故事已在《为自由招魂》等书收录，本轮不重复。",
+    "孙中山答记者不再炮击须附条件一则已在《孙中山研究》收录，本轮不重复。",
+    "萧同兹送董显光出国、回来才知自己被撤换的情节已包含在《挑战李敖》故事中，校对轮删除。"
+  ],
+  "proofreadAdds": [],
+  "proofreadDrops": [
+    {
+      "extractionId": "GGMDNK010",
+      "title": "萧同兹送机回来才知社长已被撤换",
+      "reason": "同核情节已包含在《挑战李敖》现有故事中。"
+    },
+    {
+      "extractionId": "GGMDNK011",
+      "title": "传说寇准服何首乌使须发变白以求拜相",
+      "reason": "原文明确以‘此所记皆误’否定该记载，不符合准确性要求。"
+    }
+  ],
+  "proofreadTightened": [],
+  "proofreadTitleAdjusted": [
+    {
+      "extractionId": "GGMDNK001",
+      "from": "雷啸岑问张国焘共产党为何暗杀陈寒波",
+      "to": "张国焘向雷啸岑解释陈寒波为何遭暗杀"
+    },
+    {
+      "extractionId": "GGMDNK004",
+      "from": "孙中山炮击督军署逼莫荣新道歉",
+      "to": "孙中山炮击督军署后莫荣新派人道歉"
+    },
+    {
+      "extractionId": "GGMDNK007",
+      "from": "黄少谷送密码本要黄雪邨监视李宗仁",
+      "to": "黄少谷送密码本要黄雪邨报告李宗仁动态"
+    },
+    {
+      "extractionId": "GGMDNK013",
+      "from": "殷洪乔把百姓托带的信全部倒进水里",
+      "to": "殷洪乔把百姓托带的一大批信倒进水里"
+    }
+  ],
+  "proofreadContextCompleted": [],
+  "proofreadNotes": [
+    "提取轮 13 条，校对轮删除 2 条，最终保留 11 条。",
+    "删除一条原文明示有误的寇准传说，以及一条总库已有同核情节的萧同兹故事。",
+    "调整 4 个标题，使动作、因果和数量不超过原文。",
+    "其余正文边界通过复核，未新增、未收短、未改写。"
+  ],
+  "extractionNotes": [
+    "候选扫描覆盖 44 个正文文件，机器候选 179 条。",
+    "提取轮保留 11 条，正文均能回到连续原文。",
+    "保留问答、掌故、讽刺笑话和带明确反转的人物轶事；排除案件、战争、法规、报刊与党史材料链。",
+    "对原文明示不可靠或虚构的林肯、王国维故事不收入；对总库已有同核故事不重复。"
+  ],
+  "aggregateDuplicateTextIds": [],
+  "generatedAt": "2026-07-10T10:37:03.746Z"
+}

@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "book": "洗你的脑，掐他脖子",
+  "slug": "xi_nide_nao_qia_ta_bozi",
+  "round": "story_round1",
+  "status": "校对轮",
+  "count": 4,
+  "totalChars": 516,
+  "minChars": 110,
+  "maxChars": 171,
+  "duplicateTextIds": [],
+  "missingSourceTextIds": []
+}
